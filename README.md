@@ -1,4 +1,4 @@
-# 🏆 Projeto Prático Completo Power BI — Preparatório Oficial Certificação PL-300
+# 🏆 Projeto Prático Completo Power BI — Preparatório Certificação PL-300
 ### Microsoft Certified: Power BI Data Analyst Associate
 
 [![Power BI](https://img.shields.io/badge/Power_BI_Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
