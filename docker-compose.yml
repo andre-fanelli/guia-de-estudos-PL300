@@ -1,0 +1,17 @@
+services:
+  mysql-pl300:
+    image: mysql:8.0
+    container_name: mysql_pl300_varejo
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pl300_password!#
+      MYSQL_DATABASE: pl300_varejo
+    ports:
+      - "3306:3306"
+    volumes:
+      # Monta o script de inicialização do banco para execução automática no primeiro boot
+      - ./dados/schema_pl300_varejo.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysql_pl300_data:/var/lib/mysql
+
+volumes:
+  mysql_pl300_data:
