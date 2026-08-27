@@ -44,19 +44,60 @@ O projeto cobre rigorosamente os 4 grandes domínios exigidos no exame oficial d
 
 ## 📐 Arquitetura de Dados (Star Schema)
 
+O modelo dimensional foi desenhado seguindo as melhores práticas recomendadas pela Microsoft para o **Exame PL-300**, utilizando um **Esquema Estrela (Star Schema)** puro com filtros unidirecionais (`1 ──► *`), uma dimensão de interpretação múltipla (*Role-Playing Dimension* via `USERELATIONSHIP`) e uma tabela técnica desconectada para organização das medidas DAX.
+
 ```mermaid
-erDiagram
-    dim_clientes ||--o{ fato_vendas : "1 : N (id_cliente)"
-    dim_produtos ||--o{ fato_vendas : "1 : N (id_produto)"
-    dim_lojas ||--o{ fato_vendas : "1 : N (id_loja)"
-    dim_vendedores ||--o{ fato_vendas : "1 : N (id_vendedor)"
-    dim_calendario ||--o{ fato_vendas : "1 : N (data -> data_venda [Ativo])"
-    dim_calendario ||..o{ fato_vendas : "1 : N (data -> data_envio [Inativo])"
-    
-    dim_vendedores ||--o{ fato_metas : "1 : N (id_vendedor)"
-    dim_calendario ||--o{ fato_metas : "1 : N (data -> data_meta)"
-    dim_lojas ||--o{ dim_vendedores : "1 : N (id_loja)"
+flowchart TD
+    %% Estilos dos nós
+    classDef dimTable fill:#1E3A8A,stroke:#3B82F6,stroke-width:2px,color:#FFFFFF;
+    classDef factTable fill:#831843,stroke:#EC4899,stroke-width:2px,color:#FFFFFF;
+    classDef measTable fill:#14532D,stroke:#22C55E,stroke-width:2px,color:#FFFFFF;
+
+    subgraph DIMENSOES ["📁 Tabelas Dimensão (1)"]
+        direction LR
+        dim_clientes["<b>dim_clientes</b><br/>🔑 id_cliente<br/>• nome_cliente<br/>• email_cliente<br/>• genero / idade<br/>• renda_estimada<br/>• segmento<br/>• cidade / estado / regiao"]:::dimTable
+        dim_vendedores["<b>dim_vendedores</b><br/>🔑 id_vendedor<br/>• nome_vendedor<br/>• email_vendedor (RLS)<br/>• cargo<br/>• id_loja"]:::dimTable
+        dim_lojas["<b>dim_lojas</b><br/>🔑 id_loja<br/>• nome_loja<br/>• cidade / estado<br/>• regiao<br/>• tipo_canal"]:::dimTable
+        dim_produtos["<b>dim_produtos</b><br/>🔑 id_produto<br/>• nome_produto<br/>• categoria<br/>• subcategoria<br/>• preco_custo<br/>• preco_venda_sugerido"]:::dimTable
+        dim_calendario["<b>dim_calendario</b><br/>🔑 data<br/>• ano / ano_trimestre<br/>• ano_mes / ano_mes_num<br/>• dia_mes / dia_semana_nome<br/>• dia_semana_num<br/>• eh_fim_semana"]:::dimTable
+    end
+
+    subgraph FATOS ["📊 Tabelas Fato (*)"]
+        direction LR
+        fato_metas["<b>fato_metas</b><br/>🔑 id_meta<br/>🔗 data_meta (FK)<br/>🔗 id_vendedor (FK)<br/>💰 valor_meta"]:::factTable
+        fato_vendas["<b>fato_vendas</b><br/>🔑 id_venda<br/>🔗 data_venda (FK - Ativo)<br/>🔗 data_envio (FK - Inativo)<br/>🔗 id_cliente (FK)<br/>🔗 id_produto (FK)<br/>🔗 id_loja (FK)<br/>🔗 id_vendedor (FK)<br/>💰 custo_total / desconto_pct / desconto_valor"]:::factTable
+    end
+
+    subgraph MEDIDAS ["📐 Organização de Medidas"]
+        _medidas["<b>_Medidas</b><br/><i>(Tabela desconectada)</i><br/>• Faturamento Bruto<br/>• Custo Total / Lucro Bruto<br/>• Margem Lucro %<br/>• Meta Total / Diferenca Meta<br/>• Atingimento Meta %<br/>• Clientes Ativos<br/>• Media Movel 3 Meses<br/>• <i>(26 Medidas DAX)</i>"]:::measTable
+    end
+
+    %% Relacionamentos fato_metas
+    dim_vendedores -->|"1 : N (id_vendedor)"| fato_metas
+    dim_calendario -->|"1 : N (data → data_meta)"| fato_metas
+
+    %% Relacionamentos fato_vendas
+    dim_clientes -->|"1 : N (id_cliente)"| fato_vendas
+    dim_vendedores -->|"1 : N (id_vendedor)"| fato_vendas
+    dim_lojas -->|"1 : N (id_loja)"| fato_vendas
+    dim_produtos -->|"1 : N (id_produto)"| fato_vendas
+    dim_calendario -->|"1 : N [Ativo] (data → data_venda)"| fato_vendas
+    dim_calendario -.->|"1 : N [Inativo] (data → data_envio)"| fato_vendas
 ```
+
+### 🔗 Matriz de Relacionamentos do Modelo
+
+| Tabela Origem (Fato) | Coluna FK | Cardinalidade | Tabela Destino (Dimensão) | Coluna PK | Direção do Filtro | Status | Observação / Caso de Uso |
+| :--- | :--- | :---: | :--- | :--- | :---: | :---: | :--- |
+| `fato_vendas` | `id_cliente` | `* : 1` | `dim_clientes` | `id_cliente` | Único (`dim ➔ fato`) | **Ativo** | Análise de perfil, faixa etária e segmentação |
+| `fato_vendas` | `id_produto` | `* : 1` | `dim_produtos` | `id_produto` | Único (`dim ➔ fato`) | **Ativo** | Análise por categorias, subcategorias e margem |
+| `fato_vendas` | `id_loja` | `* : 1` | `dim_lojas` | `id_loja` | Único (`dim ➔ fato`) | **Ativo** | Desempenho regional e vendas físicas vs digital |
+| `fato_vendas` | `id_vendedor` | `* : 1` | `dim_vendedores` | `id_vendedor` | Único (`dim ➔ fato`) | **Ativo** | Comissionamento, ranking e RLS por vendedor |
+| `fato_vendas` | `data_venda` | `* : 1` | `dim_calendario` | `data` | Único (`dim ➔ fato`) | **Ativo** | Inteligência temporal padrão (Vendas / YTD / SPLY) |
+| `fato_vendas` | `data_envio` | `* : 1` | `dim_calendario` | `data` | Único (`dim ➔ fato`) | **Inativo** | Role-Playing Dimension ativado via `USERELATIONSHIP` |
+| `fato_metas` | `id_vendedor` | `* : 1` | `dim_vendedores` | `id_vendedor` | Único (`dim ➔ fato`) | **Ativo** | Metas individuais por vendedor |
+| `fato_metas` | `data_meta` | `* : 1` | `dim_calendario` | `data` | Único (`dim ➔ fato`) | **Ativo** | Metas mensais ao longo da linha do tempo |
+| `_Medidas` | *N/A* | *N/A* | *N/A* | *N/A* | *N/A* | **Desconectada** | Tabela dedicada exclusivamente para repositório DAX |
 
 ---
 
