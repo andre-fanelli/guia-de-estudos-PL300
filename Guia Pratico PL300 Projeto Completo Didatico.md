@@ -888,7 +888,36 @@ Antes de inserir no visual, garanta que cada medida está formatada corretamente
   * Clique no símbolo de porcentagem **%** e defina `1` casa decimal (ex.: `42,6%`).
 * Clique na medida `[Variacao YoY %]`:
   * Clique no símbolo de porcentagem **%** e defina `1` casa decimal.
-  * *(Dica Pro PL-300)* No campo de formato personalizado, você pode digitar: `+#,0.0% ▲;-#,0.0% ▼;0.0%` para exibir setas automáticas de tendência!
+  * *(Dica Pro PL-300 — Máscara de Formato Personalizado com Tendência)*: Você pode aplicar a máscara `+#,0.0% ▲;-#,0.0% ▼;0.0%` para exibir setas automáticas de tendência de 3 formas:
+
+    * **Método 1: Pela Faixa de Opções Superior (*Measure Tools*) — Mais Rápido**
+      1. Clique sobre a medida `[Variacao YoY %]`.
+      2. Na guia **Ferramentas de Medida** (*Measure Tools*), no grupo **Formatação** (*Formatting*), clique na caixa suspensa do campo **Formato**.
+      3. Digite ou cole diretamente o código: `+#,0.0% ▲;-#,0.0% ▼;0.0%` e pressione **Enter**.
+
+    * **Método 2: Pela Exibição de Modelo (*Model View*) — Mais Visual e Detalhado**
+      1. No menu lateral esquerdo do Power BI, vá para a **Exibição de Modelo** (*Model View* — ícone de relacionamentos).
+      2. Selecione a medida `[Variacao YoY %]`.
+      3. No painel **Propriedades** (*Properties*), expanda a seção **Formatação** (*Formatting*).
+      4. No campo **Formato** (*Format*), selecione **Personalizado** (*Custom*).
+      5. No campo que surge abaixo (**Cadeia de caracteres de formato** / *Custom format string*), cole: `+#,0.0% ▲;-#,0.0% ▼;0.0%`.
+
+    * **Método 3: Via DAX com a função `FORMAT` (Para Títulos e Tooltips Dinâmicos)**
+      ```dax
+      Variacao Formatada Texto = 
+      FORMAT(
+          [Variacao YoY %], 
+          "+#,0.0% ▲;-#,0.0% ▼;0.0%"
+      )
+      ```
+
+    * **💡 Entendendo a lógica da máscara (Conceito Cobrado no PL-300):**
+      A formatação numérica personalizada segue a estrutura padrão separada por ponto e vírgula (`;`):  
+      $$\text{Formato Positivo} \; ; \; \text{Formato Negativo} \; ; \; \text{Formato Zero}$$
+      * `+#,0.0% ▲`: Se o valor for **positivo** (> 0), exibe com sinal `+`, 1 casa decimal, `%` e a seta `▲`.
+      * `-#,0.0% ▼`: Se o valor for **negativo** (< 0), exibe com sinal `-`, 1 casa decimal, `%` e a seta `▼`.
+      * `0.0%`: Se o valor for **zero** (= 0), exibe neutro sem setas nem sinais adicionais.
+      > *Dica Windows:* Pressione <kbd>Win</kbd> + <kbd>.</kbd> (tecla Windows + ponto) para abrir a gaveta de símbolos/emojis e escolher caracteres especiais como as setas.
 
 ---
 
@@ -923,19 +952,20 @@ Você pode montar esses KPIs de duas formas no Power BI Desktop:
 >    - **`[ Visual ]`**: Configurações específicas deste tipo de gráfico (todas as etapas abaixo ficam aqui!).
 >    - **`[ Geral ]`**: Configurações gerais do contêiner externo (título geral, efeitos de tela de fundo, tamanho e posição).
 
-Abaixo está o **mapa visual da estrutura de menus** da aba `[ Visual ]` para você não se perder:
+Abaixo está o **mapa visual da estrutura de menus** da aba `[ Visual ]` atualizado para as versões mais recentes do Power BI Desktop:
 
 ```text
 Painel: Formatar visual (Pincel 🖌️)
 └── Aba [ Visual ]  <--- (Certifique-se de estar nesta aba)
     │
-    ├── 📁 1. Layout (Clique no nome para expandir a sanfona)
-    │      ├── Orientação: [ Horizontal  v ]  <--- Posiciona os 4 cards em linha única
+    ├── 📁 1. Disposição (ou Layout em inglês)
+    │      ├── Orientação: [ Horizontal ] (ícone horizontal)  <--- Posiciona os 4 cards em linha única
     │      └── Espaçamento entre cartões: [ 10 ] px  <--- Cria um respiro entre os cards
     │
     ├── 📁 2. Valor do texto explicativo (Callout value)
+    │      ├── Aplicar configurações a: [ Todas as séries ] (ou selecione a medida desejada)
     │      ├── Fonte: Tamanho [ 26 pt ], Estilo: [ Negrito ]
-    │      └── Exibir unidades: [ Milhões (M)  v ]  <--- Encurta R$ 184.250.000 para R$ 184,2 M
+    │      └── Exibir unidades: [ Milhões (M)  v ]  <--- Fica logo abaixo da cor/alinhamento (encurta R$ 184.250.000 para R$ 184,2 M)
     │
     ├── 📁 3. Rótulo da categoria (Label)
     │      ├── Posição: [ Abaixo do valor  v ]  <--- Coloca o nome da métrica embaixo do número
@@ -949,16 +979,18 @@ Painel: Formatar visual (Pincel 🖌️)
 
 ---
 
-###### 🔍 O que faz cada uma dessas configurações e por que usá-las:
+###### 🔍 O que faz cada uma dessas configurações e onde encontrar:
 
-1. **Menu `Layout`:**
-   - **Orientação (*Orientation*):** Altera entre *Vertical* (empilhado), *Grade* (2x2) e *Horizontal* (4 colunas em 1 linha). Escolhemos **Horizontal** porque os KPIs devem ocupar a faixa superior do relatório como uma barra de resumo.
-   - **Espaço entre cartões (*Space between cards*):** O valor de `10 px` cria um espaço em branco uniforme entre cada caixinha, impedindo que os cartões fiquem colados uns nos outros.
+1. **Menu `Disposição` (*Layout*):**
+   - **Onde fica:** É a primeira seção dentro da aba *Visual*.
+   - **Orientação / Disposição:** Alterne entre os botões/opções de *Horizontal* (linha única com 4 colunas), *Vertical* (coluna empilhada) ou *Grade* (Grid 2x2). Para a barra de KPIs superior, selecione **Horizontal**.
+   - **Espaçamento entre cartões (*Space between cards*):** Ajuste para `10 px` para criar uma margem agradável entre cada cartão individual.
 
 2. **Menu `Valor do texto explicativo` (*Callout value*):**
-   - **O que é:** É o **número em destaque** (ex.: `R$ 184,2 M`).
-   - **Tamanho da fonte:** Ajuste para `24 pt` a `28 pt` para garantir hierarquia visual clara (o olho do usuário deve bater primeiro no número).
-   - **Exibir unidades (*Display units*):** Transforma números longos em formato executivo abreviado (*Milhões/Milhares*), economizando espaço na tela.
+   - **O que é:** Configura o **número em destaque** (ex.: `R$ 184,2 M`).
+   - **Aplicar configurações a (*Apply settings to*):** Permite alterar todas as medidas juntas (*Todas as séries*) ou uma específica (ex.: `Receita Líquida`).
+   - **Tamanho e Estilo da fonte:** Ajuste para `24 pt` a `28 pt` em negrito.
+   - **Exibir unidades (*Display units*):** Localizado logo abaixo dos seletores de *Cor* e *Alinhamento*. Mude de *Automático* para **Milhões (M)** ou **Milhares (K)** para encurtar valores longos. *(Nota: Se a medida estiver formatada como texto/personalizada com setas DAX, ela assumirá o texto da fórmula).*
 
 3. **Menu `Rótulo da categoria` (*Label*):**
    - **O que é:** É o **nome/título** de cada indicador (ex.: *"Receita Líquida"*, *"Lucro Bruto"*).
@@ -971,15 +1003,15 @@ Painel: Formatar visual (Pincel 🖌️)
    - **Sombra (*Shadow*):** Adiciona uma leve elevação visual (*drop shadow*), destacando os cartões do fundo da página.
 
 > [!NOTE]
-> **Terminologia Inglês / Português para referência:**
-> | Português (PT-BR) | Inglês (EN-US) |
-> |---|---|
-> | Formatar visual | Format visual |
-> | Valor do texto explicativo | Callout value |
-> | Rótulo da categoria | Label |
-> | Cartões | Cards |
-> | Raio do canto arredondado | Corner radius |
-> | Exibir unidades | Display units |
+> **Terminologia Português (PT-BR Atual) vs Inglês (EN-US):**
+> | Português (PT-BR Atual) | Português (Versões Anteriores) | Inglês (EN-US) |
+> |---|---|---|
+> | **Disposição** | Layout | Layout |
+> | **Valor do texto explicativo** | Valor do balão | Callout value |
+> | **Exibir unidades** | Exibir unidades | Display units |
+> | **Rótulo da categoria** | Rótulo da categoria | Label |
+> | **Cartões** | Cartões | Cards |
+> | **Raio do canto arredondado** | Raio do canto | Corner radius |
 
 ---
 
