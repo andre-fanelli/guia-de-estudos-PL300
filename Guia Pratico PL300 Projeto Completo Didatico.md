@@ -331,7 +331,17 @@ Por padrão, se você colocar o campo `nome_mes` em um gráfico, o Power BI orde
 
 ---
 
-### 🧪 Exercício 2.4: Ocultação de Chaves Técnicas e Criação da Tabela `_Medidas`
+### 🧪 Exercício 2.4: Categorização de Dados Geográficos (Data Category)
+
+Por padrão, colunas de texto geográficas são importadas como *Não categorizado*. Para que o Bing/Azure Maps localize os pontos com precisão absoluta (evitando que siglas como `SC` sejam mapeadas para a Carolina do Sul nos EUA):
+1. Na tabela `dim_lojas`, selecione a coluna `cidade`.
+2. Na faixa superior, abra a guia **Ferramentas de Coluna (Column Tools)**.
+3. No campo **Categoria de Dados (Data Category)**, selecione **Cidade (City)**. Um ícone de globo 🌐 aparecerá ao lado da coluna.
+4. *(Opcional)* Na coluna `estado`, defina a Categoria de Dados como **Estado ou Província (State or Province)**.
+
+---
+
+### 🧪 Exercício 2.5: Ocultação de Chaves Técnicas e Criação da Tabela `_Medidas`
 
 1. **Ocultar Chaves Estrangeiras:**
    - Na `fato_vendas`, selecione as colunas `id_cliente`, `id_produto`, `id_vendedor`, `id_loja` → clique com o botão direito → **Ocultar na Exibição de Relatório (Hide in report view)**.
@@ -1059,7 +1069,7 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
 * **Dicas de Ferramenta (Tooltips):** Arraste `[Margem Lucro %]` e `[Total Pedidos]` para a área de Tooltips. Ao passar o cursor do mouse sobre qualquer categoria, uma janela flutuante exibirá além da receita a lucratividade e o total de transações.
 
 #### 🗺️ Mapa e Gráfico de Participação:
-* **Mapa Preenchido / Bolhas:** No painel de visualizações, selecione **Mapa**. No campo *Localização*, insira `dim_lojas[estado]` e em *Tamanho da Bolha*, insira `[Receita Liquida]`.
+* **Mapa de Bolhas (Receita por Cidade):** No painel de visualizações, selecione **Mapa**. No campo *Localização*, insira `dim_lojas[cidade]` (garanta que a Categoria de Dados esteja como *Cidade* para geolocalização exata no Brasil) e em *Tamanho da Bolha*, insira `[Receita Liquida]`.
 * **Gráfico de Rosca (Donut):** No painel de visualizações, selecione **Gráfico de Rosca**. Em *Legenda*, insira `dim_lojas[tipo_canal]` (*Físico* vs *Online*) e em *Valores*, insira `[Receita Liquida]`.
 
 #### 🎚️ Segmentadores de Dados (Slicers):
