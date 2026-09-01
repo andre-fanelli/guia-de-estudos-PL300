@@ -1,0 +1,16 @@
+﻿id_loja;nome_loja;cidade;estado;regiao;tipo_canal
+1;Loja Centro SP;São Paulo;SP;Sudeste;Loja Física
+2;Loja Paulista;São Paulo;SP;Sudeste;Loja Física
+3;Loja Campinas;Campinas;SP;Sudeste;Loja Física
+4;Loja Copacabana;Rio de Janeiro;RJ;Sudeste;Loja Física
+5;Loja Barra;Rio de Janeiro;RJ;Sudeste;Loja Física
+6;Loja Savassi;Belo Horizonte;MG;Sudeste;Loja Física
+7;Loja Curitiba Batel;Curitiba;PR;Sul;Loja Física
+8;Loja Porto Alegre;Porto Alegre;RS;Sul;Loja Física
+9;Loja Florianópolis;Florianópolis;SC;Sul;Loja Física
+10;Loja Salvador Barra;Salvador;BA;Nordeste;Loja Física
+11;Loja Recife Boa Viagem;Recife;PE;Nordeste;Loja Física
+12;Loja Fortaleza Aldeota;Fortaleza;CE;Nordeste;Loja Física
+13;Loja Brasília Asa Sul;Brasília;DF;Centro-Oeste;Loja Física
+14;Loja Goiânia Bueno;Goiânia;GO;Centro-Oeste;Loja Física
+15;E-Commerce Brasil;São Paulo;SP;Nacional;Online

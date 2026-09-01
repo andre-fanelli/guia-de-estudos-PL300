@@ -1,0 +1,35 @@
+﻿id_produto;nome_produto;categoria;subcategoria;preco_custo;preco_venda_sugerido
+1;Notebook Pro 15;Tecnologia;Computadores;2800.0;4499.0
+2;Notebook Ultra Slim 13;Tecnologia;Computadores;2200.0;3599.0
+3;Desktop Gamer Core i7;Tecnologia;Computadores;3500.0;5799.0
+4;Monitor Ultrawide 29;Tecnologia;Monitores;750.0;1299.0
+5;Monitor Gamer 144Hz 24;Tecnologia;Monitores;620.0;1099.0
+6;Teclado Mecânico RGB;Tecnologia;Acessórios;110.0;249.9
+7;Mouse Sem Fio Ergonômico;Tecnologia;Acessórios;55.0;139.9
+8;Headset Gamer 7.1;Tecnologia;Áudio;140.0;319.9
+9;Smartphone Galaxy Note;Tecnologia;Smartphones;1900.0;3299.0
+10;Smartphone Pro Max;Tecnologia;Smartphones;3800.0;6199.0
+11;Tablet 10 Polegadas;Tecnologia;Tablets;850.0;1599.0
+12;Smartwatch Fit Pro;Tecnologia;Wearables;220.0;499.0
+13;Geladeira Frost Free 450L;Eletrodomésticos;Refrigeração;1800.0;3199.0
+14;Geladeira Side by Side 520L;Eletrodomésticos;Refrigeração;3200.0;5499.0
+15;Micro-ondas 32L Inox;Eletrodomésticos;Cozinha;310.0;599.0
+16;Fritadeira Air Fryer 4L;Eletrodomésticos;Cozinha;160.0;349.9
+17;Cafeteira Expresso Automática;Eletrodomésticos;Cozinha;290.0;589.0
+18;Lava e Seca 11kg;Eletrodomésticos;Lavanderia;2100.0;3699.0
+19;Aspirador Robô Inteligente;Eletrodomésticos;Limpeza;580.0;1199.0
+20;Ar-Condicionado Inverter 12000 BTUs;Eletrodomésticos;Climatização;1100.0;2199.0
+21;Cadeira de Escritório Ergonômica;Móveis;Escritório;380.0;799.0
+22;Mesa Gamer em L;Móveis;Escritório;290.0;649.0
+23;Sofá 3 Lugares Retrátil;Móveis;Sala de Estar;950.0;1899.0
+24;Poltrona Reclinável Veludo;Móveis;Sala de Estar;420.0;899.0
+25;Estante para Livros 5 Prateleiras;Móveis;Sala de Estar;180.0;399.0
+26;Mesa de Jantar 6 Lugares;Móveis;Sala de Jantar;700.0;1499.0
+27;Guarda-Roupa Casal 6 Portas;Móveis;Quarto;890.0;1799.0
+28;Cama Box Queen com Colchão;Móveis;Quarto;1100.0;2299.0
+29;Conjunto Panelas Antiaderente 5 Pçs;Casa;Cozinha;140.0;299.0
+30;Faqueiro Inox 42 Peças;Casa;Cozinha;85.0;189.0
+31;Aparelho de Jantar Porcelana 20 Pçs;Casa;Mesa;160.0;369.0
+32;Jogo de Toalhas Banho 4 Pçs Algodão;Casa;Banho;65.0;149.0
+33;Kit Edredom Casal Dupla Face;Casa;Cama;110.0;239.0
+34;Luminária de Mesa LED Articulável;Casa;Iluminação;40.0;99.0

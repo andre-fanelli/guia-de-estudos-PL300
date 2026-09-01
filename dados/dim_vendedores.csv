@@ -1,0 +1,26 @@
+﻿id_vendedor;nome_vendedor;email_vendedor;id_loja;cargo
+1;Carlos Drummond;carlos.drummond@empresa.com.br;1;Vendedor Senior
+2;Mariana Rios;mariana.rios@empresa.com.br;1;Vendedor Pleno
+3;Roberto Shinyashiki;roberto.s@empresa.com.br;2;Vendedor Senior
+4;Fernanda Montenegro;fernanda.m@empresa.com.br;2;Vendedor Pleno
+5;Lucas Lucco;lucas.lucco@empresa.com.br;3;Vendedor Junior
+6;Camila Pitanga;camila.p@empresa.com.br;4;Vendedor Senior
+7;Rodrigo Santoro;rodrigo.s@empresa.com.br;4;Vendedor Pleno
+8;Juliana Paes;juliana.p@empresa.com.br;5;Vendedor Senior
+9;Cauã Reymond;caua.r@empresa.com.br;6;Vendedor Pleno
+10;Leticia Sabatella;leticia.s@empresa.com.br;6;Vendedor Senior
+11;Wagner Moura;wagner.m@empresa.com.br;7;Vendedor Senior
+12;Alice Braga;alice.b@empresa.com.br;7;Vendedor Pleno
+13;Selton Mello;selton.m@empresa.com.br;8;Vendedor Senior
+14;Deborah Secco;deborah.s@empresa.com.br;8;Vendedor Junior
+15;Bruno Gagliasso;bruno.g@empresa.com.br;9;Vendedor Pleno
+16;Lazaro Ramos;lazaro.r@empresa.com.br;10;Vendedor Senior
+17;Tais Araujo;tais.a@empresa.com.br;10;Vendedor Senior
+18;Fabio Assunção;fabio.a@empresa.com.br;11;Vendedor Pleno
+19;Grazi Massafera;grazi.m@empresa.com.br;12;Vendedor Pleno
+20;Alexandre Nero;alexandre.n@empresa.com.br;13;Vendedor Senior
+21;Paolla Oliveira;paolla.o@empresa.com.br;14;Vendedor Pleno
+22;Canal Digital 1;digital1@empresa.com.br;15;Consultor Digital
+23;Canal Digital 2;digital2@empresa.com.br;15;Consultor Digital
+24;Canal Digital 3;digital3@empresa.com.br;15;Consultor Digital
+25;Canal Marketplace;marketplace@empresa.com.br;15;Gestor Marketplace

@@ -1,0 +1,1201 @@
+﻿id_cliente;nome_cliente;email_cliente;genero;idade;segmento;cidade;estado;regiao;renda_estimada
+1;  MARCOS  souza ;marcos.souza1@exemplo.com.br;M;26;Consumidor Final;Londrina;PR;Sul;14204.48
+2;Eduardo Andrade;eduardo.andrade2@exemplo.com.br;F;19;Consumidor Final;Santos;SP;Sudeste;3727.23
+3;Fernanda Soares;fernanda.soares3@exemplo.com.br;M;59;Pequenas Empresas;Brasília;DF;Centro-Oeste;13631.6
+4;Pedro Pereira;pedro.pereira4@exemplo.com.br;M;62;Consumidor Final;Londrina;PR;Sul;9088.61
+5;Beatriz Rodrigues;beatriz.rodrigues5@exemplo.com.br;M;42;Consumidor Final;Caxias do Sul;RS;Sul;3776.48
+6;Vanessa Ribeiro;vanessa.ribeiro6@exemplo.com.br;F;25;Pequenas Empresas;Campinas;SP;Sudeste;18061.79
+7;Thiago Oliveira;thiago.oliveira7@exemplo.com.br;M;22;Pequenas Empresas;Florianópolis;SC;Sul;2946.94
+8;Fernanda Moreira;fernanda.moreira8@exemplo.com.br;M;42;Consumidor Final;Santos;SP;Sudeste;6730.97
+9;Marcos Marques;marcos.marques9@exemplo.com.br;F;60;Consumidor Final;Florianópolis;SC;Sul;6551.74
+10;Priscila Dias;priscila.dias10@exemplo.com.br;M;47;Consumidor Final;Belo Horizonte;MG;Sudeste;8385.12
+11;Priscila Rocha;priscila.rocha11@exemplo.com.br;F;32;Consumidor Final;Curitiba;PR;Sul;15595.38
+12;Renata Costa;renata.costa12@exemplo.com.br;M;63;Pequenas Empresas;Santos;SP;Sudeste;7329.25
+13;Marcos Lopes;marcos.lopes13@exemplo.com.br;M;26;Corporativo;Feira de Santana;BA;Nordeste;6220.03
+14;Patricia Fernandes;patricia.fernandes14@exemplo.com.br;F;43;Pequenas Empresas;Goiânia;GO;Centro-Oeste;8100.54
+15;Juliana Soares;juliana.soares15@exemplo.com.br;M;58;Consumidor Final;Campinas;SP;Sudeste;4807.71
+16;Eduardo Carvalho;eduardo.carvalho16@exemplo.com.br;F;47;Pequenas Empresas;Joinville;SC;Sul;10824.56
+17;Patricia Machado;patricia.machado17@exemplo.com.br;F;39;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;4018.3
+18;Pedro Ferreira;pedro.ferreira18@exemplo.com.br;M;24;Pequenas Empresas;Londrina;PR;Sul;16389.45
+19;Larissa Marques;larissa.marques19@exemplo.com.br;M;66;Corporativo;Uberlândia;MG;Sudeste;4833.25
+20;Vinicius Freitas;vinicius.freitas20@exemplo.com.br;F;19;Corporativo;São Paulo;SP;Sudeste;4023.44
+21;Gustavo Mendes;gustavo.mendes21@exemplo.com.br;M;33;Consumidor Final;Porto Alegre;RS;Sul;16511.56
+22;Mateus Oliveira;mateus.oliveira22@exemplo.com.br;M;60;Consumidor Final;Santos;SP;Sudeste;9947.1
+23;Patricia Ferreira;patricia.ferreira23@exemplo.com.br;M;66;Pequenas Empresas;Salvador;BA;Nordeste;14097.88
+24;Camila Nascimento;camila.nascimento24@exemplo.com.br;F;46;Pequenas Empresas;Florianópolis;SC;Sul;4172.37
+25;Fernanda Oliveira;fernanda.oliveira25@exemplo.com.br;M;32;Pequenas Empresas;Goiânia;GO;Centro-Oeste;2317.21
+26;diego rocha;diego.rocha26@exemplo.com.br;M;22;Corporativo;Santos;SP;Sudeste;10580.74
+27;Beatriz Dias;beatriz.dias27@exemplo.com.br;M;54;Pequenas Empresas;Brasília;DF;Centro-Oeste;11592.25
+28;Fernanda Nunes;fernanda.nunes28@exemplo.com.br;M;24;Consumidor Final;Salvador;BA;Nordeste;12941.42
+29;Gustavo Carvalho;gustavo.carvalho29@exemplo.com.br;M;43;Consumidor Final;Campinas;SP;Sudeste;14069.88
+30;Renata Machado;renata.machado30@exemplo.com.br;M;46;Pequenas Empresas;Uberlândia;MG;Sudeste;4484.97
+31;Mariana Lima;mariana.lima31@exemplo.com.br;F;24;Pequenas Empresas;Santos;SP;Sudeste;3024.59
+32;  PATRICIA  marques ;patricia.marques32@exemplo.com.br;M;44;Consumidor Final;Santos;SP;Sudeste;10115.95
+33;Camila Machado;camila.machado33@exemplo.com.br;M;18;Corporativo;Campinas;SP;Sudeste;18260.53
+34;Beatriz Freitas;beatriz.freitas34@exemplo.com.br;F;62;Corporativo;Feira de Santana;BA;Nordeste;17804.28
+35;Renata Fernandes;renata.fernandes35@exemplo.com.br;M;36;Consumidor Final;Recife;PE;Nordeste;5748.52
+36;Gabriel Vieira;gabriel.vieira36@exemplo.com.br;F;21;Consumidor Final;Campinas;SP;Sudeste;11722.09
+37;Carla Freitas;carla.freitas37@exemplo.com.br;M;23;Pequenas Empresas;Belo Horizonte;MG;Sudeste;16076.88
+38;Mateus Barbosa;mateus.barbosa38@exemplo.com.br;F;54;Consumidor Final;Curitiba;PR;Sul;6213.31
+39;Aline Santos;aline.santos39@exemplo.com.br;F;31;Corporativo;Salvador;BA;Nordeste;13116.53
+40;Felipe Pereira;felipe.pereira40@exemplo.com.br;F;38;Corporativo;Niterói;RJ;Sudeste;17343.0
+41;  PRISCILA  oliveira ;priscila.oliveira41@exemplo.com.br;M;52;Consumidor Final;Goiânia;GO;Centro-Oeste;5674.42
+42;Beatriz Rodrigues;beatriz.rodrigues42@exemplo.com.br;M;36;Corporativo;Santos;SP;Sudeste;4771.27
+43;Jessica Fernandes;jessica.fernandes43@exemplo.com.br;M;70;Pequenas Empresas;Fortaleza;CE;Nordeste;11240.02
+44;Priscila Dias;priscila.dias44@exemplo.com.br;F;24;Consumidor Final;Niterói;RJ;Sudeste;14301.39
+45;Juliana Lima;juliana.lima45@exemplo.com.br;F;61;Consumidor Final;Uberlândia;MG;Sudeste;12538.08
+46;Beatriz Soares;beatriz.soares46@exemplo.com.br;M;45;Pequenas Empresas;Campinas;SP;Sudeste;15718.37
+47;Gabriel Silva;gabriel.silva47@exemplo.com.br;F;65;Consumidor Final;Niterói;RJ;Sudeste;9401.92
+48;Diego Carvalho;diego.carvalho48@exemplo.com.br;M;27;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;11093.12
+49;Jessica Ribeiro;jessica.ribeiro49@exemplo.com.br;F;20;Consumidor Final;Niterói;RJ;Sudeste;7224.61
+50;Daniela Freitas;daniela.freitas50@exemplo.com.br;F;61;Consumidor Final;Campinas;SP;Sudeste;6267.33
+51;Rodrigo Ribeiro;rodrigo.ribeiro51@exemplo.com.br;M;28;Consumidor Final;Salvador;BA;Nordeste;18112.16
+52;Renata Ferreira;renata.ferreira52@exemplo.com.br;M;39;Pequenas Empresas;São Paulo;SP;Sudeste;14952.9
+53;Pedro Nunes;pedro.nunes53@exemplo.com.br;F;68;Consumidor Final;Curitiba;PR;Sul;13630.83
+54;thiago machado;thiago.machado54@exemplo.com.br;M;70;Consumidor Final;Recife;PE;Nordeste;17170.77
+55;Gustavo Gomes;gustavo.gomes55@exemplo.com.br;M;60;Consumidor Final;Curitiba;PR;Sul;5348.02
+56;Felipe Lima;felipe.lima56@exemplo.com.br;F;50;Pequenas Empresas;Londrina;PR;Sul;8714.76
+57;Jessica Fernandes;jessica.fernandes57@exemplo.com.br;M;29;Corporativo;São Paulo;SP;Sudeste;11663.61
+58;Beatriz Santos;beatriz.santos58@exemplo.com.br;F;68;Pequenas Empresas;Salvador;BA;Nordeste;7312.94
+59;Aline Soares;aline.soares59@exemplo.com.br;M;20;Corporativo;Goiânia;GO;Centro-Oeste;13753.2
+60;Lucas Soares;lucas.soares60@exemplo.com.br;M;45;Corporativo;Brasília;DF;Centro-Oeste;3340.57
+61;Eduardo Freitas;eduardo.freitas61@exemplo.com.br;M;37;Pequenas Empresas;Caxias do Sul;RS;Sul;10466.1
+62;Eduardo Carvalho;eduardo.carvalho62@exemplo.com.br;M;44;Consumidor Final;Porto Alegre;RS;Sul;13038.35
+63;Thiago Dias;thiago.dias63@exemplo.com.br;F;53;Corporativo;Belo Horizonte;MG;Sudeste;15789.72
+64;Larissa Gomes;larissa.gomes64@exemplo.com.br;F;46;Corporativo;Goiânia;GO;Centro-Oeste;9407.2
+65;Camila Soares;camila.soares65@exemplo.com.br;M;50;Corporativo;Belo Horizonte;MG;Sudeste;13020.82
+66;Aline Costa;aline.costa66@exemplo.com.br;F;69;Consumidor Final;Curitiba;PR;Sul;5445.82
+67;Lucas Santos;lucas.santos67@exemplo.com.br;M;44;Corporativo;Recife;PE;Nordeste;16644.03
+68;Bruna Alves;bruna.alves68@exemplo.com.br;F;33;Corporativo;Joinville;SC;Sul;4605.41
+69;Diego Silva;diego.silva69@exemplo.com.br;F;29;Consumidor Final;Rio de Janeiro;RJ;Sudeste;15306.99
+70;Diego Soares;diego.soares70@exemplo.com.br;M;47;Consumidor Final;Brasília;DF;Centro-Oeste;4373.43
+71;Rafael Dias;rafael.dias71@exemplo.com.br;F;57;Corporativo;Brasília;DF;Centro-Oeste;15484.61
+72;Daniela Soares;daniela.soares72@exemplo.com.br;F;65;Consumidor Final;Brasília;DF;Centro-Oeste;16242.37
+73;Rafael Lima;rafael.lima73@exemplo.com.br;F;33;Pequenas Empresas;Londrina;PR;Sul;6675.94
+74;Mateus Nascimento;mateus.nascimento74@exemplo.com.br;F;52;Corporativo;Londrina;PR;Sul;3513.42
+75;Juliana Pereira;juliana.pereira75@exemplo.com.br;M;44;Consumidor Final;Niterói;RJ;Sudeste;8843.87
+76;Patricia Almeida;patricia.almeida76@exemplo.com.br;F;67;Corporativo;Uberlândia;MG;Sudeste;11720.49
+77;Diego Silva;diego.silva77@exemplo.com.br;F;18;Corporativo;Goiânia;GO;Centro-Oeste;17566.69
+78;Larissa Moreira;larissa.moreira78@exemplo.com.br;M;32;Corporativo;Salvador;BA;Nordeste;6648.85
+79;Ana Silva;ana.silva79@exemplo.com.br;M;26;Corporativo;Joinville;SC;Sul;18185.77
+80;Patricia Silva;patricia.silva80@exemplo.com.br;M;59;Consumidor Final;Goiânia;GO;Centro-Oeste;9186.39
+81;Vanessa Almeida;vanessa.almeida81@exemplo.com.br;F;31;Corporativo;Londrina;PR;Sul;9611.6
+82;Felipe Moreira;felipe.moreira82@exemplo.com.br;F;71;Corporativo;Londrina;PR;Sul;3535.07
+83;Lucas Andrade;lucas.andrade83@exemplo.com.br;M;22;Pequenas Empresas;Florianópolis;SC;Sul;14934.1
+84;Marcos Santos;marcos.santos84@exemplo.com.br;M;57;Consumidor Final;Curitiba;PR;Sul;4683.83
+85;Juliana Lopes;juliana.lopes85@exemplo.com.br;M;62;Corporativo;Goiânia;GO;Centro-Oeste;6376.77
+86;Gustavo Ferreira;gustavo.ferreira86@exemplo.com.br;M;24;Corporativo;Rio de Janeiro;RJ;Sudeste;11632.56
+87;Priscila Gomes;priscila.gomes87@exemplo.com.br;F;30;Pequenas Empresas;Joinville;SC;Sul;3438.74
+88;Diego Marques;diego.marques88@exemplo.com.br;F;56;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;15330.11
+89;Renata Vieira;renata.vieira89@exemplo.com.br;F;41;Pequenas Empresas;Florianópolis;SC;Sul;3323.99
+90;  MARCOS  costa ;marcos.costa90@exemplo.com.br;F;45;Consumidor Final;Salvador;BA;Nordeste;17860.84
+91;Marcos Mendes;marcos.mendes91@exemplo.com.br;F;64;Consumidor Final;Niterói;RJ;Sudeste;10704.47
+92;Marcos Lima;marcos.lima92@exemplo.com.br;F;45;Corporativo;Brasília;DF;Centro-Oeste;15659.47
+93;Bruna Lima;bruna.lima93@exemplo.com.br;M;46;Corporativo;Curitiba;PR;Sul;6174.97
+94;Rafael Vieira;rafael.vieira94@exemplo.com.br;F;49;Consumidor Final;Joinville;SC;Sul;16070.53
+95;Mariana Lopes;mariana.lopes95@exemplo.com.br;F;56;Corporativo;Londrina;PR;Sul;13629.3
+96;  BEATRIZ  fernandes ;beatriz.fernandes96@exemplo.com.br;M;64;Consumidor Final;Uberlândia;MG;Sudeste;8824.78
+97;Patricia Moreira;patricia.moreira97@exemplo.com.br;F;68;Corporativo;Recife;PE;Nordeste;2481.07
+98;Larissa Pereira;larissa.pereira98@exemplo.com.br;F;55;Pequenas Empresas;Curitiba;PR;Sul;8215.03
+99;Patricia Soares;patricia.soares99@exemplo.com.br;F;62;Corporativo;Brasília;DF;Centro-Oeste;9596.05
+100;Larissa Lima;larissa.lima100@exemplo.com.br;F;65;Consumidor Final;Uberlândia;MG;Sudeste;10934.58
+101;Vinicius Nascimento;vinicius.nascimento101@exemplo.com.br;F;64;Corporativo;Uberlândia;MG;Sudeste;11810.27
+102;Vinicius Soares;vinicius.soares102@exemplo.com.br;M;32;Corporativo;Rio de Janeiro;RJ;Sudeste;8082.36
+103;Larissa Silva;larissa.silva103@exemplo.com.br;F;21;Consumidor Final;Niterói;RJ;Sudeste;11219.75
+104;Diego Rodrigues;diego.rodrigues104@exemplo.com.br;M;54;Consumidor Final;Recife;PE;Nordeste;6834.73
+105;Ana Almeida;ana.almeida105@exemplo.com.br;F;25;Corporativo;Campinas;SP;Sudeste;15600.49
+106;Thiago Lopes;thiago.lopes106@exemplo.com.br;M;69;Consumidor Final;Campinas;SP;Sudeste;11374.29
+107;Larissa Oliveira;larissa.oliveira107@exemplo.com.br;F;56;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;15089.08
+108;Fernanda Moreira;fernanda.moreira108@exemplo.com.br;F;55;Corporativo;Feira de Santana;BA;Nordeste;18337.51
+109;Larissa Vieira;larissa.vieira109@exemplo.com.br;M;31;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;6513.73
+110;Mateus Ferreira;mateus.ferreira110@exemplo.com.br;M;18;Consumidor Final;Brasília;DF;Centro-Oeste;8858.84
+111;Diego Barbosa;diego.barbosa111@exemplo.com.br;M;63;Corporativo;Campinas;SP;Sudeste;6808.31
+112;Vanessa Almeida;vanessa.almeida112@exemplo.com.br;F;55;Pequenas Empresas;Curitiba;PR;Sul;12977.28
+113;Priscila Alves;priscila.alves113@exemplo.com.br;M;27;Pequenas Empresas;Brasília;DF;Centro-Oeste;17007.11
+114;Jessica Rodrigues;jessica.rodrigues114@exemplo.com.br;F;65;Pequenas Empresas;Belo Horizonte;MG;Sudeste;15635.12
+115;Priscila Gomes;priscila.gomes115@exemplo.com.br;F;43;Pequenas Empresas;Feira de Santana;BA;Nordeste;17565.62
+116;Carla Fernandes;carla.fernandes116@exemplo.com.br;M;65;Corporativo;Santos;SP;Sudeste;7453.84
+117;Beatriz Silva;beatriz.silva117@exemplo.com.br;M;70;Pequenas Empresas;Goiânia;GO;Centro-Oeste;6593.03
+118;Gabriel Moreira;gabriel.moreira118@exemplo.com.br;F;29;Corporativo;Recife;PE;Nordeste;18450.21
+119;Pedro Rocha;pedro.rocha119@exemplo.com.br;F;44;Corporativo;Santos;SP;Sudeste;7632.93
+120;Eduardo Souza;eduardo.souza120@exemplo.com.br;F;49;Pequenas Empresas;Caxias do Sul;RS;Sul;6897.95
+121;Thiago Marques;thiago.marques121@exemplo.com.br;F;38;Consumidor Final;Campinas;SP;Sudeste;6314.1
+122;Rodrigo Moreira;rodrigo.moreira122@exemplo.com.br;M;52;Pequenas Empresas;Fortaleza;CE;Nordeste;9730.21
+123;Gabriel Alves;gabriel.alves123@exemplo.com.br;F;31;Consumidor Final;Recife;PE;Nordeste;6553.02
+124;Juliana Freitas;juliana.freitas124@exemplo.com.br;M;58;Consumidor Final;Recife;PE;Nordeste;12124.61
+125;Fernanda Nascimento;fernanda.nascimento125@exemplo.com.br;M;44;Pequenas Empresas;Brasília;DF;Centro-Oeste;3719.31
+126;Jessica Freitas;jessica.freitas126@exemplo.com.br;M;63;Corporativo;Rio de Janeiro;RJ;Sudeste;6957.34
+127;Diego Lima;diego.lima127@exemplo.com.br;F;47;Consumidor Final;Recife;PE;Nordeste;11185.62
+128;Thiago Alves;thiago.alves128@exemplo.com.br;M;35;Consumidor Final;Fortaleza;CE;Nordeste;14794.6
+129;Vanessa Carvalho;vanessa.carvalho129@exemplo.com.br;F;36;Consumidor Final;Fortaleza;CE;Nordeste;14034.63
+130;Jessica Vieira;jessica.vieira130@exemplo.com.br;M;52;Corporativo;Recife;PE;Nordeste;10094.76
+131;Felipe Fernandes;felipe.fernandes131@exemplo.com.br;F;30;Corporativo;Joinville;SC;Sul;18186.63
+132;Fernanda Vieira;fernanda.vieira132@exemplo.com.br;M;65;Corporativo;Salvador;BA;Nordeste;9909.51
+133;Priscila Nunes;priscila.nunes133@exemplo.com.br;F;26;Consumidor Final;Niterói;RJ;Sudeste;10387.35
+134;Bruna Costa;bruna.costa134@exemplo.com.br;M;47;Pequenas Empresas;Feira de Santana;BA;Nordeste;2450.17
+135;Juliana Carvalho;juliana.carvalho135@exemplo.com.br;M;68;Corporativo;Niterói;RJ;Sudeste;17998.02
+136;Felipe Barbosa;felipe.barbosa136@exemplo.com.br;F;72;Pequenas Empresas;Santos;SP;Sudeste;10898.04
+137;Felipe Rocha;felipe.rocha137@exemplo.com.br;M;22;Pequenas Empresas;Recife;PE;Nordeste;6026.75
+138;Eduardo Freitas;eduardo.freitas138@exemplo.com.br;M;24;Corporativo;Curitiba;PR;Sul;14594.03
+139;Diego Machado;diego.machado139@exemplo.com.br;F;20;Consumidor Final;Belo Horizonte;MG;Sudeste;7487.31
+140;Gabriel Gomes;gabriel.gomes140@exemplo.com.br;M;51;Consumidor Final;Salvador;BA;Nordeste;8916.44
+141;Eduardo Nunes;eduardo.nunes141@exemplo.com.br;M;42;Pequenas Empresas;Belo Horizonte;MG;Sudeste;12301.28
+142;Fernanda Lopes;fernanda.lopes142@exemplo.com.br;M;58;Corporativo;Niterói;RJ;Sudeste;6339.83
+143;  BEATRIZ  dias ;beatriz.dias143@exemplo.com.br;F;52;Pequenas Empresas;Feira de Santana;BA;Nordeste;4775.0
+144;Rafael Ribeiro;rafael.ribeiro144@exemplo.com.br;F;34;Pequenas Empresas;Porto Alegre;RS;Sul;9646.42
+145;Larissa Alves;larissa.alves145@exemplo.com.br;M;42;Consumidor Final;Recife;PE;Nordeste;11522.34
+146;Bruna Gomes;bruna.gomes146@exemplo.com.br;M;43;Pequenas Empresas;Porto Alegre;RS;Sul;6674.03
+147;Bruna Machado;bruna.machado147@exemplo.com.br;F;67;Corporativo;Campinas;SP;Sudeste;15221.42
+148;Aline Nunes;aline.nunes148@exemplo.com.br;F;66;Pequenas Empresas;Uberlândia;MG;Sudeste;13951.13
+149;Eduardo Dias;eduardo.dias149@exemplo.com.br;M;68;Corporativo;Rio de Janeiro;RJ;Sudeste;9385.42
+150;Bruna Ribeiro;bruna.ribeiro150@exemplo.com.br;F;65;Corporativo;Santos;SP;Sudeste;8972.7
+151;Camila Rodrigues;camila.rodrigues151@exemplo.com.br;F;34;Consumidor Final;Florianópolis;SC;Sul;17099.0
+152;Ana Nunes;ana.nunes152@exemplo.com.br;M;22;Corporativo;Caxias do Sul;RS;Sul;4494.34
+153;Fernanda Machado;fernanda.machado153@exemplo.com.br;F;68;Consumidor Final;Joinville;SC;Sul;8631.57
+154;Beatriz Fernandes;beatriz.fernandes154@exemplo.com.br;F;42;Pequenas Empresas;Florianópolis;SC;Sul;15605.4
+155;Gustavo Souza;gustavo.souza155@exemplo.com.br;M;53;Pequenas Empresas;Recife;PE;Nordeste;7546.5
+156;Aline Pereira;aline.pereira156@exemplo.com.br;F;44;Pequenas Empresas;Feira de Santana;BA;Nordeste;4101.82
+157;Gabriel Santos;gabriel.santos157@exemplo.com.br;M;33;Consumidor Final;Recife;PE;Nordeste;16662.33
+158;Juliana Martins;juliana.martins158@exemplo.com.br;F;65;Pequenas Empresas;Brasília;DF;Centro-Oeste;14043.57
+159;Daniela Carvalho;daniela.carvalho159@exemplo.com.br;F;20;Corporativo;Recife;PE;Nordeste;13451.57
+160;Camila Almeida;camila.almeida160@exemplo.com.br;F;61;Consumidor Final;Curitiba;PR;Sul;8187.56
+161;Daniela Rocha;daniela.rocha161@exemplo.com.br;F;25;Consumidor Final;Joinville;SC;Sul;17668.88
+162;Jessica Almeida;jessica.almeida162@exemplo.com.br;M;68;Consumidor Final;Uberlândia;MG;Sudeste;7636.2
+163;Juliana Nunes;juliana.nunes163@exemplo.com.br;M;31;Pequenas Empresas;Santos;SP;Sudeste;15452.76
+164;Fernanda Costa;fernanda.costa164@exemplo.com.br;F;26;Consumidor Final;São Paulo;SP;Sudeste;11005.51
+165;Renata Ferreira;renata.ferreira165@exemplo.com.br;M;40;Consumidor Final;São Paulo;SP;Sudeste;15076.75
+166;Fernanda Vieira;fernanda.vieira166@exemplo.com.br;F;26;Consumidor Final;Belo Horizonte;MG;Sudeste;14290.0
+167;Carla Souza;carla.souza167@exemplo.com.br;F;50;Corporativo;Recife;PE;Nordeste;11876.76
+168;Rafael Soares;rafael.soares168@exemplo.com.br;F;59;Corporativo;Campinas;SP;Sudeste;17913.63
+169;Gabriel Lopes;gabriel.lopes169@exemplo.com.br;M;63;Corporativo;Salvador;BA;Nordeste;17028.12
+170;Mateus Mendes;mateus.mendes170@exemplo.com.br;M;35;Consumidor Final;Niterói;RJ;Sudeste;12376.38
+171;Bruna Fernandes;bruna.fernandes171@exemplo.com.br;F;50;Corporativo;Joinville;SC;Sul;12068.46
+172;Rodrigo Nunes;rodrigo.nunes172@exemplo.com.br;M;46;Corporativo;Brasília;DF;Centro-Oeste;16675.88
+173;Pedro Costa;pedro.costa173@exemplo.com.br;F;24;Pequenas Empresas;Joinville;SC;Sul;7294.54
+174;Felipe Dias;felipe.dias174@exemplo.com.br;F;23;Consumidor Final;Niterói;RJ;Sudeste;15757.88
+175;Mateus Carvalho;mateus.carvalho175@exemplo.com.br;M;21;Pequenas Empresas;Florianópolis;SC;Sul;11759.38
+176;Patricia Fernandes;patricia.fernandes176@exemplo.com.br;F;60;Corporativo;Rio de Janeiro;RJ;Sudeste;17540.42
+177;Pedro Machado;pedro.machado177@exemplo.com.br;F;37;Pequenas Empresas;Campinas;SP;Sudeste;7931.83
+178;Bruna Soares;bruna.soares178@exemplo.com.br;M;40;Consumidor Final;Recife;PE;Nordeste;15979.59
+179;Gustavo Souza;gustavo.souza179@exemplo.com.br;M;72;Corporativo;Goiânia;GO;Centro-Oeste;11343.74
+180;Vinicius Marques;vinicius.marques180@exemplo.com.br;M;60;Pequenas Empresas;Brasília;DF;Centro-Oeste;15720.21
+181;Beatriz Silva;beatriz.silva181@exemplo.com.br;F;18;Corporativo;Porto Alegre;RS;Sul;5156.91
+182;Juliana Vieira;juliana.vieira182@exemplo.com.br;M;58;Pequenas Empresas;Santos;SP;Sudeste;18040.51
+183;Mateus Andrade;mateus.andrade183@exemplo.com.br;F;39;Corporativo;Joinville;SC;Sul;4765.77
+184;Larissa Andrade;larissa.andrade184@exemplo.com.br;M;27;Consumidor Final;Goiânia;GO;Centro-Oeste;4765.78
+185;Aline Santos;aline.santos185@exemplo.com.br;F;45;Pequenas Empresas;Londrina;PR;Sul;10116.29
+186;Rafael Carvalho;rafael.carvalho186@exemplo.com.br;M;45;Corporativo;Fortaleza;CE;Nordeste;4007.5
+187;Eduardo Dias;eduardo.dias187@exemplo.com.br;F;32;Consumidor Final;Fortaleza;CE;Nordeste;8642.79
+188;  ALINE  santos ;aline.santos188@exemplo.com.br;M;66;Consumidor Final;Porto Alegre;RS;Sul;6364.97
+189;  FELIPE  souza ;felipe.souza189@exemplo.com.br;M;42;Consumidor Final;Salvador;BA;Nordeste;10881.09
+190;Fernanda Soares;fernanda.soares190@exemplo.com.br;M;65;Corporativo;Florianópolis;SC;Sul;2889.53
+191;Lucas Almeida;lucas.almeida191@exemplo.com.br;F;43;Pequenas Empresas;Caxias do Sul;RS;Sul;13764.83
+192;Pedro Gomes;pedro.gomes192@exemplo.com.br;F;69;Consumidor Final;São Paulo;SP;Sudeste;17646.11
+193;Rafael Marques;rafael.marques193@exemplo.com.br;M;72;Corporativo;Florianópolis;SC;Sul;3925.57
+194;Pedro Vieira;pedro.vieira194@exemplo.com.br;F;65;Corporativo;Santos;SP;Sudeste;7734.07
+195;Felipe Moreira;felipe.moreira195@exemplo.com.br;M;50;Pequenas Empresas;Fortaleza;CE;Nordeste;5360.63
+196;Vinicius Ribeiro;vinicius.ribeiro196@exemplo.com.br;M;27;Consumidor Final;Niterói;RJ;Sudeste;6372.28
+197;Mariana Barbosa;mariana.barbosa197@exemplo.com.br;M;49;Pequenas Empresas;Santos;SP;Sudeste;9762.44
+198;Bruna Moreira;bruna.moreira198@exemplo.com.br;F;38;Pequenas Empresas;Goiânia;GO;Centro-Oeste;4660.61
+199;Mateus Lopes;mateus.lopes199@exemplo.com.br;F;21;Pequenas Empresas;Porto Alegre;RS;Sul;7936.66
+200;Mateus Gomes;mateus.gomes200@exemplo.com.br;M;71;Corporativo;Campinas;SP;Sudeste;6879.36
+201;Marcos Machado;marcos.machado201@exemplo.com.br;F;55;Corporativo;Santos;SP;Sudeste;11235.36
+202;Renata Andrade;renata.andrade202@exemplo.com.br;M;56;Corporativo;Feira de Santana;BA;Nordeste;9952.75
+203;Juliana Santos;juliana.santos203@exemplo.com.br;M;59;Pequenas Empresas;Caxias do Sul;RS;Sul;5012.71
+204;Fernanda Nascimento;fernanda.nascimento204@exemplo.com.br;M;41;Corporativo;Feira de Santana;BA;Nordeste;17162.37
+205;Thiago Carvalho;thiago.carvalho205@exemplo.com.br;F;39;Consumidor Final;Campinas;SP;Sudeste;3740.45
+206;Eduardo Martins;eduardo.martins206@exemplo.com.br;F;55;Consumidor Final;Niterói;RJ;Sudeste;13016.88
+207;Priscila Ribeiro;priscila.ribeiro207@exemplo.com.br;M;63;Pequenas Empresas;Joinville;SC;Sul;17489.44
+208;Larissa Fernandes;larissa.fernandes208@exemplo.com.br;M;62;Pequenas Empresas;Caxias do Sul;RS;Sul;15712.03
+209;Leonardo Dias;leonardo.dias209@exemplo.com.br;F;41;Pequenas Empresas;Santos;SP;Sudeste;2497.16
+210;Larissa Ferreira;larissa.ferreira210@exemplo.com.br;F;32;Consumidor Final;Caxias do Sul;RS;Sul;18499.62
+211;Juliana Oliveira;juliana.oliveira211@exemplo.com.br;M;39;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;16485.2
+212;Aline Rodrigues;aline.rodrigues212@exemplo.com.br;M;71;Consumidor Final;Niterói;RJ;Sudeste;13493.38
+213;Aline Nunes;aline.nunes213@exemplo.com.br;M;41;Corporativo;Feira de Santana;BA;Nordeste;13224.72
+214;Fernanda Almeida;fernanda.almeida214@exemplo.com.br;M;33;Pequenas Empresas;Feira de Santana;BA;Nordeste;7244.33
+215;Renata Nunes;renata.nunes215@exemplo.com.br;F;54;Pequenas Empresas;Uberlândia;MG;Sudeste;18246.37
+216;Rafael Moreira;rafael.moreira216@exemplo.com.br;F;70;Consumidor Final;Joinville;SC;Sul;5455.07
+217;Aline Rodrigues;aline.rodrigues217@exemplo.com.br;F;53;Corporativo;Campinas;SP;Sudeste;17428.98
+218;Diego Machado;diego.machado218@exemplo.com.br;F;66;Consumidor Final;Rio de Janeiro;RJ;Sudeste;4813.09
+219;Rafael Mendes;rafael.mendes219@exemplo.com.br;M;70;Consumidor Final;Salvador;BA;Nordeste;9553.39
+220;  GUSTAVO  freitas ;gustavo.freitas220@exemplo.com.br;F;41;Pequenas Empresas;Campinas;SP;Sudeste;6043.18
+221;Mateus Ribeiro;mateus.ribeiro221@exemplo.com.br;M;59;Pequenas Empresas;Caxias do Sul;RS;Sul;7665.23
+222;juliana rodrigues;juliana.rodrigues222@exemplo.com.br;M;48;Pequenas Empresas;Recife;PE;Nordeste;9512.2
+223;Lucas Mendes;lucas.mendes223@exemplo.com.br;M;53;Consumidor Final;Londrina;PR;Sul;17525.68
+224;Aline Soares;aline.soares224@exemplo.com.br;M;25;Corporativo;Porto Alegre;RS;Sul;2978.32
+225;Pedro Rocha;pedro.rocha225@exemplo.com.br;M;71;Consumidor Final;Feira de Santana;BA;Nordeste;16953.89
+226;  ALINE  fernandes ;aline.fernandes226@exemplo.com.br;M;27;Pequenas Empresas;Fortaleza;CE;Nordeste;6947.73
+227;Lucas Barbosa;lucas.barbosa227@exemplo.com.br;F;60;Consumidor Final;Goiânia;GO;Centro-Oeste;13091.9
+228;Carla Ribeiro;carla.ribeiro228@exemplo.com.br;M;48;Corporativo;Fortaleza;CE;Nordeste;2909.61
+229;Thiago Ribeiro;thiago.ribeiro229@exemplo.com.br;F;40;Consumidor Final;São Paulo;SP;Sudeste;6130.35
+230;Eduardo Rocha;eduardo.rocha230@exemplo.com.br;F;20;Consumidor Final;Goiânia;GO;Centro-Oeste;7942.47
+231;Felipe Marques;felipe.marques231@exemplo.com.br;F;29;Pequenas Empresas;Feira de Santana;BA;Nordeste;15427.41
+232;Mateus Nascimento;mateus.nascimento232@exemplo.com.br;M;30;Corporativo;Feira de Santana;BA;Nordeste;2914.04
+233;camila mendes;camila.mendes233@exemplo.com.br;F;48;Pequenas Empresas;Porto Alegre;RS;Sul;6329.01
+234;Vinicius Rocha;vinicius.rocha234@exemplo.com.br;M;39;Pequenas Empresas;Florianópolis;SC;Sul;6653.43
+235;Renata Ribeiro;renata.ribeiro235@exemplo.com.br;F;39;Corporativo;Joinville;SC;Sul;18071.69
+236;Ana Nascimento;ana.nascimento236@exemplo.com.br;F;64;Consumidor Final;Fortaleza;CE;Nordeste;9119.34
+237;Pedro Barbosa;pedro.barbosa237@exemplo.com.br;F;24;Corporativo;Belo Horizonte;MG;Sudeste;3505.12
+238;Eduardo Gomes;eduardo.gomes238@exemplo.com.br;M;46;Pequenas Empresas;Salvador;BA;Nordeste;7930.22
+239;Gabriel Andrade;gabriel.andrade239@exemplo.com.br;F;58;Corporativo;Florianópolis;SC;Sul;18174.44
+240;Gabriel Oliveira;gabriel.oliveira240@exemplo.com.br;F;69;Pequenas Empresas;Joinville;SC;Sul;14423.34
+241;Mariana Silva;mariana.silva241@exemplo.com.br;M;22;Consumidor Final;Feira de Santana;BA;Nordeste;6046.72
+242;Marcos Ribeiro;marcos.ribeiro242@exemplo.com.br;M;27;Pequenas Empresas;Goiânia;GO;Centro-Oeste;13268.71
+243;Gustavo Ribeiro;gustavo.ribeiro243@exemplo.com.br;M;41;Pequenas Empresas;Santos;SP;Sudeste;8687.95
+244;Marcos Lima;marcos.lima244@exemplo.com.br;M;29;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;10334.42
+245;Thiago Freitas;thiago.freitas245@exemplo.com.br;F;46;Pequenas Empresas;Londrina;PR;Sul;5697.5
+246;Aline Gomes;aline.gomes246@exemplo.com.br;M;26;Consumidor Final;Recife;PE;Nordeste;16101.07
+247;Rafael Ferreira;rafael.ferreira247@exemplo.com.br;M;72;Pequenas Empresas;Feira de Santana;BA;Nordeste;18281.17
+248;Eduardo Ribeiro;eduardo.ribeiro248@exemplo.com.br;F;72;Corporativo;Brasília;DF;Centro-Oeste;4767.34
+249;Diego Freitas;diego.freitas249@exemplo.com.br;F;32;Pequenas Empresas;Belo Horizonte;MG;Sudeste;4178.21
+250;Camila Nunes;camila.nunes250@exemplo.com.br;M;53;Corporativo;Recife;PE;Nordeste;11528.12
+251;Rafael Nunes;rafael.nunes251@exemplo.com.br;M;37;Consumidor Final;Niterói;RJ;Sudeste;8690.01
+252;Diego Andrade;diego.andrade252@exemplo.com.br;F;22;Pequenas Empresas;Salvador;BA;Nordeste;4242.83
+253;Felipe Rocha;felipe.rocha253@exemplo.com.br;F;71;Consumidor Final;Feira de Santana;BA;Nordeste;14918.29
+254;Marcos Vieira;marcos.vieira254@exemplo.com.br;F;21;Pequenas Empresas;Niterói;RJ;Sudeste;15751.67
+255;Carla Rodrigues;carla.rodrigues255@exemplo.com.br;F;32;Pequenas Empresas;Belo Horizonte;MG;Sudeste;7840.18
+256;Carla Mendes;carla.mendes256@exemplo.com.br;F;58;Consumidor Final;Santos;SP;Sudeste;17788.53
+257;Beatriz Rodrigues;beatriz.rodrigues257@exemplo.com.br;M;59;Pequenas Empresas;Brasília;DF;Centro-Oeste;4948.77
+258;Bruna Rodrigues;bruna.rodrigues258@exemplo.com.br;M;23;Consumidor Final;Caxias do Sul;RS;Sul;2941.03
+259;Marcos Moreira;marcos.moreira259@exemplo.com.br;F;58;Pequenas Empresas;Uberlândia;MG;Sudeste;2693.66
+260;Daniela Rocha;daniela.rocha260@exemplo.com.br;F;69;Consumidor Final;Porto Alegre;RS;Sul;15359.79
+261;Thiago Gomes;thiago.gomes261@exemplo.com.br;M;44;Corporativo;Campinas;SP;Sudeste;10093.29
+262;Camila Costa;camila.costa262@exemplo.com.br;F;40;Pequenas Empresas;Caxias do Sul;RS;Sul;18098.6
+263;Juliana Moreira;juliana.moreira263@exemplo.com.br;M;33;Corporativo;Brasília;DF;Centro-Oeste;9803.5
+264;Beatriz Almeida;beatriz.almeida264@exemplo.com.br;M;42;Corporativo;Rio de Janeiro;RJ;Sudeste;16285.87
+265;Pedro Pereira;pedro.pereira265@exemplo.com.br;F;64;Pequenas Empresas;Belo Horizonte;MG;Sudeste;7297.25
+266;Vinicius Ferreira;vinicius.ferreira266@exemplo.com.br;F;37;Corporativo;Fortaleza;CE;Nordeste;10307.14
+267;Mateus Martins;mateus.martins267@exemplo.com.br;M;40;Pequenas Empresas;Curitiba;PR;Sul;2993.13
+268;Larissa Lopes;larissa.lopes268@exemplo.com.br;F;18;Pequenas Empresas;Recife;PE;Nordeste;16008.91
+269;Pedro Rodrigues;pedro.rodrigues269@exemplo.com.br;F;20;Corporativo;Florianópolis;SC;Sul;8729.48
+270;Bruna Fernandes;bruna.fernandes270@exemplo.com.br;F;42;Consumidor Final;Brasília;DF;Centro-Oeste;10419.37
+271;Vinicius Fernandes;vinicius.fernandes271@exemplo.com.br;M;43;Consumidor Final;Rio de Janeiro;RJ;Sudeste;8283.13
+272;Felipe Fernandes;felipe.fernandes272@exemplo.com.br;M;50;Pequenas Empresas;Niterói;RJ;Sudeste;8742.61
+273;gabriel santos;gabriel.santos273@exemplo.com.br;F;47;Pequenas Empresas;Caxias do Sul;RS;Sul;4627.73
+274;Daniela Soares;daniela.soares274@exemplo.com.br;M;57;Corporativo;Caxias do Sul;RS;Sul;14250.91
+275;Larissa Vieira;larissa.vieira275@exemplo.com.br;F;54;Pequenas Empresas;Fortaleza;CE;Nordeste;7086.59
+276;Jessica Silva;jessica.silva276@exemplo.com.br;F;37;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;15187.1
+277;Leonardo Machado;leonardo.machado277@exemplo.com.br;F;59;Corporativo;São Paulo;SP;Sudeste;14961.34
+278;Vinicius Vieira;vinicius.vieira278@exemplo.com.br;F;51;Consumidor Final;Campinas;SP;Sudeste;12453.11
+279;Aline Moreira;aline.moreira279@exemplo.com.br;M;54;Consumidor Final;Niterói;RJ;Sudeste;17655.74
+280;  RODRIGO  alves ;rodrigo.alves280@exemplo.com.br;F;44;Consumidor Final;Caxias do Sul;RS;Sul;13455.15
+281;Pedro Soares;pedro.soares281@exemplo.com.br;M;26;Pequenas Empresas;Recife;PE;Nordeste;10654.54
+282;Patricia Costa;patricia.costa282@exemplo.com.br;F;29;Corporativo;Recife;PE;Nordeste;9692.52
+283;Patricia Costa;patricia.costa283@exemplo.com.br;F;33;Consumidor Final;Londrina;PR;Sul;6747.8
+284;Larissa Pereira;larissa.pereira284@exemplo.com.br;F;31;Pequenas Empresas;Porto Alegre;RS;Sul;13450.91
+285;Ana Costa;ana.costa285@exemplo.com.br;F;25;Corporativo;Brasília;DF;Centro-Oeste;11547.67
+286;Patricia Martins;patricia.martins286@exemplo.com.br;F;36;Consumidor Final;Joinville;SC;Sul;2885.68
+287;Diego Oliveira;diego.oliveira287@exemplo.com.br;F;48;Pequenas Empresas;Feira de Santana;BA;Nordeste;5687.98
+288;Jessica Fernandes;jessica.fernandes288@exemplo.com.br;F;24;Consumidor Final;Brasília;DF;Centro-Oeste;12235.54
+289;Bruna Pereira;bruna.pereira289@exemplo.com.br;M;32;Pequenas Empresas;Fortaleza;CE;Nordeste;3055.61
+290;Pedro Costa;pedro.costa290@exemplo.com.br;M;53;Consumidor Final;Rio de Janeiro;RJ;Sudeste;18139.94
+291;Mariana Carvalho;mariana.carvalho291@exemplo.com.br;F;30;Pequenas Empresas;Recife;PE;Nordeste;14521.35
+292;Larissa Costa;larissa.costa292@exemplo.com.br;M;54;Pequenas Empresas;Campinas;SP;Sudeste;5985.19
+293;Leonardo Andrade;leonardo.andrade293@exemplo.com.br;M;71;Corporativo;Campinas;SP;Sudeste;5065.36
+294;Priscila Santos;priscila.santos294@exemplo.com.br;F;65;Consumidor Final;Joinville;SC;Sul;17882.74
+295;Priscila Gomes;priscila.gomes295@exemplo.com.br;F;56;Pequenas Empresas;São Paulo;SP;Sudeste;3949.0
+296;Felipe Gomes;felipe.gomes296@exemplo.com.br;F;72;Consumidor Final;Brasília;DF;Centro-Oeste;10418.67
+297;Beatriz Alves;beatriz.alves297@exemplo.com.br;M;47;Pequenas Empresas;Caxias do Sul;RS;Sul;12767.05
+298;  DIEGO  ferreira ;diego.ferreira298@exemplo.com.br;F;61;Pequenas Empresas;Caxias do Sul;RS;Sul;14543.71
+299;Mariana Barbosa;mariana.barbosa299@exemplo.com.br;F;38;Pequenas Empresas;Joinville;SC;Sul;3613.83
+300;Eduardo Souza;eduardo.souza300@exemplo.com.br;F;33;Corporativo;Niterói;RJ;Sudeste;2311.33
+301;Thiago Pereira;thiago.pereira301@exemplo.com.br;F;55;Corporativo;Londrina;PR;Sul;13982.99
+302;Lucas Lima;lucas.lima302@exemplo.com.br;M;25;Pequenas Empresas;Curitiba;PR;Sul;9785.94
+303;Mariana Martins;mariana.martins303@exemplo.com.br;M;36;Pequenas Empresas;Porto Alegre;RS;Sul;8190.97
+304;Fernanda Pereira;fernanda.pereira304@exemplo.com.br;M;65;Corporativo;Recife;PE;Nordeste;18318.06
+305;Gustavo Carvalho;gustavo.carvalho305@exemplo.com.br;M;61;Consumidor Final;Recife;PE;Nordeste;14502.25
+306;Vanessa Nunes;vanessa.nunes306@exemplo.com.br;F;54;Consumidor Final;Feira de Santana;BA;Nordeste;4029.0
+307;Jessica Fernandes;jessica.fernandes307@exemplo.com.br;M;38;Consumidor Final;Uberlândia;MG;Sudeste;16128.12
+308;Rafael Souza;rafael.souza308@exemplo.com.br;F;50;Consumidor Final;Goiânia;GO;Centro-Oeste;9461.37
+309;Gabriel Almeida;gabriel.almeida309@exemplo.com.br;F;21;Pequenas Empresas;Salvador;BA;Nordeste;11308.39
+310;Eduardo Nunes;eduardo.nunes310@exemplo.com.br;F;70;Corporativo;São Paulo;SP;Sudeste;2249.15
+311;Camila Vieira;camila.vieira311@exemplo.com.br;F;22;Pequenas Empresas;Salvador;BA;Nordeste;11020.97
+312;Gabriel Freitas;gabriel.freitas312@exemplo.com.br;M;44;Corporativo;Recife;PE;Nordeste;5133.7
+313;Juliana Moreira;juliana.moreira313@exemplo.com.br;F;46;Corporativo;Salvador;BA;Nordeste;16374.81
+314;Priscila Martins;priscila.martins314@exemplo.com.br;M;40;Pequenas Empresas;Brasília;DF;Centro-Oeste;4133.72
+315;Patricia Martins;patricia.martins315@exemplo.com.br;M;37;Consumidor Final;Curitiba;PR;Sul;9746.96
+316;Leonardo Fernandes;leonardo.fernandes316@exemplo.com.br;M;47;Consumidor Final;Joinville;SC;Sul;7842.4
+317;Beatriz Alves;beatriz.alves317@exemplo.com.br;M;44;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;12223.25
+318;Priscila Mendes;priscila.mendes318@exemplo.com.br;M;24;Consumidor Final;Curitiba;PR;Sul;11881.29
+319;Rafael Barbosa;rafael.barbosa319@exemplo.com.br;M;20;Pequenas Empresas;Campinas;SP;Sudeste;8756.93
+320;Fernanda Fernandes;fernanda.fernandes320@exemplo.com.br;M;36;Pequenas Empresas;Campinas;SP;Sudeste;6016.83
+321;Priscila Andrade;priscila.andrade321@exemplo.com.br;F;37;Consumidor Final;Goiânia;GO;Centro-Oeste;16483.01
+322;Eduardo Soares;eduardo.soares322@exemplo.com.br;F;53;Consumidor Final;Porto Alegre;RS;Sul;17660.88
+323;Daniela Andrade;daniela.andrade323@exemplo.com.br;F;40;Consumidor Final;Salvador;BA;Nordeste;17547.86
+324;Eduardo Martins;eduardo.martins324@exemplo.com.br;F;27;Corporativo;Caxias do Sul;RS;Sul;7088.18
+325;Mariana Moreira;mariana.moreira325@exemplo.com.br;M;72;Corporativo;Curitiba;PR;Sul;13733.5
+326;Renata Almeida;renata.almeida326@exemplo.com.br;F;53;Corporativo;Brasília;DF;Centro-Oeste;10838.87
+327;Thiago Pereira;thiago.pereira327@exemplo.com.br;M;72;Corporativo;Caxias do Sul;RS;Sul;8248.56
+328;Patricia Andrade;patricia.andrade328@exemplo.com.br;F;61;Corporativo;Campinas;SP;Sudeste;12061.0
+329;Gabriel Machado;gabriel.machado329@exemplo.com.br;M;31;Corporativo;Goiânia;GO;Centro-Oeste;16372.42
+330;Felipe Gomes;felipe.gomes330@exemplo.com.br;M;65;Consumidor Final;São Paulo;SP;Sudeste;4112.25
+331;Vinicius Lopes;vinicius.lopes331@exemplo.com.br;F;53;Consumidor Final;Uberlândia;MG;Sudeste;7442.32
+332;Larissa Martins;larissa.martins332@exemplo.com.br;F;41;Corporativo;Florianópolis;SC;Sul;10558.91
+333;Ana Almeida;ana.almeida333@exemplo.com.br;F;41;Consumidor Final;Recife;PE;Nordeste;7300.63
+334;Gabriel Vieira;gabriel.vieira334@exemplo.com.br;M;53;Corporativo;Niterói;RJ;Sudeste;17436.56
+335;Bruna Andrade;bruna.andrade335@exemplo.com.br;M;32;Corporativo;Niterói;RJ;Sudeste;8391.39
+336;Jessica Pereira;jessica.pereira336@exemplo.com.br;F;64;Corporativo;Caxias do Sul;RS;Sul;12659.62
+337;Ana Almeida;ana.almeida337@exemplo.com.br;M;64;Consumidor Final;Florianópolis;SC;Sul;11108.71
+338;Mariana Freitas;mariana.freitas338@exemplo.com.br;M;70;Consumidor Final;Campinas;SP;Sudeste;13091.91
+339;Vinicius Silva;vinicius.silva339@exemplo.com.br;M;27;Pequenas Empresas;Curitiba;PR;Sul;2349.01
+340;Carla Almeida;carla.almeida340@exemplo.com.br;F;18;Consumidor Final;Recife;PE;Nordeste;10875.06
+341;  PEDRO  silva ;pedro.silva341@exemplo.com.br;F;50;Consumidor Final;Londrina;PR;Sul;15454.46
+342;Eduardo Carvalho;eduardo.carvalho342@exemplo.com.br;M;51;Consumidor Final;Belo Horizonte;MG;Sudeste;4627.03
+343;Camila Barbosa;camila.barbosa343@exemplo.com.br;F;23;Corporativo;Florianópolis;SC;Sul;8280.74
+344;Thiago Almeida;thiago.almeida344@exemplo.com.br;F;70;Pequenas Empresas;Curitiba;PR;Sul;16020.23
+345;Marcos Machado;marcos.machado345@exemplo.com.br;M;42;Corporativo;Campinas;SP;Sudeste;8347.86
+346;Ana Santos;ana.santos346@exemplo.com.br;M;72;Corporativo;Belo Horizonte;MG;Sudeste;9272.73
+347;Renata Costa;renata.costa347@exemplo.com.br;M;31;Consumidor Final;Rio de Janeiro;RJ;Sudeste;16890.75
+348;Diego Mendes;diego.mendes348@exemplo.com.br;M;61;Consumidor Final;Londrina;PR;Sul;17287.03
+349;Daniela Fernandes;daniela.fernandes349@exemplo.com.br;M;19;Corporativo;Campinas;SP;Sudeste;17871.95
+350;Bruna Rodrigues;bruna.rodrigues350@exemplo.com.br;M;28;Corporativo;Joinville;SC;Sul;11392.52
+351;Bruna Marques;bruna.marques351@exemplo.com.br;F;66;Corporativo;Brasília;DF;Centro-Oeste;14257.85
+352;Renata Nascimento;renata.nascimento352@exemplo.com.br;F;24;Consumidor Final;Fortaleza;CE;Nordeste;9324.54
+353;Jessica Oliveira;jessica.oliveira353@exemplo.com.br;F;58;Consumidor Final;Joinville;SC;Sul;6655.23
+354;Rafael Lopes;rafael.lopes354@exemplo.com.br;F;29;Corporativo;Brasília;DF;Centro-Oeste;13279.03
+355;Eduardo Martins;eduardo.martins355@exemplo.com.br;M;22;Pequenas Empresas;Porto Alegre;RS;Sul;3537.22
+356;Juliana Martins;juliana.martins356@exemplo.com.br;F;41;Corporativo;Niterói;RJ;Sudeste;3936.78
+357;Lucas Gomes;lucas.gomes357@exemplo.com.br;M;23;Consumidor Final;Londrina;PR;Sul;5254.49
+358;Rafael Fernandes;rafael.fernandes358@exemplo.com.br;M;23;Consumidor Final;Salvador;BA;Nordeste;7968.8
+359;Mateus Barbosa;mateus.barbosa359@exemplo.com.br;F;36;Consumidor Final;Caxias do Sul;RS;Sul;8945.1
+360;Vinicius Oliveira;vinicius.oliveira360@exemplo.com.br;M;51;Pequenas Empresas;Brasília;DF;Centro-Oeste;4964.2
+361;Thiago Ferreira;thiago.ferreira361@exemplo.com.br;F;27;Corporativo;Porto Alegre;RS;Sul;3231.25
+362;Pedro Lima;pedro.lima362@exemplo.com.br;M;34;Corporativo;Recife;PE;Nordeste;17590.82
+363;Leonardo Rocha;leonardo.rocha363@exemplo.com.br;F;26;Consumidor Final;Uberlândia;MG;Sudeste;7165.93
+364;Thiago Costa;thiago.costa364@exemplo.com.br;F;39;Corporativo;Joinville;SC;Sul;9219.04
+365;Jessica Machado;jessica.machado365@exemplo.com.br;F;56;Corporativo;Niterói;RJ;Sudeste;17640.65
+366;Camila Lopes;camila.lopes366@exemplo.com.br;F;65;Corporativo;Joinville;SC;Sul;13527.81
+367;Ana Vieira;ana.vieira367@exemplo.com.br;F;70;Corporativo;Caxias do Sul;RS;Sul;15009.62
+368;Gustavo Souza;gustavo.souza368@exemplo.com.br;M;67;Pequenas Empresas;Uberlândia;MG;Sudeste;11166.62
+369;Leonardo Almeida;leonardo.almeida369@exemplo.com.br;F;71;Corporativo;Uberlândia;MG;Sudeste;13493.22
+370;Jessica Machado;jessica.machado370@exemplo.com.br;F;58;Consumidor Final;Salvador;BA;Nordeste;7136.17
+371;Beatriz Dias;beatriz.dias371@exemplo.com.br;F;46;Consumidor Final;Salvador;BA;Nordeste;18348.42
+372;Ana Vieira;ana.vieira372@exemplo.com.br;F;20;Pequenas Empresas;Fortaleza;CE;Nordeste;15088.75
+373;Gustavo Nascimento;gustavo.nascimento373@exemplo.com.br;M;67;Consumidor Final;Brasília;DF;Centro-Oeste;6246.16
+374;Eduardo Ribeiro;eduardo.ribeiro374@exemplo.com.br;F;68;Corporativo;Campinas;SP;Sudeste;9216.43
+375;Lucas Souza;lucas.souza375@exemplo.com.br;M;41;Corporativo;Fortaleza;CE;Nordeste;8575.49
+376;Vinicius Dias;vinicius.dias376@exemplo.com.br;M;19;Corporativo;Fortaleza;CE;Nordeste;10069.17
+377;Larissa Carvalho;larissa.carvalho377@exemplo.com.br;M;27;Pequenas Empresas;Santos;SP;Sudeste;7877.76
+378;Felipe Almeida;felipe.almeida378@exemplo.com.br;F;48;Corporativo;Fortaleza;CE;Nordeste;3791.26
+379;Leonardo Nascimento;leonardo.nascimento379@exemplo.com.br;F;69;Consumidor Final;Santos;SP;Sudeste;13785.7
+380;Lucas Machado;lucas.machado380@exemplo.com.br;M;33;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;10610.7
+381;Patricia Ferreira;patricia.ferreira381@exemplo.com.br;F;69;Consumidor Final;Salvador;BA;Nordeste;8802.27
+382;Mariana Ferreira;mariana.ferreira382@exemplo.com.br;F;65;Consumidor Final;Salvador;BA;Nordeste;12209.94
+383;Camila Almeida;camila.almeida383@exemplo.com.br;M;31;Pequenas Empresas;Joinville;SC;Sul;5554.29
+384;Vinicius Nascimento;vinicius.nascimento384@exemplo.com.br;M;29;Pequenas Empresas;Santos;SP;Sudeste;8162.43
+385;Camila Almeida;camila.almeida385@exemplo.com.br;F;42;Pequenas Empresas;Recife;PE;Nordeste;12164.33
+386;Bruna Souza;bruna.souza386@exemplo.com.br;M;63;Pequenas Empresas;Feira de Santana;BA;Nordeste;15250.0
+387;Priscila Barbosa;priscila.barbosa387@exemplo.com.br;F;33;Consumidor Final;Niterói;RJ;Sudeste;7177.69
+388;Mariana Ribeiro;mariana.ribeiro388@exemplo.com.br;F;56;Corporativo;Fortaleza;CE;Nordeste;4447.24
+389;Thiago Carvalho;thiago.carvalho389@exemplo.com.br;M;28;Pequenas Empresas;Brasília;DF;Centro-Oeste;10181.17
+390;Juliana Ferreira;juliana.ferreira390@exemplo.com.br;M;18;Corporativo;Feira de Santana;BA;Nordeste;10099.13
+391;Camila Marques;camila.marques391@exemplo.com.br;F;61;Corporativo;Brasília;DF;Centro-Oeste;10215.13
+392;Diego Marques;diego.marques392@exemplo.com.br;M;19;Pequenas Empresas;Belo Horizonte;MG;Sudeste;15172.86
+393;fernanda gomes;fernanda.gomes393@exemplo.com.br;F;67;Consumidor Final;Curitiba;PR;Sul;9654.34
+394;Leonardo Moreira;leonardo.moreira394@exemplo.com.br;M;25;Pequenas Empresas;Brasília;DF;Centro-Oeste;6566.59
+395;Patricia Marques;patricia.marques395@exemplo.com.br;M;46;Pequenas Empresas;Brasília;DF;Centro-Oeste;11105.56
+396;Pedro Souza;pedro.souza396@exemplo.com.br;F;46;Consumidor Final;Curitiba;PR;Sul;6483.89
+397;Vanessa Marques;vanessa.marques397@exemplo.com.br;M;69;Consumidor Final;Rio de Janeiro;RJ;Sudeste;14223.09
+398;Diego Ribeiro;diego.ribeiro398@exemplo.com.br;M;26;Pequenas Empresas;Salvador;BA;Nordeste;14993.04
+399;Jessica Alves;jessica.alves399@exemplo.com.br;F;35;Pequenas Empresas;Goiânia;GO;Centro-Oeste;11928.78
+400;Mariana Costa;mariana.costa400@exemplo.com.br;F;35;Pequenas Empresas;Porto Alegre;RS;Sul;17724.08
+401;Carla Mendes;carla.mendes401@exemplo.com.br;M;21;Corporativo;Rio de Janeiro;RJ;Sudeste;18377.53
+402;Vanessa Rocha;vanessa.rocha402@exemplo.com.br;M;63;Consumidor Final;Niterói;RJ;Sudeste;7450.18
+403;Fernanda Moreira;fernanda.moreira403@exemplo.com.br;F;54;Consumidor Final;Joinville;SC;Sul;12508.15
+404;Marcos Carvalho;marcos.carvalho404@exemplo.com.br;M;50;Corporativo;Santos;SP;Sudeste;14421.78
+405;Diego Freitas;diego.freitas405@exemplo.com.br;F;55;Corporativo;Feira de Santana;BA;Nordeste;2240.31
+406;Vinicius Machado;vinicius.machado406@exemplo.com.br;F;68;Consumidor Final;Feira de Santana;BA;Nordeste;10911.12
+407;Camila Carvalho;camila.carvalho407@exemplo.com.br;F;71;Corporativo;Recife;PE;Nordeste;6822.57
+408;Patricia Vieira;patricia.vieira408@exemplo.com.br;F;66;Pequenas Empresas;Recife;PE;Nordeste;2989.07
+409;Rodrigo Rocha;rodrigo.rocha409@exemplo.com.br;M;72;Consumidor Final;Feira de Santana;BA;Nordeste;4775.13
+410;Rafael Silva;rafael.silva410@exemplo.com.br;M;26;Pequenas Empresas;Salvador;BA;Nordeste;16579.01
+411;Larissa Ferreira;larissa.ferreira411@exemplo.com.br;M;41;Pequenas Empresas;Londrina;PR;Sul;6281.35
+412;Gustavo Dias;gustavo.dias412@exemplo.com.br;M;58;Corporativo;Belo Horizonte;MG;Sudeste;7179.8
+413;Diego Moreira;diego.moreira413@exemplo.com.br;M;31;Consumidor Final;Santos;SP;Sudeste;9971.95
+414;Juliana Vieira;juliana.vieira414@exemplo.com.br;M;62;Consumidor Final;Feira de Santana;BA;Nordeste;7800.26
+415;Rodrigo Machado;rodrigo.machado415@exemplo.com.br;F;32;Consumidor Final;Niterói;RJ;Sudeste;8444.04
+416;Leonardo Nunes;leonardo.nunes416@exemplo.com.br;F;26;Corporativo;Caxias do Sul;RS;Sul;8438.35
+417;Jessica Moreira;jessica.moreira417@exemplo.com.br;M;54;Pequenas Empresas;Niterói;RJ;Sudeste;2338.14
+418;Marcos Ferreira;marcos.ferreira418@exemplo.com.br;M;57;Corporativo;Uberlândia;MG;Sudeste;13391.03
+419;Vanessa Alves;vanessa.alves419@exemplo.com.br;M;55;Consumidor Final;Rio de Janeiro;RJ;Sudeste;14099.15
+420;Gustavo Carvalho;gustavo.carvalho420@exemplo.com.br;M;59;Corporativo;Niterói;RJ;Sudeste;3573.25
+421;Patricia Barbosa;patricia.barbosa421@exemplo.com.br;M;37;Pequenas Empresas;Porto Alegre;RS;Sul;5548.77
+422;Aline Soares;aline.soares422@exemplo.com.br;F;21;Pequenas Empresas;Joinville;SC;Sul;14975.97
+423;Renata Pereira;renata.pereira423@exemplo.com.br;M;58;Corporativo;Rio de Janeiro;RJ;Sudeste;11881.06
+424;Carla Mendes;carla.mendes424@exemplo.com.br;F;42;Consumidor Final;Florianópolis;SC;Sul;16231.27
+425;Bruna Carvalho;bruna.carvalho425@exemplo.com.br;F;19;Consumidor Final;Belo Horizonte;MG;Sudeste;11774.02
+426;Lucas Lima;lucas.lima426@exemplo.com.br;F;36;Pequenas Empresas;Campinas;SP;Sudeste;12445.7
+427;Carla Moreira;carla.moreira427@exemplo.com.br;M;52;Pequenas Empresas;Joinville;SC;Sul;10963.78
+428;Juliana Lima;juliana.lima428@exemplo.com.br;M;52;Consumidor Final;Santos;SP;Sudeste;7526.03
+429;Bruna Rocha;bruna.rocha429@exemplo.com.br;F;45;Pequenas Empresas;Santos;SP;Sudeste;14098.32
+430;vanessa pereira;vanessa.pereira430@exemplo.com.br;F;47;Consumidor Final;Santos;SP;Sudeste;12180.44
+431;Gabriel Gomes;gabriel.gomes431@exemplo.com.br;M;63;Consumidor Final;Belo Horizonte;MG;Sudeste;4436.55
+432;Lucas Ferreira;lucas.ferreira432@exemplo.com.br;F;41;Consumidor Final;Florianópolis;SC;Sul;4268.97
+433;Vinicius Machado;vinicius.machado433@exemplo.com.br;M;69;Corporativo;Rio de Janeiro;RJ;Sudeste;9197.99
+434;Carla Oliveira;carla.oliveira434@exemplo.com.br;M;47;Corporativo;Goiânia;GO;Centro-Oeste;10525.74
+435;Gabriel Lopes;gabriel.lopes435@exemplo.com.br;F;34;Consumidor Final;Belo Horizonte;MG;Sudeste;14805.26
+436;Daniela Vieira;daniela.vieira436@exemplo.com.br;M;50;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;2241.87
+437;  VANESSA  machado ;vanessa.machado437@exemplo.com.br;F;42;Corporativo;Campinas;SP;Sudeste;17199.69
+438;Mariana Freitas;mariana.freitas438@exemplo.com.br;F;38;Consumidor Final;Campinas;SP;Sudeste;6246.69
+439;Priscila Andrade;priscila.andrade439@exemplo.com.br;F;50;Consumidor Final;Santos;SP;Sudeste;13175.21
+440;Gabriel Ferreira;gabriel.ferreira440@exemplo.com.br;M;22;Corporativo;Fortaleza;CE;Nordeste;16494.96
+441;Vanessa Gomes;vanessa.gomes441@exemplo.com.br;F;53;Consumidor Final;Porto Alegre;RS;Sul;9644.96
+442;Gustavo Alves;gustavo.alves442@exemplo.com.br;M;41;Corporativo;Porto Alegre;RS;Sul;11844.56
+443;Ana Moreira;ana.moreira443@exemplo.com.br;M;18;Consumidor Final;Brasília;DF;Centro-Oeste;17398.08
+444;Lucas Pereira;lucas.pereira444@exemplo.com.br;F;66;Consumidor Final;São Paulo;SP;Sudeste;12914.05
+445;Vanessa Andrade;vanessa.andrade445@exemplo.com.br;M;33;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;9043.0
+446;Gabriel Rodrigues;gabriel.rodrigues446@exemplo.com.br;M;72;Consumidor Final;Santos;SP;Sudeste;10672.08
+447;Diego Mendes;diego.mendes447@exemplo.com.br;M;26;Pequenas Empresas;Santos;SP;Sudeste;12586.62
+448;Thiago Oliveira;thiago.oliveira448@exemplo.com.br;F;26;Pequenas Empresas;Campinas;SP;Sudeste;6059.38
+449;Beatriz Machado;beatriz.machado449@exemplo.com.br;F;46;Corporativo;Joinville;SC;Sul;6632.88
+450;Mateus Alves;mateus.alves450@exemplo.com.br;M;24;Consumidor Final;Goiânia;GO;Centro-Oeste;4879.31
+451;Rafael Costa;rafael.costa451@exemplo.com.br;F;46;Consumidor Final;Brasília;DF;Centro-Oeste;7225.42
+452;Beatriz Machado;beatriz.machado452@exemplo.com.br;F;62;Pequenas Empresas;Belo Horizonte;MG;Sudeste;12033.83
+453;Camila Marques;camila.marques453@exemplo.com.br;M;33;Pequenas Empresas;Niterói;RJ;Sudeste;17984.92
+454;thiago soares;thiago.soares454@exemplo.com.br;F;19;Consumidor Final;Porto Alegre;RS;Sul;17719.17
+455;Vanessa Almeida;vanessa.almeida455@exemplo.com.br;M;47;Consumidor Final;Brasília;DF;Centro-Oeste;3861.09
+456;Renata Rodrigues;renata.rodrigues456@exemplo.com.br;M;30;Consumidor Final;Campinas;SP;Sudeste;15625.88
+457;Gustavo Dias;gustavo.dias457@exemplo.com.br;F;19;Consumidor Final;Santos;SP;Sudeste;18453.73
+458;Camila Mendes;camila.mendes458@exemplo.com.br;M;25;Corporativo;Niterói;RJ;Sudeste;2895.95
+459;Rafael Santos;rafael.santos459@exemplo.com.br;F;43;Pequenas Empresas;Goiânia;GO;Centro-Oeste;10286.86
+460;Thiago Dias;thiago.dias460@exemplo.com.br;M;35;Consumidor Final;Florianópolis;SC;Sul;6761.63
+461;daniela rodrigues;daniela.rodrigues461@exemplo.com.br;F;44;Corporativo;Curitiba;PR;Sul;16589.29
+462;Ana Santos;ana.santos462@exemplo.com.br;M;30;Corporativo;Joinville;SC;Sul;12675.24
+463;Renata Soares;renata.soares463@exemplo.com.br;M;68;Corporativo;Brasília;DF;Centro-Oeste;13827.94
+464;Ana Fernandes;ana.fernandes464@exemplo.com.br;F;35;Corporativo;Florianópolis;SC;Sul;5131.0
+465;Felipe Barbosa;felipe.barbosa465@exemplo.com.br;M;51;Corporativo;Londrina;PR;Sul;8026.16
+466;Bruna Pereira;bruna.pereira466@exemplo.com.br;M;33;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;6544.39
+467;Jessica Nunes;jessica.nunes467@exemplo.com.br;M;72;Pequenas Empresas;Campinas;SP;Sudeste;18217.43
+468;Thiago Ribeiro;thiago.ribeiro468@exemplo.com.br;M;55;Consumidor Final;Belo Horizonte;MG;Sudeste;7383.47
+469;Leonardo Nascimento;leonardo.nascimento469@exemplo.com.br;M;62;Pequenas Empresas;Goiânia;GO;Centro-Oeste;7932.42
+470;Bruna Vieira;bruna.vieira470@exemplo.com.br;F;37;Pequenas Empresas;Uberlândia;MG;Sudeste;5061.58
+471;gabriel oliveira;gabriel.oliveira471@exemplo.com.br;M;48;Pequenas Empresas;Curitiba;PR;Sul;2211.14
+472;Priscila Barbosa;priscila.barbosa472@exemplo.com.br;F;29;Pequenas Empresas;Niterói;RJ;Sudeste;17176.13
+473;Vanessa Machado;vanessa.machado473@exemplo.com.br;M;63;Pequenas Empresas;São Paulo;SP;Sudeste;17150.75
+474;Vinicius Souza;vinicius.souza474@exemplo.com.br;M;63;Corporativo;Florianópolis;SC;Sul;17553.35
+475;Thiago Vieira;thiago.vieira475@exemplo.com.br;F;28;Consumidor Final;Porto Alegre;RS;Sul;14137.34
+476;Pedro Nunes;pedro.nunes476@exemplo.com.br;F;63;Consumidor Final;Recife;PE;Nordeste;17990.51
+477;Diego Mendes;diego.mendes477@exemplo.com.br;M;55;Pequenas Empresas;Florianópolis;SC;Sul;15475.6
+478;Thiago Gomes;thiago.gomes478@exemplo.com.br;M;64;Consumidor Final;Porto Alegre;RS;Sul;2229.31
+479;Diego Vieira;diego.vieira479@exemplo.com.br;M;56;Consumidor Final;Goiânia;GO;Centro-Oeste;7386.94
+480;Renata Barbosa;renata.barbosa480@exemplo.com.br;M;27;Corporativo;Goiânia;GO;Centro-Oeste;7598.05
+481;Mateus Pereira;mateus.pereira481@exemplo.com.br;M;23;Pequenas Empresas;Caxias do Sul;RS;Sul;15593.09
+482;Eduardo Rocha;eduardo.rocha482@exemplo.com.br;F;34;Consumidor Final;Caxias do Sul;RS;Sul;5617.85
+483;Diego Oliveira;diego.oliveira483@exemplo.com.br;M;42;Consumidor Final;Rio de Janeiro;RJ;Sudeste;9342.99
+484;Pedro Ferreira;pedro.ferreira484@exemplo.com.br;F;52;Corporativo;Recife;PE;Nordeste;8318.17
+485;Jessica Lopes;jessica.lopes485@exemplo.com.br;M;46;Consumidor Final;Goiânia;GO;Centro-Oeste;3401.46
+486;Vanessa Santos;vanessa.santos486@exemplo.com.br;F;22;Consumidor Final;Caxias do Sul;RS;Sul;7771.47
+487;Daniela Martins;daniela.martins487@exemplo.com.br;M;56;Corporativo;Santos;SP;Sudeste;18260.0
+488;Daniela Lopes;daniela.lopes488@exemplo.com.br;M;45;Pequenas Empresas;Salvador;BA;Nordeste;4760.79
+489;Rodrigo Costa;rodrigo.costa489@exemplo.com.br;F;53;Pequenas Empresas;Uberlândia;MG;Sudeste;13969.22
+490;Leonardo Fernandes;leonardo.fernandes490@exemplo.com.br;F;24;Consumidor Final;Porto Alegre;RS;Sul;3009.06
+491;Bruna Fernandes;bruna.fernandes491@exemplo.com.br;M;18;Corporativo;Niterói;RJ;Sudeste;9169.98
+492;Larissa Marques;larissa.marques492@exemplo.com.br;M;19;Consumidor Final;Recife;PE;Nordeste;5573.33
+493;Marcos Gomes;marcos.gomes493@exemplo.com.br;M;68;Corporativo;Recife;PE;Nordeste;8678.72
+494;Ana Mendes;ana.mendes494@exemplo.com.br;F;41;Consumidor Final;Santos;SP;Sudeste;16633.53
+495;Gustavo Ferreira;gustavo.ferreira495@exemplo.com.br;F;34;Corporativo;Londrina;PR;Sul;5887.75
+496;Beatriz Vieira;beatriz.vieira496@exemplo.com.br;M;40;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;15373.34
+497;Pedro Moreira;pedro.moreira497@exemplo.com.br;M;70;Corporativo;Brasília;DF;Centro-Oeste;10718.09
+498;Patricia Dias;patricia.dias498@exemplo.com.br;M;37;Corporativo;Recife;PE;Nordeste;3486.97
+499;Daniela Machado;daniela.machado499@exemplo.com.br;M;66;Consumidor Final;Fortaleza;CE;Nordeste;9519.35
+500;Mariana Alves;mariana.alves500@exemplo.com.br;M;23;Corporativo;Niterói;RJ;Sudeste;18308.96
+501;Pedro Alves;pedro.alves501@exemplo.com.br;F;64;Corporativo;Niterói;RJ;Sudeste;17101.04
+502;Mateus Oliveira;mateus.oliveira502@exemplo.com.br;F;51;Corporativo;Joinville;SC;Sul;9667.96
+503;Vanessa Silva;vanessa.silva503@exemplo.com.br;F;44;Consumidor Final;Goiânia;GO;Centro-Oeste;4639.17
+504;Bruna Vieira;bruna.vieira504@exemplo.com.br;M;67;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;3846.14
+505;Larissa Machado;larissa.machado505@exemplo.com.br;F;42;Corporativo;Florianópolis;SC;Sul;12873.04
+506;Bruna Barbosa;bruna.barbosa506@exemplo.com.br;F;27;Corporativo;Belo Horizonte;MG;Sudeste;12277.39
+507;Eduardo Nascimento;eduardo.nascimento507@exemplo.com.br;F;33;Pequenas Empresas;Joinville;SC;Sul;3003.44
+508;Ana Freitas;ana.freitas508@exemplo.com.br;M;70;Corporativo;Florianópolis;SC;Sul;15136.53
+509;Larissa Lima;larissa.lima509@exemplo.com.br;M;37;Consumidor Final;Rio de Janeiro;RJ;Sudeste;18079.78
+510;Rafael Moreira;rafael.moreira510@exemplo.com.br;F;59;Pequenas Empresas;Londrina;PR;Sul;3655.38
+511;Rafael Alves;rafael.alves511@exemplo.com.br;F;41;Pequenas Empresas;Salvador;BA;Nordeste;15582.58
+512;Carla Nunes;carla.nunes512@exemplo.com.br;F;67;Consumidor Final;Porto Alegre;RS;Sul;16076.11
+513;  DANIELA  vieira ;daniela.vieira513@exemplo.com.br;M;33;Consumidor Final;Uberlândia;MG;Sudeste;2739.06
+514;Gabriel Freitas;gabriel.freitas514@exemplo.com.br;F;70;Corporativo;Uberlândia;MG;Sudeste;9766.76
+515;Thiago Rocha;thiago.rocha515@exemplo.com.br;M;49;Corporativo;São Paulo;SP;Sudeste;11882.91
+516;Mariana Machado;mariana.machado516@exemplo.com.br;F;28;Corporativo;Brasília;DF;Centro-Oeste;15853.76
+517;Beatriz Andrade;beatriz.andrade517@exemplo.com.br;F;42;Consumidor Final;Santos;SP;Sudeste;3009.31
+518;Vanessa Vieira;vanessa.vieira518@exemplo.com.br;M;32;Pequenas Empresas;Uberlândia;MG;Sudeste;13246.43
+519;Beatriz Rocha;beatriz.rocha519@exemplo.com.br;M;26;Corporativo;São Paulo;SP;Sudeste;12752.16
+520;  ALINE  nunes ;aline.nunes520@exemplo.com.br;F;63;Pequenas Empresas;Londrina;PR;Sul;12676.67
+521;Pedro Mendes;pedro.mendes521@exemplo.com.br;F;31;Corporativo;Florianópolis;SC;Sul;9807.18
+522;Eduardo Soares;eduardo.soares522@exemplo.com.br;M;50;Consumidor Final;Joinville;SC;Sul;18490.7
+523;Jessica Marques;jessica.marques523@exemplo.com.br;F;24;Pequenas Empresas;Porto Alegre;RS;Sul;10052.34
+524;Felipe Lima;felipe.lima524@exemplo.com.br;F;63;Pequenas Empresas;Londrina;PR;Sul;17720.66
+525;Marcos Gomes;marcos.gomes525@exemplo.com.br;M;69;Consumidor Final;Fortaleza;CE;Nordeste;16174.24
+526;Renata Barbosa;renata.barbosa526@exemplo.com.br;M;19;Pequenas Empresas;Caxias do Sul;RS;Sul;12883.03
+527;Larissa Lima;larissa.lima527@exemplo.com.br;F;20;Pequenas Empresas;Joinville;SC;Sul;11703.29
+528;Bruna Marques;bruna.marques528@exemplo.com.br;F;40;Pequenas Empresas;Curitiba;PR;Sul;10469.23
+529;Vanessa Ferreira;vanessa.ferreira529@exemplo.com.br;M;24;Corporativo;Brasília;DF;Centro-Oeste;9873.73
+530;Leonardo Lima;leonardo.lima530@exemplo.com.br;M;39;Pequenas Empresas;Brasília;DF;Centro-Oeste;12867.28
+531;Fernanda Ribeiro;fernanda.ribeiro531@exemplo.com.br;F;41;Corporativo;Porto Alegre;RS;Sul;6447.12
+532;Larissa Almeida;larissa.almeida532@exemplo.com.br;M;55;Pequenas Empresas;Recife;PE;Nordeste;11659.1
+533;Aline Oliveira;aline.oliveira533@exemplo.com.br;M;42;Pequenas Empresas;Uberlândia;MG;Sudeste;10836.37
+534;Pedro Santos;pedro.santos534@exemplo.com.br;M;39;Consumidor Final;Niterói;RJ;Sudeste;8869.83
+535;Bruna Mendes;bruna.mendes535@exemplo.com.br;M;63;Corporativo;Feira de Santana;BA;Nordeste;5139.82
+536;Mateus Lopes;mateus.lopes536@exemplo.com.br;F;21;Pequenas Empresas;Belo Horizonte;MG;Sudeste;2276.83
+537;Beatriz Alves;beatriz.alves537@exemplo.com.br;M;68;Corporativo;Belo Horizonte;MG;Sudeste;14646.18
+538;Mateus Rodrigues;mateus.rodrigues538@exemplo.com.br;F;48;Corporativo;Salvador;BA;Nordeste;8448.06
+539;Gabriel Fernandes;gabriel.fernandes539@exemplo.com.br;M;66;Corporativo;Florianópolis;SC;Sul;15781.63
+540;Camila Silva;camila.silva540@exemplo.com.br;M;40;Pequenas Empresas;Curitiba;PR;Sul;7287.1
+541;Rodrigo Martins;rodrigo.martins541@exemplo.com.br;M;70;Consumidor Final;Porto Alegre;RS;Sul;2945.21
+542;Larissa Almeida;larissa.almeida542@exemplo.com.br;F;61;Corporativo;Fortaleza;CE;Nordeste;18426.2
+543;Felipe Mendes;felipe.mendes543@exemplo.com.br;M;19;Corporativo;Uberlândia;MG;Sudeste;5923.22
+544;Leonardo Rodrigues;leonardo.rodrigues544@exemplo.com.br;M;41;Consumidor Final;São Paulo;SP;Sudeste;13791.09
+545;Renata Santos;renata.santos545@exemplo.com.br;M;21;Pequenas Empresas;Londrina;PR;Sul;12990.11
+546;  MARCOS  marques ;marcos.marques546@exemplo.com.br;F;42;Corporativo;Rio de Janeiro;RJ;Sudeste;4214.6
+547;Beatriz Lopes;beatriz.lopes547@exemplo.com.br;M;44;Corporativo;Uberlândia;MG;Sudeste;12985.13
+548;Eduardo Soares;eduardo.soares548@exemplo.com.br;F;50;Consumidor Final;Niterói;RJ;Sudeste;13915.89
+549;Rodrigo Gomes;rodrigo.gomes549@exemplo.com.br;F;56;Consumidor Final;Rio de Janeiro;RJ;Sudeste;5455.91
+550;Beatriz Marques;beatriz.marques550@exemplo.com.br;F;44;Pequenas Empresas;Uberlândia;MG;Sudeste;7014.22
+551;Gabriel Fernandes;gabriel.fernandes551@exemplo.com.br;F;33;Corporativo;Uberlândia;MG;Sudeste;2244.63
+552;Eduardo Oliveira;eduardo.oliveira552@exemplo.com.br;F;23;Consumidor Final;Goiânia;GO;Centro-Oeste;14906.28
+553;Mateus Andrade;mateus.andrade553@exemplo.com.br;M;36;Corporativo;Londrina;PR;Sul;6505.24
+554;Gabriel Souza;gabriel.souza554@exemplo.com.br;F;69;Corporativo;Campinas;SP;Sudeste;13231.29
+555;Pedro Andrade;pedro.andrade555@exemplo.com.br;M;60;Consumidor Final;Campinas;SP;Sudeste;12749.34
+556;Felipe Ribeiro;felipe.ribeiro556@exemplo.com.br;M;70;Corporativo;Londrina;PR;Sul;7786.38
+557;Rodrigo Martins;rodrigo.martins557@exemplo.com.br;F;62;Corporativo;Feira de Santana;BA;Nordeste;16065.95
+558;Renata Carvalho;renata.carvalho558@exemplo.com.br;M;62;Consumidor Final;Belo Horizonte;MG;Sudeste;14040.5
+559;Vanessa Ferreira;vanessa.ferreira559@exemplo.com.br;F;61;Pequenas Empresas;Goiânia;GO;Centro-Oeste;9342.05
+560;Aline Martins;aline.martins560@exemplo.com.br;M;49;Corporativo;São Paulo;SP;Sudeste;4040.88
+561;pedro almeida;pedro.almeida561@exemplo.com.br;F;63;Consumidor Final;Londrina;PR;Sul;16353.82
+562;Carla Moreira;carla.moreira562@exemplo.com.br;M;39;Pequenas Empresas;Goiânia;GO;Centro-Oeste;10661.32
+563;Diego Nascimento;diego.nascimento563@exemplo.com.br;M;40;Corporativo;Salvador;BA;Nordeste;13018.48
+564;Marcos Martins;marcos.martins564@exemplo.com.br;M;59;Consumidor Final;Brasília;DF;Centro-Oeste;17430.25
+565;Carla Machado;carla.machado565@exemplo.com.br;M;66;Consumidor Final;Recife;PE;Nordeste;10213.86
+566;Fernanda Costa;fernanda.costa566@exemplo.com.br;M;59;Pequenas Empresas;Campinas;SP;Sudeste;8371.79
+567;Jessica Pereira;jessica.pereira567@exemplo.com.br;F;72;Consumidor Final;Feira de Santana;BA;Nordeste;10324.84
+568;Felipe Souza;felipe.souza568@exemplo.com.br;M;44;Corporativo;São Paulo;SP;Sudeste;2784.06
+569;Patricia Silva;patricia.silva569@exemplo.com.br;M;60;Pequenas Empresas;Porto Alegre;RS;Sul;9636.19
+570;Felipe Ribeiro;felipe.ribeiro570@exemplo.com.br;F;53;Corporativo;Curitiba;PR;Sul;14708.89
+571;Aline Lopes;aline.lopes571@exemplo.com.br;F;24;Consumidor Final;Florianópolis;SC;Sul;14576.92
+572;Fernanda Silva;fernanda.silva572@exemplo.com.br;F;24;Pequenas Empresas;Porto Alegre;RS;Sul;2946.18
+573;Mariana Lopes;mariana.lopes573@exemplo.com.br;M;57;Corporativo;Salvador;BA;Nordeste;5393.52
+574;Rodrigo Freitas;rodrigo.freitas574@exemplo.com.br;F;63;Consumidor Final;Uberlândia;MG;Sudeste;7708.32
+575;vinicius carvalho;vinicius.carvalho575@exemplo.com.br;M;47;Corporativo;Goiânia;GO;Centro-Oeste;12932.84
+576;Carla Rodrigues;carla.rodrigues576@exemplo.com.br;M;45;Pequenas Empresas;São Paulo;SP;Sudeste;15872.7
+577;Ana Freitas;ana.freitas577@exemplo.com.br;M;70;Pequenas Empresas;Belo Horizonte;MG;Sudeste;4292.62
+578;Thiago Dias;thiago.dias578@exemplo.com.br;F;56;Corporativo;Caxias do Sul;RS;Sul;17129.34
+579;Vinicius Pereira;vinicius.pereira579@exemplo.com.br;F;69;Corporativo;Caxias do Sul;RS;Sul;4373.96
+580;Pedro Barbosa;pedro.barbosa580@exemplo.com.br;F;53;Pequenas Empresas;Fortaleza;CE;Nordeste;16229.53
+581;Diego Andrade;diego.andrade581@exemplo.com.br;M;57;Consumidor Final;Uberlândia;MG;Sudeste;13844.47
+582;Eduardo Ribeiro;eduardo.ribeiro582@exemplo.com.br;M;52;Pequenas Empresas;Niterói;RJ;Sudeste;13517.29
+583;Felipe Nascimento;felipe.nascimento583@exemplo.com.br;F;54;Pequenas Empresas;Florianópolis;SC;Sul;17565.58
+584;Diego Carvalho;diego.carvalho584@exemplo.com.br;F;69;Corporativo;Brasília;DF;Centro-Oeste;2408.16
+585;Rodrigo Silva;rodrigo.silva585@exemplo.com.br;M;35;Consumidor Final;Campinas;SP;Sudeste;14428.02
+586;Mariana Gomes;mariana.gomes586@exemplo.com.br;M;68;Pequenas Empresas;Niterói;RJ;Sudeste;7010.79
+587;vinicius fernandes;vinicius.fernandes587@exemplo.com.br;M;61;Pequenas Empresas;Feira de Santana;BA;Nordeste;14253.73
+588;Vanessa Pereira;vanessa.pereira588@exemplo.com.br;F;50;Consumidor Final;Brasília;DF;Centro-Oeste;14984.21
+589;Renata Nascimento;renata.nascimento589@exemplo.com.br;F;44;Corporativo;Campinas;SP;Sudeste;17794.24
+590;Eduardo Costa;eduardo.costa590@exemplo.com.br;M;34;Pequenas Empresas;Campinas;SP;Sudeste;5510.32
+591;Vanessa Moreira;vanessa.moreira591@exemplo.com.br;M;63;Pequenas Empresas;Feira de Santana;BA;Nordeste;13765.59
+592;Gustavo Moreira;gustavo.moreira592@exemplo.com.br;M;46;Corporativo;Uberlândia;MG;Sudeste;5092.04
+593;Eduardo Oliveira;eduardo.oliveira593@exemplo.com.br;M;20;Corporativo;Belo Horizonte;MG;Sudeste;9184.68
+594;Patricia Lima;patricia.lima594@exemplo.com.br;F;39;Consumidor Final;Goiânia;GO;Centro-Oeste;9801.2
+595;priscila rodrigues;priscila.rodrigues595@exemplo.com.br;M;57;Pequenas Empresas;Caxias do Sul;RS;Sul;15943.18
+596;Larissa Lopes;larissa.lopes596@exemplo.com.br;F;68;Consumidor Final;Brasília;DF;Centro-Oeste;13735.21
+597;Carla Pereira;carla.pereira597@exemplo.com.br;M;28;Pequenas Empresas;Fortaleza;CE;Nordeste;8979.68
+598;Patricia Martins;patricia.martins598@exemplo.com.br;M;39;Pequenas Empresas;Curitiba;PR;Sul;7596.38
+599;Larissa Alves;larissa.alves599@exemplo.com.br;F;70;Pequenas Empresas;Fortaleza;CE;Nordeste;14459.78
+600;Marcos Silva;marcos.silva600@exemplo.com.br;F;59;Consumidor Final;Florianópolis;SC;Sul;12203.33
+601;Aline Pereira;aline.pereira601@exemplo.com.br;F;42;Consumidor Final;Caxias do Sul;RS;Sul;6382.43
+602;  LEONARDO  gomes ;leonardo.gomes602@exemplo.com.br;F;69;Pequenas Empresas;Fortaleza;CE;Nordeste;10492.39
+603;Ana Santos;ana.santos603@exemplo.com.br;F;23;Pequenas Empresas;Uberlândia;MG;Sudeste;17655.85
+604;Mariana Moreira;mariana.moreira604@exemplo.com.br;M;60;Consumidor Final;São Paulo;SP;Sudeste;12461.09
+605;Camila Machado;camila.machado605@exemplo.com.br;M;71;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;13654.71
+606;Leonardo Moreira;leonardo.moreira606@exemplo.com.br;M;47;Consumidor Final;Santos;SP;Sudeste;13884.95
+607;Gabriel Oliveira;gabriel.oliveira607@exemplo.com.br;F;22;Pequenas Empresas;Belo Horizonte;MG;Sudeste;11571.89
+608;Fernanda Freitas;fernanda.freitas608@exemplo.com.br;F;43;Pequenas Empresas;Joinville;SC;Sul;9258.31
+609;Lucas Martins;lucas.martins609@exemplo.com.br;M;64;Pequenas Empresas;Brasília;DF;Centro-Oeste;12279.09
+610;Vinicius Andrade;vinicius.andrade610@exemplo.com.br;F;24;Pequenas Empresas;Santos;SP;Sudeste;6924.34
+611;Eduardo Gomes;eduardo.gomes611@exemplo.com.br;F;43;Corporativo;Porto Alegre;RS;Sul;15600.59
+612;Lucas Lopes;lucas.lopes612@exemplo.com.br;M;43;Pequenas Empresas;Curitiba;PR;Sul;15187.36
+613;Vanessa Fernandes;vanessa.fernandes613@exemplo.com.br;F;68;Pequenas Empresas;Niterói;RJ;Sudeste;16334.37
+614;Marcos Ribeiro;marcos.ribeiro614@exemplo.com.br;M;20;Consumidor Final;São Paulo;SP;Sudeste;2281.99
+615;Aline Martins;aline.martins615@exemplo.com.br;F;65;Consumidor Final;Santos;SP;Sudeste;14285.32
+616;Leonardo Ribeiro;leonardo.ribeiro616@exemplo.com.br;M;29;Consumidor Final;Fortaleza;CE;Nordeste;5798.84
+617;Jessica Lima;jessica.lima617@exemplo.com.br;M;47;Pequenas Empresas;Belo Horizonte;MG;Sudeste;12708.19
+618;Mateus Gomes;mateus.gomes618@exemplo.com.br;M;64;Consumidor Final;Londrina;PR;Sul;11663.71
+619;Felipe Ribeiro;felipe.ribeiro619@exemplo.com.br;M;57;Corporativo;Curitiba;PR;Sul;3337.88
+620;Camila Costa;camila.costa620@exemplo.com.br;F;55;Pequenas Empresas;Caxias do Sul;RS;Sul;4684.04
+621;Bruna Ribeiro;bruna.ribeiro621@exemplo.com.br;M;38;Consumidor Final;Salvador;BA;Nordeste;6212.65
+622;Fernanda Nascimento;fernanda.nascimento622@exemplo.com.br;F;26;Corporativo;Salvador;BA;Nordeste;13277.16
+623;Felipe Mendes;felipe.mendes623@exemplo.com.br;F;49;Corporativo;Feira de Santana;BA;Nordeste;11192.25
+624;Mariana Rocha;mariana.rocha624@exemplo.com.br;M;30;Pequenas Empresas;Londrina;PR;Sul;6490.72
+625;Daniela Rocha;daniela.rocha625@exemplo.com.br;M;58;Pequenas Empresas;Santos;SP;Sudeste;2708.47
+626;Bruna Vieira;bruna.vieira626@exemplo.com.br;M;53;Consumidor Final;Goiânia;GO;Centro-Oeste;6448.05
+627;Daniela Fernandes;daniela.fernandes627@exemplo.com.br;F;32;Corporativo;Niterói;RJ;Sudeste;16730.43
+628;Bruna Andrade;bruna.andrade628@exemplo.com.br;F;50;Pequenas Empresas;Niterói;RJ;Sudeste;3676.03
+629;  GUSTAVO  soares ;gustavo.soares629@exemplo.com.br;M;26;Pequenas Empresas;Curitiba;PR;Sul;9473.39
+630;Mariana Vieira;mariana.vieira630@exemplo.com.br;F;20;Corporativo;Niterói;RJ;Sudeste;5766.75
+631;Ana Pereira;ana.pereira631@exemplo.com.br;M;60;Consumidor Final;Florianópolis;SC;Sul;5570.42
+632;Priscila Nunes;priscila.nunes632@exemplo.com.br;F;20;Consumidor Final;Recife;PE;Nordeste;18183.61
+633;Felipe Souza;felipe.souza633@exemplo.com.br;F;34;Pequenas Empresas;Fortaleza;CE;Nordeste;11631.69
+634;Bruna Ferreira;bruna.ferreira634@exemplo.com.br;F;59;Pequenas Empresas;Joinville;SC;Sul;16841.09
+635;Mateus Soares;mateus.soares635@exemplo.com.br;F;70;Corporativo;Curitiba;PR;Sul;16343.83
+636;Ana Nunes;ana.nunes636@exemplo.com.br;M;28;Corporativo;São Paulo;SP;Sudeste;5948.85
+637;Carla Rocha;carla.rocha637@exemplo.com.br;M;41;Consumidor Final;Niterói;RJ;Sudeste;12012.93
+638;Jessica Souza;jessica.souza638@exemplo.com.br;F;25;Pequenas Empresas;Salvador;BA;Nordeste;10048.72
+639;Ana Lopes;ana.lopes639@exemplo.com.br;F;33;Consumidor Final;Belo Horizonte;MG;Sudeste;2903.25
+640;Bruna Vieira;bruna.vieira640@exemplo.com.br;M;27;Pequenas Empresas;Fortaleza;CE;Nordeste;3111.37
+641;Beatriz Freitas;beatriz.freitas641@exemplo.com.br;M;64;Pequenas Empresas;Joinville;SC;Sul;12986.44
+642;Larissa Oliveira;larissa.oliveira642@exemplo.com.br;F;32;Consumidor Final;Recife;PE;Nordeste;15734.93
+643;Aline Rodrigues;aline.rodrigues643@exemplo.com.br;F;64;Consumidor Final;Belo Horizonte;MG;Sudeste;13375.14
+644;Priscila Almeida;priscila.almeida644@exemplo.com.br;M;42;Corporativo;Santos;SP;Sudeste;4355.08
+645;Lucas Alves;lucas.alves645@exemplo.com.br;F;56;Consumidor Final;Fortaleza;CE;Nordeste;3769.67
+646;Ana Mendes;ana.mendes646@exemplo.com.br;M;48;Consumidor Final;Campinas;SP;Sudeste;12948.1
+647;Daniela Barbosa;daniela.barbosa647@exemplo.com.br;F;44;Pequenas Empresas;São Paulo;SP;Sudeste;8237.15
+648;Gabriel Nascimento;gabriel.nascimento648@exemplo.com.br;F;40;Corporativo;Curitiba;PR;Sul;11801.48
+649;Leonardo Freitas;leonardo.freitas649@exemplo.com.br;M;26;Corporativo;Goiânia;GO;Centro-Oeste;6348.64
+650;Vinicius Pereira;vinicius.pereira650@exemplo.com.br;F;52;Pequenas Empresas;Santos;SP;Sudeste;8860.94
+651;Camila Silva;camila.silva651@exemplo.com.br;M;18;Pequenas Empresas;São Paulo;SP;Sudeste;8312.99
+652;Camila Nascimento;camila.nascimento652@exemplo.com.br;F;27;Consumidor Final;Salvador;BA;Nordeste;9144.97
+653;Bruna Lima;bruna.lima653@exemplo.com.br;F;41;Pequenas Empresas;Brasília;DF;Centro-Oeste;12173.66
+654;Eduardo Martins;eduardo.martins654@exemplo.com.br;F;41;Consumidor Final;Salvador;BA;Nordeste;11313.23
+655;Ana Lima;ana.lima655@exemplo.com.br;F;43;Pequenas Empresas;Goiânia;GO;Centro-Oeste;14193.25
+656;Vanessa Machado;vanessa.machado656@exemplo.com.br;F;28;Pequenas Empresas;Curitiba;PR;Sul;3834.54
+657;Carla Martins;carla.martins657@exemplo.com.br;M;42;Consumidor Final;Brasília;DF;Centro-Oeste;17922.5
+658;Lucas Nunes;lucas.nunes658@exemplo.com.br;F;45;Pequenas Empresas;Niterói;RJ;Sudeste;3636.69
+659;Beatriz Pereira;beatriz.pereira659@exemplo.com.br;F;57;Corporativo;Campinas;SP;Sudeste;12895.66
+660;Larissa Nascimento;larissa.nascimento660@exemplo.com.br;M;49;Pequenas Empresas;Campinas;SP;Sudeste;9355.24
+661;Camila Machado;camila.machado661@exemplo.com.br;F;20;Consumidor Final;Fortaleza;CE;Nordeste;14978.54
+662;Carla Soares;carla.soares662@exemplo.com.br;M;33;Corporativo;Belo Horizonte;MG;Sudeste;12876.81
+663;Mariana Oliveira;mariana.oliveira663@exemplo.com.br;F;43;Pequenas Empresas;Joinville;SC;Sul;8808.85
+664;  CAMILA  soares ;camila.soares664@exemplo.com.br;M;36;Pequenas Empresas;Santos;SP;Sudeste;14036.06
+665;Patricia Freitas;patricia.freitas665@exemplo.com.br;F;56;Consumidor Final;Florianópolis;SC;Sul;17897.83
+666;Rafael Freitas;rafael.freitas666@exemplo.com.br;F;44;Consumidor Final;São Paulo;SP;Sudeste;10451.68
+667;Patricia Oliveira;patricia.oliveira667@exemplo.com.br;M;34;Pequenas Empresas;Caxias do Sul;RS;Sul;16480.64
+668;Jessica Nunes;jessica.nunes668@exemplo.com.br;F;48;Pequenas Empresas;Feira de Santana;BA;Nordeste;14750.47
+669;Vinicius Costa;vinicius.costa669@exemplo.com.br;F;19;Pequenas Empresas;Feira de Santana;BA;Nordeste;10056.11
+670;Beatriz Oliveira;beatriz.oliveira670@exemplo.com.br;M;44;Corporativo;Curitiba;PR;Sul;17773.76
+671;  CARLA  fernandes ;carla.fernandes671@exemplo.com.br;M;23;Corporativo;Londrina;PR;Sul;8702.57
+672;Leonardo Marques;leonardo.marques672@exemplo.com.br;M;38;Corporativo;Brasília;DF;Centro-Oeste;7962.67
+673;Daniela Vieira;daniela.vieira673@exemplo.com.br;F;30;Pequenas Empresas;Uberlândia;MG;Sudeste;6028.24
+674;Fernanda Machado;fernanda.machado674@exemplo.com.br;M;71;Consumidor Final;Curitiba;PR;Sul;12283.13
+675;Juliana Moreira;juliana.moreira675@exemplo.com.br;F;18;Pequenas Empresas;Santos;SP;Sudeste;14657.18
+676;Patricia Santos;patricia.santos676@exemplo.com.br;F;54;Corporativo;Florianópolis;SC;Sul;16360.93
+677;Ana Ferreira;ana.ferreira677@exemplo.com.br;F;32;Corporativo;Fortaleza;CE;Nordeste;14427.76
+678;Juliana Santos;juliana.santos678@exemplo.com.br;F;20;Pequenas Empresas;Salvador;BA;Nordeste;10390.35
+679;Thiago Machado;thiago.machado679@exemplo.com.br;F;62;Consumidor Final;Belo Horizonte;MG;Sudeste;10646.74
+680;  FELIPE  nascimento ;felipe.nascimento680@exemplo.com.br;F;24;Pequenas Empresas;Uberlândia;MG;Sudeste;7504.61
+681;Aline Machado;aline.machado681@exemplo.com.br;F;35;Consumidor Final;Brasília;DF;Centro-Oeste;9882.93
+682;Aline Costa;aline.costa682@exemplo.com.br;F;44;Consumidor Final;Recife;PE;Nordeste;13621.62
+683;Gustavo Ribeiro;gustavo.ribeiro683@exemplo.com.br;F;54;Consumidor Final;Londrina;PR;Sul;4337.57
+684;Bruna Dias;bruna.dias684@exemplo.com.br;F;53;Consumidor Final;Rio de Janeiro;RJ;Sudeste;9245.17
+685;Thiago Alves;thiago.alves685@exemplo.com.br;F;29;Consumidor Final;Niterói;RJ;Sudeste;9070.79
+686;Juliana Mendes;juliana.mendes686@exemplo.com.br;F;37;Corporativo;Fortaleza;CE;Nordeste;6290.88
+687;vanessa vieira;vanessa.vieira687@exemplo.com.br;M;31;Consumidor Final;Rio de Janeiro;RJ;Sudeste;15465.23
+688;Ana Marques;ana.marques688@exemplo.com.br;F;41;Corporativo;Feira de Santana;BA;Nordeste;8073.0
+689;Patricia Freitas;patricia.freitas689@exemplo.com.br;M;25;Corporativo;Florianópolis;SC;Sul;7922.77
+690;Eduardo Barbosa;eduardo.barbosa690@exemplo.com.br;M;40;Corporativo;Goiânia;GO;Centro-Oeste;7498.97
+691;Carla Lopes;carla.lopes691@exemplo.com.br;M;57;Corporativo;Feira de Santana;BA;Nordeste;6870.33
+692;Marcos Rodrigues;marcos.rodrigues692@exemplo.com.br;F;57;Pequenas Empresas;Caxias do Sul;RS;Sul;11517.69
+693;Vanessa Freitas;vanessa.freitas693@exemplo.com.br;F;38;Consumidor Final;Belo Horizonte;MG;Sudeste;7365.12
+694;Larissa Nascimento;larissa.nascimento694@exemplo.com.br;F;67;Corporativo;Joinville;SC;Sul;16263.75
+695;Gustavo Andrade;gustavo.andrade695@exemplo.com.br;F;29;Consumidor Final;Feira de Santana;BA;Nordeste;16123.65
+696;Juliana Andrade;juliana.andrade696@exemplo.com.br;M;28;Consumidor Final;Londrina;PR;Sul;8671.84
+697;Rodrigo Oliveira;rodrigo.oliveira697@exemplo.com.br;M;67;Consumidor Final;Recife;PE;Nordeste;8671.3
+698;Vinicius Oliveira;vinicius.oliveira698@exemplo.com.br;M;42;Pequenas Empresas;Niterói;RJ;Sudeste;7242.74
+699;Fernanda Andrade;fernanda.andrade699@exemplo.com.br;M;71;Pequenas Empresas;Niterói;RJ;Sudeste;4980.91
+700;Gabriel Dias;gabriel.dias700@exemplo.com.br;F;52;Corporativo;Caxias do Sul;RS;Sul;17438.18
+701;Patricia Almeida;patricia.almeida701@exemplo.com.br;M;56;Pequenas Empresas;Brasília;DF;Centro-Oeste;9641.66
+702;Leonardo Rocha;leonardo.rocha702@exemplo.com.br;F;48;Corporativo;Salvador;BA;Nordeste;10996.59
+703;Renata Oliveira;renata.oliveira703@exemplo.com.br;F;27;Corporativo;Florianópolis;SC;Sul;7148.24
+704;Lucas Soares;lucas.soares704@exemplo.com.br;F;48;Corporativo;Niterói;RJ;Sudeste;10922.11
+705;Diego Freitas;diego.freitas705@exemplo.com.br;F;67;Consumidor Final;Recife;PE;Nordeste;9216.1
+706;Larissa Barbosa;larissa.barbosa706@exemplo.com.br;F;44;Consumidor Final;São Paulo;SP;Sudeste;16579.24
+707;Pedro Martins;pedro.martins707@exemplo.com.br;F;34;Consumidor Final;Joinville;SC;Sul;3491.12
+708;Marcos Pereira;marcos.pereira708@exemplo.com.br;F;65;Pequenas Empresas;Londrina;PR;Sul;10870.69
+709;Beatriz Carvalho;beatriz.carvalho709@exemplo.com.br;M;36;Consumidor Final;Santos;SP;Sudeste;3998.81
+710;Rafael Barbosa;rafael.barbosa710@exemplo.com.br;M;19;Corporativo;Recife;PE;Nordeste;4680.03
+711;Patricia Silva;patricia.silva711@exemplo.com.br;F;26;Corporativo;Rio de Janeiro;RJ;Sudeste;13857.69
+712;Leonardo Silva;leonardo.silva712@exemplo.com.br;M;31;Corporativo;Niterói;RJ;Sudeste;7773.18
+713;Larissa Nunes;larissa.nunes713@exemplo.com.br;F;68;Pequenas Empresas;Florianópolis;SC;Sul;2717.32
+714;Mateus Marques;mateus.marques714@exemplo.com.br;M;67;Corporativo;Niterói;RJ;Sudeste;8596.47
+715;Patricia Lopes;patricia.lopes715@exemplo.com.br;F;25;Consumidor Final;Londrina;PR;Sul;18085.96
+716;Diego Pereira;diego.pereira716@exemplo.com.br;M;20;Pequenas Empresas;Feira de Santana;BA;Nordeste;5446.63
+717;Leonardo Moreira;leonardo.moreira717@exemplo.com.br;F;61;Corporativo;Uberlândia;MG;Sudeste;17867.79
+718;Priscila Costa;priscila.costa718@exemplo.com.br;M;48;Corporativo;Campinas;SP;Sudeste;12607.88
+719;Camila Ribeiro;camila.ribeiro719@exemplo.com.br;M;58;Consumidor Final;Uberlândia;MG;Sudeste;9276.83
+720;Lucas Ferreira;lucas.ferreira720@exemplo.com.br;M;68;Corporativo;Goiânia;GO;Centro-Oeste;6162.36
+721;Gabriel Vieira;gabriel.vieira721@exemplo.com.br;M;67;Corporativo;Recife;PE;Nordeste;3658.52
+722;Mariana Lopes;mariana.lopes722@exemplo.com.br;M;40;Consumidor Final;Caxias do Sul;RS;Sul;12706.57
+723;Diego Fernandes;diego.fernandes723@exemplo.com.br;F;38;Consumidor Final;Niterói;RJ;Sudeste;18201.31
+724;Renata Rocha;renata.rocha724@exemplo.com.br;M;62;Consumidor Final;Feira de Santana;BA;Nordeste;8357.63
+725;Leonardo Rodrigues;leonardo.rodrigues725@exemplo.com.br;F;46;Pequenas Empresas;Campinas;SP;Sudeste;11312.1
+726;Patricia Nascimento;patricia.nascimento726@exemplo.com.br;M;40;Pequenas Empresas;Goiânia;GO;Centro-Oeste;7476.0
+727;Rafael Lima;rafael.lima727@exemplo.com.br;M;51;Consumidor Final;Brasília;DF;Centro-Oeste;4726.92
+728;Larissa Marques;larissa.marques728@exemplo.com.br;F;67;Consumidor Final;Florianópolis;SC;Sul;12599.82
+729;Thiago Andrade;thiago.andrade729@exemplo.com.br;F;33;Pequenas Empresas;São Paulo;SP;Sudeste;7427.31
+730;Mateus Dias;mateus.dias730@exemplo.com.br;M;61;Pequenas Empresas;Joinville;SC;Sul;10310.05
+731;Patricia Rodrigues;patricia.rodrigues731@exemplo.com.br;F;38;Pequenas Empresas;Caxias do Sul;RS;Sul;4000.57
+732;Carla Dias;carla.dias732@exemplo.com.br;M;30;Consumidor Final;Niterói;RJ;Sudeste;3945.0
+733;camila souza;camila.souza733@exemplo.com.br;F;57;Pequenas Empresas;Joinville;SC;Sul;13631.42
+734;Beatriz Santos;beatriz.santos734@exemplo.com.br;M;59;Consumidor Final;Santos;SP;Sudeste;10209.91
+735;Daniela Marques;daniela.marques735@exemplo.com.br;F;65;Pequenas Empresas;Campinas;SP;Sudeste;17493.37
+736;Pedro Marques;pedro.marques736@exemplo.com.br;F;20;Pequenas Empresas;Campinas;SP;Sudeste;14169.1
+737;Jessica Gomes;jessica.gomes737@exemplo.com.br;M;64;Consumidor Final;Uberlândia;MG;Sudeste;5965.59
+738;Thiago Alves;thiago.alves738@exemplo.com.br;M;65;Pequenas Empresas;Curitiba;PR;Sul;11297.71
+739;Leonardo Souza;leonardo.souza739@exemplo.com.br;F;47;Pequenas Empresas;Goiânia;GO;Centro-Oeste;13651.57
+740;Pedro Mendes;pedro.mendes740@exemplo.com.br;F;39;Pequenas Empresas;Belo Horizonte;MG;Sudeste;12917.77
+741;Patricia Barbosa;patricia.barbosa741@exemplo.com.br;F;38;Pequenas Empresas;Florianópolis;SC;Sul;15971.12
+742;Pedro Moreira;pedro.moreira742@exemplo.com.br;M;52;Pequenas Empresas;Caxias do Sul;RS;Sul;5687.03
+743;Vinicius Fernandes;vinicius.fernandes743@exemplo.com.br;F;46;Corporativo;Londrina;PR;Sul;17845.14
+744;lucas andrade;lucas.andrade744@exemplo.com.br;M;26;Pequenas Empresas;Porto Alegre;RS;Sul;18392.62
+745;Larissa Silva;larissa.silva745@exemplo.com.br;M;19;Corporativo;Curitiba;PR;Sul;14775.83
+746;Diego Marques;diego.marques746@exemplo.com.br;M;20;Consumidor Final;Brasília;DF;Centro-Oeste;9704.03
+747;Juliana Rodrigues;juliana.rodrigues747@exemplo.com.br;M;34;Consumidor Final;Goiânia;GO;Centro-Oeste;15420.51
+748;Mateus Vieira;mateus.vieira748@exemplo.com.br;M;38;Pequenas Empresas;Uberlândia;MG;Sudeste;15124.34
+749;Mariana Lopes;mariana.lopes749@exemplo.com.br;M;59;Pequenas Empresas;Goiânia;GO;Centro-Oeste;7096.41
+750;Leonardo Nunes;leonardo.nunes750@exemplo.com.br;M;40;Corporativo;Santos;SP;Sudeste;16540.62
+751;Pedro Carvalho;pedro.carvalho751@exemplo.com.br;M;59;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;16046.49
+752;Priscila Silva;priscila.silva752@exemplo.com.br;M;51;Corporativo;Joinville;SC;Sul;2871.27
+753;Patricia Vieira;patricia.vieira753@exemplo.com.br;M;21;Consumidor Final;Fortaleza;CE;Nordeste;13180.25
+754;Thiago Almeida;thiago.almeida754@exemplo.com.br;M;45;Consumidor Final;Goiânia;GO;Centro-Oeste;6923.46
+755;Thiago Rodrigues;thiago.rodrigues755@exemplo.com.br;F;65;Pequenas Empresas;Santos;SP;Sudeste;3003.77
+756;Thiago Lima;thiago.lima756@exemplo.com.br;F;26;Pequenas Empresas;Fortaleza;CE;Nordeste;14621.14
+757;Ana Fernandes;ana.fernandes757@exemplo.com.br;M;57;Pequenas Empresas;Joinville;SC;Sul;18452.38
+758;Carla Pereira;carla.pereira758@exemplo.com.br;F;61;Corporativo;Londrina;PR;Sul;17263.45
+759;Mateus Souza;mateus.souza759@exemplo.com.br;F;30;Corporativo;Salvador;BA;Nordeste;7428.04
+760;  ALINE  rocha ;aline.rocha760@exemplo.com.br;M;57;Corporativo;Porto Alegre;RS;Sul;15591.82
+761;Renata Almeida;renata.almeida761@exemplo.com.br;M;30;Consumidor Final;Feira de Santana;BA;Nordeste;13371.36
+762;Juliana Moreira;juliana.moreira762@exemplo.com.br;M;21;Pequenas Empresas;Santos;SP;Sudeste;6161.69
+763;Aline Freitas;aline.freitas763@exemplo.com.br;M;62;Corporativo;Porto Alegre;RS;Sul;15309.78
+764;Larissa Almeida;larissa.almeida764@exemplo.com.br;M;52;Pequenas Empresas;Caxias do Sul;RS;Sul;5653.57
+765;Patricia Soares;patricia.soares765@exemplo.com.br;F;64;Pequenas Empresas;Brasília;DF;Centro-Oeste;18374.52
+766;Diego Nascimento;diego.nascimento766@exemplo.com.br;M;28;Corporativo;Joinville;SC;Sul;3179.79
+767;Camila Nunes;camila.nunes767@exemplo.com.br;M;59;Corporativo;Londrina;PR;Sul;17606.38
+768;Mateus Martins;mateus.martins768@exemplo.com.br;M;36;Consumidor Final;Florianópolis;SC;Sul;16338.79
+769;Marcos Martins;marcos.martins769@exemplo.com.br;M;49;Corporativo;Joinville;SC;Sul;16328.4
+770;Patricia Oliveira;patricia.oliveira770@exemplo.com.br;F;63;Pequenas Empresas;Fortaleza;CE;Nordeste;2550.26
+771;Fernanda Freitas;fernanda.freitas771@exemplo.com.br;F;65;Corporativo;Caxias do Sul;RS;Sul;4759.19
+772;Gustavo Dias;gustavo.dias772@exemplo.com.br;M;35;Pequenas Empresas;Porto Alegre;RS;Sul;15433.85
+773;Marcos Lima;marcos.lima773@exemplo.com.br;F;27;Consumidor Final;São Paulo;SP;Sudeste;7771.11
+774;Thiago Dias;thiago.dias774@exemplo.com.br;M;33;Corporativo;Joinville;SC;Sul;11538.25
+775;Pedro Gomes;pedro.gomes775@exemplo.com.br;F;26;Pequenas Empresas;Caxias do Sul;RS;Sul;5570.14
+776;Juliana Vieira;juliana.vieira776@exemplo.com.br;M;62;Corporativo;Uberlândia;MG;Sudeste;13693.72
+777;Carla Freitas;carla.freitas777@exemplo.com.br;M;22;Corporativo;Niterói;RJ;Sudeste;11284.65
+778;Leonardo Souza;leonardo.souza778@exemplo.com.br;M;44;Corporativo;Niterói;RJ;Sudeste;17867.5
+779;Larissa Almeida;larissa.almeida779@exemplo.com.br;M;24;Consumidor Final;Londrina;PR;Sul;4344.2
+780;Lucas Moreira;lucas.moreira780@exemplo.com.br;M;32;Pequenas Empresas;Londrina;PR;Sul;5963.87
+781;Lucas Ribeiro;lucas.ribeiro781@exemplo.com.br;M;72;Pequenas Empresas;Recife;PE;Nordeste;12056.8
+782;Diego Rocha;diego.rocha782@exemplo.com.br;F;26;Corporativo;Joinville;SC;Sul;4869.72
+783;Fernanda Santos;fernanda.santos783@exemplo.com.br;F;32;Corporativo;São Paulo;SP;Sudeste;14300.58
+784;Camila Moreira;camila.moreira784@exemplo.com.br;F;49;Pequenas Empresas;Belo Horizonte;MG;Sudeste;13412.16
+785;Vanessa Almeida;vanessa.almeida785@exemplo.com.br;F;56;Consumidor Final;Salvador;BA;Nordeste;14185.91
+786;Thiago Andrade;thiago.andrade786@exemplo.com.br;M;24;Pequenas Empresas;Goiânia;GO;Centro-Oeste;9561.24
+787;jessica mendes;jessica.mendes787@exemplo.com.br;F;20;Pequenas Empresas;Curitiba;PR;Sul;11290.53
+788;Carla Moreira;carla.moreira788@exemplo.com.br;M;46;Corporativo;Campinas;SP;Sudeste;8688.05
+789;Larissa Moreira;larissa.moreira789@exemplo.com.br;M;36;Corporativo;Feira de Santana;BA;Nordeste;12194.09
+790;Gabriel Nascimento;gabriel.nascimento790@exemplo.com.br;F;46;Pequenas Empresas;Niterói;RJ;Sudeste;3674.19
+791;Carla Souza;carla.souza791@exemplo.com.br;M;44;Corporativo;Goiânia;GO;Centro-Oeste;7472.41
+792;Lucas Ferreira;lucas.ferreira792@exemplo.com.br;F;34;Consumidor Final;Uberlândia;MG;Sudeste;7482.42
+793;Marcos Freitas;marcos.freitas793@exemplo.com.br;M;25;Consumidor Final;Belo Horizonte;MG;Sudeste;13711.5
+794;Marcos Ribeiro;marcos.ribeiro794@exemplo.com.br;M;53;Corporativo;Joinville;SC;Sul;8403.89
+795;Vinicius Ferreira;vinicius.ferreira795@exemplo.com.br;M;27;Consumidor Final;Goiânia;GO;Centro-Oeste;5115.53
+796;Diego Santos;diego.santos796@exemplo.com.br;F;58;Corporativo;Porto Alegre;RS;Sul;5145.35
+797;Daniela Rodrigues;daniela.rodrigues797@exemplo.com.br;F;47;Consumidor Final;São Paulo;SP;Sudeste;10311.33
+798;Ana Fernandes;ana.fernandes798@exemplo.com.br;M;55;Consumidor Final;Recife;PE;Nordeste;12949.37
+799;Rafael Carvalho;rafael.carvalho799@exemplo.com.br;M;35;Pequenas Empresas;São Paulo;SP;Sudeste;12302.19
+800;Patricia Marques;patricia.marques800@exemplo.com.br;M;21;Consumidor Final;Campinas;SP;Sudeste;12848.41
+801;Gabriel Rodrigues;gabriel.rodrigues801@exemplo.com.br;F;23;Corporativo;Goiânia;GO;Centro-Oeste;2999.21
+802;Pedro Ferreira;pedro.ferreira802@exemplo.com.br;M;65;Corporativo;Porto Alegre;RS;Sul;11637.15
+803;Priscila Santos;priscila.santos803@exemplo.com.br;F;42;Corporativo;Porto Alegre;RS;Sul;15570.32
+804;Vinicius Carvalho;vinicius.carvalho804@exemplo.com.br;F;26;Corporativo;Santos;SP;Sudeste;4188.98
+805;Vanessa Lima;vanessa.lima805@exemplo.com.br;M;31;Pequenas Empresas;Salvador;BA;Nordeste;12176.48
+806;Rodrigo Vieira;rodrigo.vieira806@exemplo.com.br;M;64;Corporativo;Fortaleza;CE;Nordeste;13425.06
+807;Priscila Nunes;priscila.nunes807@exemplo.com.br;F;72;Pequenas Empresas;Porto Alegre;RS;Sul;7358.76
+808;Carla Vieira;carla.vieira808@exemplo.com.br;M;54;Pequenas Empresas;Florianópolis;SC;Sul;10291.27
+809;Leonardo Rocha;leonardo.rocha809@exemplo.com.br;M;36;Pequenas Empresas;Belo Horizonte;MG;Sudeste;18161.9
+810;  LUCAS  souza ;lucas.souza810@exemplo.com.br;M;44;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;8948.87
+811;Felipe Ribeiro;felipe.ribeiro811@exemplo.com.br;M;30;Pequenas Empresas;Uberlândia;MG;Sudeste;13447.28
+812;Beatriz Nunes;beatriz.nunes812@exemplo.com.br;F;25;Consumidor Final;Porto Alegre;RS;Sul;13379.12
+813;Felipe Martins;felipe.martins813@exemplo.com.br;M;39;Consumidor Final;São Paulo;SP;Sudeste;15791.35
+814;Priscila Dias;priscila.dias814@exemplo.com.br;M;26;Pequenas Empresas;Recife;PE;Nordeste;10048.38
+815;Marcos Almeida;marcos.almeida815@exemplo.com.br;F;68;Corporativo;Brasília;DF;Centro-Oeste;15470.92
+816;priscila andrade;priscila.andrade816@exemplo.com.br;F;64;Pequenas Empresas;Fortaleza;CE;Nordeste;13254.62
+817;  PATRICIA  fernandes ;patricia.fernandes817@exemplo.com.br;F;22;Corporativo;Goiânia;GO;Centro-Oeste;18004.7
+818;beatriz marques;beatriz.marques818@exemplo.com.br;M;56;Pequenas Empresas;Joinville;SC;Sul;8549.93
+819;Aline Souza;aline.souza819@exemplo.com.br;F;20;Pequenas Empresas;Porto Alegre;RS;Sul;6625.41
+820;Mateus Lopes;mateus.lopes820@exemplo.com.br;F;31;Corporativo;Florianópolis;SC;Sul;10759.14
+821;Mariana Souza;mariana.souza821@exemplo.com.br;M;46;Consumidor Final;Campinas;SP;Sudeste;10447.71
+822;Renata Lopes;renata.lopes822@exemplo.com.br;M;48;Corporativo;Niterói;RJ;Sudeste;14138.79
+823;Carla Gomes;carla.gomes823@exemplo.com.br;M;61;Pequenas Empresas;Niterói;RJ;Sudeste;18381.34
+824;camila andrade;camila.andrade824@exemplo.com.br;M;37;Consumidor Final;Joinville;SC;Sul;17397.1
+825;Eduardo Machado;eduardo.machado825@exemplo.com.br;F;20;Corporativo;Santos;SP;Sudeste;3880.58
+826;Vinicius Dias;vinicius.dias826@exemplo.com.br;F;31;Pequenas Empresas;São Paulo;SP;Sudeste;7430.35
+827;Camila Gomes;camila.gomes827@exemplo.com.br;F;25;Pequenas Empresas;Caxias do Sul;RS;Sul;6644.26
+828;Mariana Lima;mariana.lima828@exemplo.com.br;M;52;Consumidor Final;Brasília;DF;Centro-Oeste;7910.19
+829;Felipe Lima;felipe.lima829@exemplo.com.br;M;22;Consumidor Final;Porto Alegre;RS;Sul;7275.45
+830;Daniela Costa;daniela.costa830@exemplo.com.br;M;48;Consumidor Final;Campinas;SP;Sudeste;16923.67
+831;Gabriel Souza;gabriel.souza831@exemplo.com.br;F;29;Corporativo;Santos;SP;Sudeste;13686.24
+832;Daniela Vieira;daniela.vieira832@exemplo.com.br;F;39;Corporativo;Feira de Santana;BA;Nordeste;15524.3
+833;Diego Moreira;diego.moreira833@exemplo.com.br;M;54;Corporativo;Brasília;DF;Centro-Oeste;4348.26
+834;Jessica Nunes;jessica.nunes834@exemplo.com.br;M;37;Corporativo;Feira de Santana;BA;Nordeste;13356.99
+835;Diego Moreira;diego.moreira835@exemplo.com.br;M;57;Consumidor Final;Curitiba;PR;Sul;6406.26
+836;Gustavo Martins;gustavo.martins836@exemplo.com.br;F;49;Corporativo;Caxias do Sul;RS;Sul;2693.31
+837;Ana Souza;ana.souza837@exemplo.com.br;M;67;Corporativo;Feira de Santana;BA;Nordeste;7882.43
+838;Bruna Rodrigues;bruna.rodrigues838@exemplo.com.br;M;53;Corporativo;Joinville;SC;Sul;12786.06
+839;Renata Gomes;renata.gomes839@exemplo.com.br;F;57;Consumidor Final;Joinville;SC;Sul;6172.16
+840;Mariana Lopes;mariana.lopes840@exemplo.com.br;M;55;Pequenas Empresas;Caxias do Sul;RS;Sul;9227.72
+841;Pedro Vieira;pedro.vieira841@exemplo.com.br;M;60;Consumidor Final;Brasília;DF;Centro-Oeste;13114.56
+842;Leonardo Freitas;leonardo.freitas842@exemplo.com.br;M;56;Pequenas Empresas;Recife;PE;Nordeste;9745.41
+843;Patricia Souza;patricia.souza843@exemplo.com.br;F;22;Corporativo;Belo Horizonte;MG;Sudeste;11951.62
+844;Eduardo Marques;eduardo.marques844@exemplo.com.br;F;59;Corporativo;Joinville;SC;Sul;12960.69
+845;Mateus Alves;mateus.alves845@exemplo.com.br;M;60;Consumidor Final;Goiânia;GO;Centro-Oeste;4632.23
+846;Patricia Gomes;patricia.gomes846@exemplo.com.br;F;31;Consumidor Final;Goiânia;GO;Centro-Oeste;13308.72
+847;Felipe Gomes;felipe.gomes847@exemplo.com.br;F;40;Pequenas Empresas;Porto Alegre;RS;Sul;18341.71
+848;Bruna Silva;bruna.silva848@exemplo.com.br;F;72;Consumidor Final;Fortaleza;CE;Nordeste;6995.21
+849;Gustavo Mendes;gustavo.mendes849@exemplo.com.br;M;53;Pequenas Empresas;Campinas;SP;Sudeste;15578.28
+850;Gustavo Souza;gustavo.souza850@exemplo.com.br;M;62;Corporativo;São Paulo;SP;Sudeste;11819.67
+851;Marcos Costa;marcos.costa851@exemplo.com.br;F;52;Corporativo;Joinville;SC;Sul;5642.82
+852;Mariana Lopes;mariana.lopes852@exemplo.com.br;F;71;Corporativo;Brasília;DF;Centro-Oeste;9000.94
+853;Larissa Machado;larissa.machado853@exemplo.com.br;M;59;Consumidor Final;Niterói;RJ;Sudeste;2456.04
+854;Leonardo Mendes;leonardo.mendes854@exemplo.com.br;M;26;Consumidor Final;Salvador;BA;Nordeste;12668.56
+855;Pedro Machado;pedro.machado855@exemplo.com.br;M;50;Corporativo;Salvador;BA;Nordeste;9113.23
+856;Jessica Almeida;jessica.almeida856@exemplo.com.br;M;56;Corporativo;Curitiba;PR;Sul;2321.11
+857;Ana Machado;ana.machado857@exemplo.com.br;F;52;Corporativo;Fortaleza;CE;Nordeste;11594.54
+858;Gabriel Santos;gabriel.santos858@exemplo.com.br;M;48;Pequenas Empresas;Florianópolis;SC;Sul;17876.33
+859;Mateus Rodrigues;mateus.rodrigues859@exemplo.com.br;F;51;Corporativo;Fortaleza;CE;Nordeste;3475.22
+860;Daniela Barbosa;daniela.barbosa860@exemplo.com.br;M;58;Pequenas Empresas;Recife;PE;Nordeste;10988.91
+861;Bruna Gomes;bruna.gomes861@exemplo.com.br;M;47;Corporativo;Caxias do Sul;RS;Sul;10556.41
+862;Ana Vieira;ana.vieira862@exemplo.com.br;F;36;Corporativo;Salvador;BA;Nordeste;4930.38
+863;Diego Freitas;diego.freitas863@exemplo.com.br;F;58;Consumidor Final;Porto Alegre;RS;Sul;9912.52
+864;mariana vieira;mariana.vieira864@exemplo.com.br;M;49;Corporativo;Porto Alegre;RS;Sul;3544.92
+865;Carla Oliveira;carla.oliveira865@exemplo.com.br;F;57;Consumidor Final;Londrina;PR;Sul;6779.84
+866;  VANESSA  lima ;vanessa.lima866@exemplo.com.br;M;65;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;4663.51
+867;Rafael Ribeiro;rafael.ribeiro867@exemplo.com.br;M;29;Corporativo;Londrina;PR;Sul;15229.76
+868;Vanessa Santos;vanessa.santos868@exemplo.com.br;M;70;Pequenas Empresas;Santos;SP;Sudeste;4712.65
+869;Ana Moreira;ana.moreira869@exemplo.com.br;M;46;Pequenas Empresas;Joinville;SC;Sul;14033.79
+870;Mariana Alves;mariana.alves870@exemplo.com.br;M;34;Pequenas Empresas;Florianópolis;SC;Sul;14514.39
+871;Rodrigo Santos;rodrigo.santos871@exemplo.com.br;F;48;Corporativo;Joinville;SC;Sul;14362.25
+872;Vinicius Freitas;vinicius.freitas872@exemplo.com.br;F;34;Corporativo;Joinville;SC;Sul;4565.94
+873;  VANESSA  carvalho ;vanessa.carvalho873@exemplo.com.br;F;38;Pequenas Empresas;Feira de Santana;BA;Nordeste;17876.73
+874;Eduardo Santos;eduardo.santos874@exemplo.com.br;F;57;Corporativo;Brasília;DF;Centro-Oeste;17164.08
+875;Vanessa Lima;vanessa.lima875@exemplo.com.br;M;59;Corporativo;Londrina;PR;Sul;11722.08
+876;Rafael Moreira;rafael.moreira876@exemplo.com.br;M;39;Pequenas Empresas;Curitiba;PR;Sul;13246.81
+877;Mariana Costa;mariana.costa877@exemplo.com.br;M;44;Consumidor Final;São Paulo;SP;Sudeste;3792.49
+878;Rodrigo Dias;rodrigo.dias878@exemplo.com.br;F;30;Corporativo;Curitiba;PR;Sul;2754.88
+879;aline oliveira;aline.oliveira879@exemplo.com.br;M;25;Pequenas Empresas;Uberlândia;MG;Sudeste;3608.1
+880;Aline Rodrigues;aline.rodrigues880@exemplo.com.br;M;62;Consumidor Final;Goiânia;GO;Centro-Oeste;5203.49
+881;Larissa Almeida;larissa.almeida881@exemplo.com.br;F;67;Corporativo;Santos;SP;Sudeste;9159.83
+882;Daniela Dias;daniela.dias882@exemplo.com.br;F;67;Consumidor Final;Caxias do Sul;RS;Sul;3406.15
+883;Vinicius Santos;vinicius.santos883@exemplo.com.br;M;70;Corporativo;Caxias do Sul;RS;Sul;6514.04
+884;Rafael Oliveira;rafael.oliveira884@exemplo.com.br;F;59;Consumidor Final;Uberlândia;MG;Sudeste;10220.53
+885;Juliana Fernandes;juliana.fernandes885@exemplo.com.br;M;63;Corporativo;Uberlândia;MG;Sudeste;6421.64
+886;Gabriel Oliveira;gabriel.oliveira886@exemplo.com.br;F;49;Consumidor Final;Londrina;PR;Sul;4626.32
+887;Marcos Silva;marcos.silva887@exemplo.com.br;F;62;Consumidor Final;Joinville;SC;Sul;7576.24
+888;  THIAGO  vieira ;thiago.vieira888@exemplo.com.br;F;43;Corporativo;Recife;PE;Nordeste;15958.0
+889;Vinicius Nunes;vinicius.nunes889@exemplo.com.br;M;42;Consumidor Final;Brasília;DF;Centro-Oeste;17752.73
+890;Jessica Moreira;jessica.moreira890@exemplo.com.br;F;61;Corporativo;Goiânia;GO;Centro-Oeste;7136.1
+891;Gabriel Rocha;gabriel.rocha891@exemplo.com.br;F;72;Pequenas Empresas;Santos;SP;Sudeste;17863.09
+892;Mateus Marques;mateus.marques892@exemplo.com.br;M;53;Consumidor Final;Porto Alegre;RS;Sul;2841.1
+893;Thiago Dias;thiago.dias893@exemplo.com.br;M;62;Pequenas Empresas;Joinville;SC;Sul;8055.96
+894;Mateus Mendes;mateus.mendes894@exemplo.com.br;M;30;Consumidor Final;Uberlândia;MG;Sudeste;2613.44
+895;Bruna Pereira;bruna.pereira895@exemplo.com.br;F;52;Corporativo;Santos;SP;Sudeste;17928.75
+896;Renata Almeida;renata.almeida896@exemplo.com.br;M;21;Corporativo;São Paulo;SP;Sudeste;7704.81
+897;Leonardo Santos;leonardo.santos897@exemplo.com.br;F;52;Pequenas Empresas;Uberlândia;MG;Sudeste;4627.94
+898;Bruna Pereira;bruna.pereira898@exemplo.com.br;M;59;Corporativo;Campinas;SP;Sudeste;2510.73
+899;Priscila Freitas;priscila.freitas899@exemplo.com.br;M;29;Consumidor Final;Curitiba;PR;Sul;12512.38
+900;Daniela Gomes;daniela.gomes900@exemplo.com.br;F;28;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;15816.24
+901;Mateus Marques;mateus.marques901@exemplo.com.br;F;69;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;12234.74
+902;Mateus Nunes;mateus.nunes902@exemplo.com.br;F;25;Corporativo;Caxias do Sul;RS;Sul;18106.41
+903;Bruna Fernandes;bruna.fernandes903@exemplo.com.br;M;29;Pequenas Empresas;Uberlândia;MG;Sudeste;7668.71
+904;Rodrigo Lima;rodrigo.lima904@exemplo.com.br;M;41;Pequenas Empresas;Salvador;BA;Nordeste;11220.55
+905;Rafael Pereira;rafael.pereira905@exemplo.com.br;M;68;Consumidor Final;Campinas;SP;Sudeste;16012.08
+906;Aline Martins;aline.martins906@exemplo.com.br;F;18;Consumidor Final;São Paulo;SP;Sudeste;2317.75
+907;Priscila Oliveira;priscila.oliveira907@exemplo.com.br;F;62;Corporativo;Goiânia;GO;Centro-Oeste;15360.81
+908;Vinicius Lopes;vinicius.lopes908@exemplo.com.br;M;35;Pequenas Empresas;Uberlândia;MG;Sudeste;10726.32
+909;Pedro Pereira;pedro.pereira909@exemplo.com.br;M;49;Pequenas Empresas;Campinas;SP;Sudeste;12176.41
+910;Mateus Rocha;mateus.rocha910@exemplo.com.br;F;18;Corporativo;Porto Alegre;RS;Sul;11290.68
+911;Camila Souza;camila.souza911@exemplo.com.br;F;50;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;5774.2
+912;Vinicius Rocha;vinicius.rocha912@exemplo.com.br;M;25;Consumidor Final;Londrina;PR;Sul;15184.79
+913;Eduardo Machado;eduardo.machado913@exemplo.com.br;F;28;Consumidor Final;Recife;PE;Nordeste;13123.32
+914;Gabriel Santos;gabriel.santos914@exemplo.com.br;M;34;Corporativo;Porto Alegre;RS;Sul;7649.0
+915;Renata Mendes;renata.mendes915@exemplo.com.br;M;21;Pequenas Empresas;Campinas;SP;Sudeste;17275.24
+916;Mariana Ferreira;mariana.ferreira916@exemplo.com.br;M;33;Consumidor Final;Recife;PE;Nordeste;13958.87
+917;Bruna Vieira;bruna.vieira917@exemplo.com.br;F;67;Consumidor Final;Uberlândia;MG;Sudeste;3995.17
+918;Fernanda Souza;fernanda.souza918@exemplo.com.br;M;32;Corporativo;Salvador;BA;Nordeste;3398.53
+919;bruna lopes;bruna.lopes919@exemplo.com.br;M;57;Consumidor Final;Salvador;BA;Nordeste;9616.35
+920;Thiago Ribeiro;thiago.ribeiro920@exemplo.com.br;F;30;Corporativo;Uberlândia;MG;Sudeste;7675.03
+921;Gabriel Nascimento;gabriel.nascimento921@exemplo.com.br;M;72;Consumidor Final;Londrina;PR;Sul;9788.21
+922;Pedro Ferreira;pedro.ferreira922@exemplo.com.br;F;28;Pequenas Empresas;Curitiba;PR;Sul;15069.62
+923;Marcos Barbosa;marcos.barbosa923@exemplo.com.br;M;44;Consumidor Final;Goiânia;GO;Centro-Oeste;16168.67
+924;Ana Machado;ana.machado924@exemplo.com.br;F;35;Corporativo;Goiânia;GO;Centro-Oeste;2436.41
+925;Pedro Andrade;pedro.andrade925@exemplo.com.br;F;55;Corporativo;Curitiba;PR;Sul;5825.23
+926;Priscila Vieira;priscila.vieira926@exemplo.com.br;M;20;Corporativo;Goiânia;GO;Centro-Oeste;2852.96
+927;Ana Andrade;ana.andrade927@exemplo.com.br;F;43;Pequenas Empresas;Campinas;SP;Sudeste;10012.09
+928;Renata Nascimento;renata.nascimento928@exemplo.com.br;F;23;Consumidor Final;Feira de Santana;BA;Nordeste;11303.34
+929;Lucas Nascimento;lucas.nascimento929@exemplo.com.br;M;36;Corporativo;Uberlândia;MG;Sudeste;6096.72
+930;Mateus Silva;mateus.silva930@exemplo.com.br;M;47;Pequenas Empresas;Porto Alegre;RS;Sul;16184.13
+931;  LEONARDO  vieira ;leonardo.vieira931@exemplo.com.br;F;63;Consumidor Final;Feira de Santana;BA;Nordeste;8807.37
+932;Renata Machado;renata.machado932@exemplo.com.br;M;22;Pequenas Empresas;Feira de Santana;BA;Nordeste;8473.53
+933;Diego Costa;diego.costa933@exemplo.com.br;F;62;Corporativo;Porto Alegre;RS;Sul;17621.36
+934;Patricia Vieira;patricia.vieira934@exemplo.com.br;F;21;Pequenas Empresas;Santos;SP;Sudeste;10590.2
+935;Priscila Dias;priscila.dias935@exemplo.com.br;M;41;Corporativo;Campinas;SP;Sudeste;9785.25
+936;Gabriel Ribeiro;gabriel.ribeiro936@exemplo.com.br;M;63;Pequenas Empresas;Brasília;DF;Centro-Oeste;14809.28
+937;Juliana Costa;juliana.costa937@exemplo.com.br;F;66;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;11655.95
+938;Diego Alves;diego.alves938@exemplo.com.br;F;35;Corporativo;Curitiba;PR;Sul;10408.13
+939;pedro lima;pedro.lima939@exemplo.com.br;F;49;Corporativo;Florianópolis;SC;Sul;10373.64
+940;Jessica Souza;jessica.souza940@exemplo.com.br;F;57;Corporativo;Brasília;DF;Centro-Oeste;8200.78
+941;Eduardo Nascimento;eduardo.nascimento941@exemplo.com.br;M;23;Corporativo;Santos;SP;Sudeste;3506.78
+942;Daniela Ferreira;daniela.ferreira942@exemplo.com.br;M;35;Consumidor Final;Santos;SP;Sudeste;4026.0
+943;Juliana Lopes;juliana.lopes943@exemplo.com.br;M;44;Corporativo;Uberlândia;MG;Sudeste;18004.07
+944;Patricia Freitas;patricia.freitas944@exemplo.com.br;F;65;Corporativo;Florianópolis;SC;Sul;12708.36
+945;Larissa Alves;larissa.alves945@exemplo.com.br;F;55;Corporativo;Curitiba;PR;Sul;7787.52
+946;Marcos Nunes;marcos.nunes946@exemplo.com.br;F;37;Corporativo;Goiânia;GO;Centro-Oeste;11446.2
+947;Daniela Nunes;daniela.nunes947@exemplo.com.br;M;41;Corporativo;Londrina;PR;Sul;18022.8
+948;vinicius machado;vinicius.machado948@exemplo.com.br;F;28;Corporativo;Florianópolis;SC;Sul;12283.67
+949;Mariana Nascimento;mariana.nascimento949@exemplo.com.br;M;62;Pequenas Empresas;Belo Horizonte;MG;Sudeste;16946.79
+950;Renata Rodrigues;renata.rodrigues950@exemplo.com.br;M;54;Corporativo;Rio de Janeiro;RJ;Sudeste;4261.52
+951;Beatriz Ribeiro;beatriz.ribeiro951@exemplo.com.br;M;38;Pequenas Empresas;Brasília;DF;Centro-Oeste;18141.77
+952;Juliana Ribeiro;juliana.ribeiro952@exemplo.com.br;F;19;Consumidor Final;Belo Horizonte;MG;Sudeste;8794.37
+953;Ana Moreira;ana.moreira953@exemplo.com.br;F;18;Consumidor Final;Feira de Santana;BA;Nordeste;18013.45
+954;Patricia Soares;patricia.soares954@exemplo.com.br;F;66;Corporativo;Porto Alegre;RS;Sul;18185.24
+955;Bruna Dias;bruna.dias955@exemplo.com.br;F;62;Corporativo;Goiânia;GO;Centro-Oeste;4030.74
+956;ana mendes;ana.mendes956@exemplo.com.br;M;19;Corporativo;Brasília;DF;Centro-Oeste;8746.57
+957;Jessica Pereira;jessica.pereira957@exemplo.com.br;F;56;Consumidor Final;Santos;SP;Sudeste;12653.4
+958;Bruna Soares;bruna.soares958@exemplo.com.br;M;23;Consumidor Final;Londrina;PR;Sul;10976.12
+959;Rafael Dias;rafael.dias959@exemplo.com.br;F;49;Consumidor Final;Santos;SP;Sudeste;7379.45
+960;Aline Soares;aline.soares960@exemplo.com.br;F;63;Consumidor Final;Florianópolis;SC;Sul;16117.01
+961;Gustavo Martins;gustavo.martins961@exemplo.com.br;F;37;Corporativo;Porto Alegre;RS;Sul;18133.64
+962;Vanessa Fernandes;vanessa.fernandes962@exemplo.com.br;F;36;Corporativo;Feira de Santana;BA;Nordeste;4869.78
+963;Leonardo Mendes;leonardo.mendes963@exemplo.com.br;M;56;Pequenas Empresas;Salvador;BA;Nordeste;3603.07
+964;Camila Gomes;camila.gomes964@exemplo.com.br;F;55;Consumidor Final;Fortaleza;CE;Nordeste;14524.66
+965;Mateus Silva;mateus.silva965@exemplo.com.br;F;53;Consumidor Final;Londrina;PR;Sul;9732.56
+966;Bruna Moreira;bruna.moreira966@exemplo.com.br;M;36;Corporativo;Uberlândia;MG;Sudeste;11228.03
+967;Gabriel Marques;gabriel.marques967@exemplo.com.br;F;53;Corporativo;Goiânia;GO;Centro-Oeste;14259.65
+968;Fernanda Silva;fernanda.silva968@exemplo.com.br;F;58;Corporativo;Niterói;RJ;Sudeste;15798.16
+969;Ana Souza;ana.souza969@exemplo.com.br;F;49;Consumidor Final;Porto Alegre;RS;Sul;16980.73
+970;  MARCOS  pereira ;marcos.pereira970@exemplo.com.br;F;56;Consumidor Final;Londrina;PR;Sul;14352.72
+971;Bruna Lopes;bruna.lopes971@exemplo.com.br;F;70;Pequenas Empresas;Londrina;PR;Sul;4149.21
+972;Carla Andrade;carla.andrade972@exemplo.com.br;M;21;Pequenas Empresas;Londrina;PR;Sul;4582.04
+973;Rafael Mendes;rafael.mendes973@exemplo.com.br;M;35;Consumidor Final;Florianópolis;SC;Sul;8086.96
+974;Marcos Freitas;marcos.freitas974@exemplo.com.br;F;51;Corporativo;Campinas;SP;Sudeste;12614.83
+975;Mateus Soares;mateus.soares975@exemplo.com.br;M;66;Pequenas Empresas;Belo Horizonte;MG;Sudeste;4924.32
+976;Felipe Machado;felipe.machado976@exemplo.com.br;F;62;Pequenas Empresas;Porto Alegre;RS;Sul;13420.05
+977;Rodrigo Fernandes;rodrigo.fernandes977@exemplo.com.br;M;51;Consumidor Final;Niterói;RJ;Sudeste;6787.11
+978;Vinicius Lopes;vinicius.lopes978@exemplo.com.br;M;27;Consumidor Final;Belo Horizonte;MG;Sudeste;10405.14
+979;Jessica Alves;jessica.alves979@exemplo.com.br;M;47;Corporativo;Brasília;DF;Centro-Oeste;17131.31
+980;Rodrigo Marques;rodrigo.marques980@exemplo.com.br;F;37;Corporativo;São Paulo;SP;Sudeste;13464.13
+981;Juliana Marques;juliana.marques981@exemplo.com.br;F;63;Consumidor Final;Fortaleza;CE;Nordeste;7166.35
+982;Leonardo Marques;leonardo.marques982@exemplo.com.br;M;32;Pequenas Empresas;Niterói;RJ;Sudeste;7211.08
+983;Camila Rodrigues;camila.rodrigues983@exemplo.com.br;M;19;Consumidor Final;Salvador;BA;Nordeste;14827.48
+984;vinicius carvalho;vinicius.carvalho984@exemplo.com.br;M;50;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;11868.77
+985;Ana Souza;ana.souza985@exemplo.com.br;M;60;Corporativo;Campinas;SP;Sudeste;2367.44
+986;Rodrigo Nunes;rodrigo.nunes986@exemplo.com.br;M;60;Consumidor Final;Uberlândia;MG;Sudeste;7930.0
+987;Mateus Rodrigues;mateus.rodrigues987@exemplo.com.br;F;28;Corporativo;Londrina;PR;Sul;16138.75
+988;Vinicius Andrade;vinicius.andrade988@exemplo.com.br;M;70;Consumidor Final;Fortaleza;CE;Nordeste;11623.58
+989;Lucas Soares;lucas.soares989@exemplo.com.br;F;66;Consumidor Final;Uberlândia;MG;Sudeste;10955.16
+990;Leonardo Souza;leonardo.souza990@exemplo.com.br;F;62;Corporativo;Fortaleza;CE;Nordeste;11806.9
+991;Rafael Dias;rafael.dias991@exemplo.com.br;F;45;Corporativo;Belo Horizonte;MG;Sudeste;5692.67
+992;Fernanda Carvalho;fernanda.carvalho992@exemplo.com.br;M;25;Corporativo;Caxias do Sul;RS;Sul;10671.56
+993;Ana Moreira;ana.moreira993@exemplo.com.br;M;38;Consumidor Final;Porto Alegre;RS;Sul;10247.52
+994;Thiago Gomes;thiago.gomes994@exemplo.com.br;F;53;Consumidor Final;Porto Alegre;RS;Sul;8838.7
+995;Vanessa Carvalho;vanessa.carvalho995@exemplo.com.br;F;41;Pequenas Empresas;Santos;SP;Sudeste;5122.55
+996;Eduardo Lopes;eduardo.lopes996@exemplo.com.br;F;60;Pequenas Empresas;Joinville;SC;Sul;13227.25
+997;Rodrigo Rodrigues;rodrigo.rodrigues997@exemplo.com.br;M;28;Pequenas Empresas;Goiânia;GO;Centro-Oeste;3254.78
+998;Camila Costa;camila.costa998@exemplo.com.br;M;71;Consumidor Final;Joinville;SC;Sul;9122.68
+999;Ana Lima;ana.lima999@exemplo.com.br;F;43;Pequenas Empresas;Goiânia;GO;Centro-Oeste;8004.39
+1000;Eduardo Barbosa;eduardo.barbosa1000@exemplo.com.br;F;67;Consumidor Final;Recife;PE;Nordeste;9610.55
+1001;Rodrigo Lima;rodrigo.lima1001@exemplo.com.br;M;24;Consumidor Final;Curitiba;PR;Sul;14226.11
+1002;Jessica Oliveira;jessica.oliveira1002@exemplo.com.br;M;56;Corporativo;São Paulo;SP;Sudeste;13271.03
+1003;Juliana Gomes;juliana.gomes1003@exemplo.com.br;M;66;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;10675.17
+1004;Ana Nunes;ana.nunes1004@exemplo.com.br;F;50;Corporativo;Porto Alegre;RS;Sul;6465.14
+1005;Felipe Nunes;felipe.nunes1005@exemplo.com.br;M;45;Consumidor Final;Brasília;DF;Centro-Oeste;16546.05
+1006;Rodrigo Martins;rodrigo.martins1006@exemplo.com.br;F;20;Corporativo;Joinville;SC;Sul;2735.61
+1007;Patricia Dias;patricia.dias1007@exemplo.com.br;M;45;Corporativo;Porto Alegre;RS;Sul;4392.16
+1008;Diego Martins;diego.martins1008@exemplo.com.br;F;53;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;13371.6
+1009;Bruna Lopes;bruna.lopes1009@exemplo.com.br;M;34;Corporativo;Belo Horizonte;MG;Sudeste;10263.47
+1010;Thiago Barbosa;thiago.barbosa1010@exemplo.com.br;F;19;Consumidor Final;Porto Alegre;RS;Sul;11824.55
+1011;Juliana Marques;juliana.marques1011@exemplo.com.br;M;39;Pequenas Empresas;Goiânia;GO;Centro-Oeste;8403.35
+1012;Pedro Ribeiro;pedro.ribeiro1012@exemplo.com.br;F;60;Consumidor Final;Salvador;BA;Nordeste;6180.93
+1013;Fernanda Rocha;fernanda.rocha1013@exemplo.com.br;M;25;Corporativo;Santos;SP;Sudeste;7702.79
+1014;Lucas Fernandes;lucas.fernandes1014@exemplo.com.br;F;50;Pequenas Empresas;Feira de Santana;BA;Nordeste;16892.98
+1015;Beatriz Silva;beatriz.silva1015@exemplo.com.br;M;42;Corporativo;Goiânia;GO;Centro-Oeste;11496.76
+1016;Felipe Vieira;felipe.vieira1016@exemplo.com.br;M;61;Pequenas Empresas;Recife;PE;Nordeste;5556.31
+1017;Ana Soares;ana.soares1017@exemplo.com.br;M;37;Pequenas Empresas;Caxias do Sul;RS;Sul;8122.35
+1018;Pedro Alves;pedro.alves1018@exemplo.com.br;M;34;Corporativo;Santos;SP;Sudeste;2974.76
+1019;Bruna Martins;bruna.martins1019@exemplo.com.br;M;39;Pequenas Empresas;Santos;SP;Sudeste;6655.85
+1020;Bruna Nunes;bruna.nunes1020@exemplo.com.br;M;68;Corporativo;Salvador;BA;Nordeste;3449.58
+1021;Jessica Gomes;jessica.gomes1021@exemplo.com.br;F;52;Pequenas Empresas;Porto Alegre;RS;Sul;7307.65
+1022;Pedro Martins;pedro.martins1022@exemplo.com.br;F;66;Pequenas Empresas;Fortaleza;CE;Nordeste;11125.27
+1023;Daniela Silva;daniela.silva1023@exemplo.com.br;M;49;Pequenas Empresas;Fortaleza;CE;Nordeste;5671.13
+1024;Jessica Andrade;jessica.andrade1024@exemplo.com.br;F;64;Pequenas Empresas;Londrina;PR;Sul;12416.16
+1025;Carla Alves;carla.alves1025@exemplo.com.br;M;65;Consumidor Final;Niterói;RJ;Sudeste;13370.5
+1026;Larissa Machado;larissa.machado1026@exemplo.com.br;M;31;Pequenas Empresas;Caxias do Sul;RS;Sul;15989.26
+1027;Beatriz Marques;beatriz.marques1027@exemplo.com.br;F;56;Pequenas Empresas;Belo Horizonte;MG;Sudeste;6048.92
+1028;Fernanda Souza;fernanda.souza1028@exemplo.com.br;M;47;Corporativo;São Paulo;SP;Sudeste;10111.73
+1029;Pedro Carvalho;pedro.carvalho1029@exemplo.com.br;M;35;Consumidor Final;Campinas;SP;Sudeste;4423.82
+1030;Beatriz Nunes;beatriz.nunes1030@exemplo.com.br;M;72;Pequenas Empresas;Brasília;DF;Centro-Oeste;2888.39
+1031;Leonardo Lopes;leonardo.lopes1031@exemplo.com.br;M;56;Corporativo;Campinas;SP;Sudeste;7057.06
+1032;Mateus Mendes;mateus.mendes1032@exemplo.com.br;M;71;Corporativo;Florianópolis;SC;Sul;14005.02
+1033;Juliana Pereira;juliana.pereira1033@exemplo.com.br;M;60;Pequenas Empresas;Fortaleza;CE;Nordeste;15712.4
+1034;Vinicius Freitas;vinicius.freitas1034@exemplo.com.br;M;56;Consumidor Final;Recife;PE;Nordeste;4193.11
+1035;Renata Costa;renata.costa1035@exemplo.com.br;F;65;Pequenas Empresas;Goiânia;GO;Centro-Oeste;6045.79
+1036;Pedro Alves;pedro.alves1036@exemplo.com.br;M;46;Corporativo;Belo Horizonte;MG;Sudeste;8856.52
+1037;vanessa vieira;vanessa.vieira1037@exemplo.com.br;F;25;Pequenas Empresas;Brasília;DF;Centro-Oeste;7358.79
+1038;Pedro Lopes;pedro.lopes1038@exemplo.com.br;M;48;Corporativo;Londrina;PR;Sul;13865.44
+1039;  JESSICA  gomes ;jessica.gomes1039@exemplo.com.br;M;68;Pequenas Empresas;Campinas;SP;Sudeste;13147.06
+1040;Beatriz Fernandes;beatriz.fernandes1040@exemplo.com.br;M;33;Pequenas Empresas;Florianópolis;SC;Sul;16179.65
+1041;Thiago Silva;thiago.silva1041@exemplo.com.br;F;23;Corporativo;Joinville;SC;Sul;17462.06
+1042;Vinicius Pereira;vinicius.pereira1042@exemplo.com.br;F;38;Pequenas Empresas;Belo Horizonte;MG;Sudeste;16535.32
+1043;Vinicius Rocha;vinicius.rocha1043@exemplo.com.br;F;70;Consumidor Final;Campinas;SP;Sudeste;14905.14
+1044;Ana Lopes;ana.lopes1044@exemplo.com.br;F;70;Consumidor Final;Caxias do Sul;RS;Sul;4813.6
+1045;Beatriz Soares;beatriz.soares1045@exemplo.com.br;F;62;Corporativo;Salvador;BA;Nordeste;2645.82
+1046;Gabriel Rocha;gabriel.rocha1046@exemplo.com.br;M;43;Consumidor Final;Feira de Santana;BA;Nordeste;5461.23
+1047;Larissa Costa;larissa.costa1047@exemplo.com.br;M;51;Consumidor Final;Rio de Janeiro;RJ;Sudeste;13831.09
+1048;Vinicius Marques;vinicius.marques1048@exemplo.com.br;F;46;Corporativo;Niterói;RJ;Sudeste;9997.36
+1049;Leonardo Rodrigues;leonardo.rodrigues1049@exemplo.com.br;F;30;Corporativo;Goiânia;GO;Centro-Oeste;3575.7
+1050;Gustavo Ferreira;gustavo.ferreira1050@exemplo.com.br;M;19;Consumidor Final;Joinville;SC;Sul;17246.73
+1051;Marcos Barbosa;marcos.barbosa1051@exemplo.com.br;F;34;Consumidor Final;Santos;SP;Sudeste;13630.56
+1052;Mariana Santos;mariana.santos1052@exemplo.com.br;F;23;Consumidor Final;Salvador;BA;Nordeste;17815.94
+1053;Mariana Vieira;mariana.vieira1053@exemplo.com.br;F;70;Corporativo;Fortaleza;CE;Nordeste;13179.84
+1054;Rodrigo Pereira;rodrigo.pereira1054@exemplo.com.br;F;65;Corporativo;Uberlândia;MG;Sudeste;10254.94
+1055;Juliana Carvalho;juliana.carvalho1055@exemplo.com.br;F;61;Pequenas Empresas;Uberlândia;MG;Sudeste;5286.62
+1056;Mariana Carvalho;mariana.carvalho1056@exemplo.com.br;F;33;Corporativo;São Paulo;SP;Sudeste;12268.19
+1057;Priscila Pereira;priscila.pereira1057@exemplo.com.br;M;48;Consumidor Final;Feira de Santana;BA;Nordeste;4371.24
+1058;Felipe Nascimento;felipe.nascimento1058@exemplo.com.br;F;45;Pequenas Empresas;Uberlândia;MG;Sudeste;14198.5
+1059;Beatriz Oliveira;beatriz.oliveira1059@exemplo.com.br;M;33;Corporativo;Campinas;SP;Sudeste;9876.2
+1060;Gustavo Barbosa;gustavo.barbosa1060@exemplo.com.br;M;50;Corporativo;Campinas;SP;Sudeste;12300.42
+1061;Larissa Martins;larissa.martins1061@exemplo.com.br;M;29;Pequenas Empresas;Niterói;RJ;Sudeste;6442.75
+1062;Carla Lopes;carla.lopes1062@exemplo.com.br;M;38;Consumidor Final;Feira de Santana;BA;Nordeste;13777.17
+1063;Pedro Rodrigues;pedro.rodrigues1063@exemplo.com.br;M;49;Consumidor Final;Caxias do Sul;RS;Sul;16408.38
+1064;Jessica Lima;jessica.lima1064@exemplo.com.br;F;57;Corporativo;Salvador;BA;Nordeste;15722.3
+1065;Priscila Lima;priscila.lima1065@exemplo.com.br;M;65;Corporativo;Salvador;BA;Nordeste;18411.41
+1066;Vinicius Rodrigues;vinicius.rodrigues1066@exemplo.com.br;M;27;Consumidor Final;Feira de Santana;BA;Nordeste;3089.44
+1067;Mariana Santos;mariana.santos1067@exemplo.com.br;F;25;Corporativo;Belo Horizonte;MG;Sudeste;18421.79
+1068;priscila lopes;priscila.lopes1068@exemplo.com.br;F;49;Corporativo;Florianópolis;SC;Sul;4033.6
+1069;Leonardo Machado;leonardo.machado1069@exemplo.com.br;M;36;Consumidor Final;Florianópolis;SC;Sul;5144.68
+1070;Mariana Andrade;mariana.andrade1070@exemplo.com.br;M;18;Pequenas Empresas;Londrina;PR;Sul;10774.05
+1071;Bruna Ferreira;bruna.ferreira1071@exemplo.com.br;M;61;Corporativo;Santos;SP;Sudeste;3737.18
+1072;Felipe Silva;felipe.silva1072@exemplo.com.br;F;55;Corporativo;Rio de Janeiro;RJ;Sudeste;17345.12
+1073;Rodrigo Marques;rodrigo.marques1073@exemplo.com.br;M;71;Corporativo;São Paulo;SP;Sudeste;13735.62
+1074;Ana Almeida;ana.almeida1074@exemplo.com.br;M;20;Corporativo;Londrina;PR;Sul;12895.62
+1075;Rafael Costa;rafael.costa1075@exemplo.com.br;M;21;Consumidor Final;Goiânia;GO;Centro-Oeste;15265.39
+1076;Larissa Costa;larissa.costa1076@exemplo.com.br;F;43;Consumidor Final;Santos;SP;Sudeste;6359.17
+1077;Fernanda Moreira;fernanda.moreira1077@exemplo.com.br;M;28;Consumidor Final;Santos;SP;Sudeste;8532.6
+1078;Thiago Gomes;thiago.gomes1078@exemplo.com.br;M;49;Corporativo;Niterói;RJ;Sudeste;15257.94
+1079;Leonardo Nunes;leonardo.nunes1079@exemplo.com.br;F;24;Pequenas Empresas;Niterói;RJ;Sudeste;15762.46
+1080;Carla Alves;carla.alves1080@exemplo.com.br;F;54;Corporativo;Joinville;SC;Sul;11985.55
+1081;Mateus Moreira;mateus.moreira1081@exemplo.com.br;M;58;Corporativo;Florianópolis;SC;Sul;9144.08
+1082;Gabriel Soares;gabriel.soares1082@exemplo.com.br;M;61;Pequenas Empresas;Feira de Santana;BA;Nordeste;13832.26
+1083;Priscila Lopes;priscila.lopes1083@exemplo.com.br;M;47;Corporativo;Fortaleza;CE;Nordeste;9328.89
+1084;Priscila Nunes;priscila.nunes1084@exemplo.com.br;M;37;Pequenas Empresas;Niterói;RJ;Sudeste;15917.07
+1085;Carla Carvalho;carla.carvalho1085@exemplo.com.br;M;50;Consumidor Final;Campinas;SP;Sudeste;3954.4
+1086;Pedro Carvalho;pedro.carvalho1086@exemplo.com.br;F;34;Corporativo;Goiânia;GO;Centro-Oeste;11744.76
+1087;  VINICIUS  soares ;vinicius.soares1087@exemplo.com.br;M;71;Consumidor Final;Feira de Santana;BA;Nordeste;8605.2
+1088;Mateus Carvalho;mateus.carvalho1088@exemplo.com.br;F;64;Pequenas Empresas;Porto Alegre;RS;Sul;9616.47
+1089;Eduardo Almeida;eduardo.almeida1089@exemplo.com.br;F;31;Consumidor Final;Londrina;PR;Sul;5216.92
+1090;Leonardo Barbosa;leonardo.barbosa1090@exemplo.com.br;F;19;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;2295.31
+1091;Rodrigo Silva;rodrigo.silva1091@exemplo.com.br;F;43;Pequenas Empresas;Recife;PE;Nordeste;16361.12
+1092;Leonardo Barbosa;leonardo.barbosa1092@exemplo.com.br;F;61;Pequenas Empresas;Porto Alegre;RS;Sul;17899.21
+1093;Eduardo Martins;eduardo.martins1093@exemplo.com.br;M;18;Consumidor Final;Santos;SP;Sudeste;5310.07
+1094;Jessica Silva;jessica.silva1094@exemplo.com.br;M;48;Consumidor Final;Uberlândia;MG;Sudeste;12772.56
+1095;Marcos Pereira;marcos.pereira1095@exemplo.com.br;M;37;Consumidor Final;Brasília;DF;Centro-Oeste;14746.45
+1096;Juliana Lopes;juliana.lopes1096@exemplo.com.br;M;65;Consumidor Final;Rio de Janeiro;RJ;Sudeste;13652.35
+1097;  ANA  lopes ;ana.lopes1097@exemplo.com.br;M;36;Consumidor Final;Feira de Santana;BA;Nordeste;11481.72
+1098;jessica martins;jessica.martins1098@exemplo.com.br;M;72;Pequenas Empresas;São Paulo;SP;Sudeste;13823.41
+1099;Pedro Machado;pedro.machado1099@exemplo.com.br;F;49;Consumidor Final;Goiânia;GO;Centro-Oeste;8714.79
+1100;Carla Vieira;carla.vieira1100@exemplo.com.br;M;21;Pequenas Empresas;Recife;PE;Nordeste;10811.43
+1101;Pedro Vieira;pedro.vieira1101@exemplo.com.br;F;44;Pequenas Empresas;Santos;SP;Sudeste;16692.99
+1102;Rodrigo Lopes;rodrigo.lopes1102@exemplo.com.br;F;45;Pequenas Empresas;Florianópolis;SC;Sul;2539.15
+1103;Larissa Andrade;larissa.andrade1103@exemplo.com.br;F;50;Consumidor Final;Florianópolis;SC;Sul;5781.15
+1104;Priscila Dias;priscila.dias1104@exemplo.com.br;M;64;Corporativo;Feira de Santana;BA;Nordeste;13795.58
+1105;Pedro Marques;pedro.marques1105@exemplo.com.br;F;57;Consumidor Final;Florianópolis;SC;Sul;5577.5
+1106;Diego Andrade;diego.andrade1106@exemplo.com.br;M;30;Consumidor Final;Recife;PE;Nordeste;4747.92
+1107;Ana Souza;ana.souza1107@exemplo.com.br;F;31;Consumidor Final;Recife;PE;Nordeste;11276.34
+1108;Lucas Ribeiro;lucas.ribeiro1108@exemplo.com.br;M;70;Consumidor Final;Florianópolis;SC;Sul;16209.23
+1109;Carla Santos;carla.santos1109@exemplo.com.br;F;57;Consumidor Final;Caxias do Sul;RS;Sul;5895.05
+1110;Patricia Pereira;patricia.pereira1110@exemplo.com.br;F;67;Consumidor Final;Caxias do Sul;RS;Sul;16506.73
+1111;Beatriz Mendes;beatriz.mendes1111@exemplo.com.br;M;21;Pequenas Empresas;Fortaleza;CE;Nordeste;17304.1
+1112;Rafael Nunes;rafael.nunes1112@exemplo.com.br;M;57;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;14949.15
+1113;Rodrigo Marques;rodrigo.marques1113@exemplo.com.br;M;58;Consumidor Final;Fortaleza;CE;Nordeste;4124.37
+1114;Camila Freitas;camila.freitas1114@exemplo.com.br;F;49;Pequenas Empresas;Porto Alegre;RS;Sul;14140.6
+1115;Rodrigo Rodrigues;rodrigo.rodrigues1115@exemplo.com.br;M;72;Consumidor Final;Caxias do Sul;RS;Sul;5490.81
+1116;Pedro Moreira;pedro.moreira1116@exemplo.com.br;F;36;Corporativo;Curitiba;PR;Sul;10431.87
+1117;Mateus Lima;mateus.lima1117@exemplo.com.br;F;60;Pequenas Empresas;Salvador;BA;Nordeste;6200.86
+1118;Vinicius Moreira;vinicius.moreira1118@exemplo.com.br;M;44;Corporativo;Curitiba;PR;Sul;17163.73
+1119;Daniela Almeida;daniela.almeida1119@exemplo.com.br;F;46;Consumidor Final;Fortaleza;CE;Nordeste;4573.02
+1120;Lucas Nascimento;lucas.nascimento1120@exemplo.com.br;M;38;Corporativo;Santos;SP;Sudeste;8746.91
+1121;Vinicius Ferreira;vinicius.ferreira1121@exemplo.com.br;M;59;Pequenas Empresas;Joinville;SC;Sul;4660.52
+1122;Bruna Santos;bruna.santos1122@exemplo.com.br;F;43;Corporativo;Fortaleza;CE;Nordeste;16638.26
+1123;Diego Fernandes;diego.fernandes1123@exemplo.com.br;F;70;Consumidor Final;Caxias do Sul;RS;Sul;6760.43
+1124;Carla Barbosa;carla.barbosa1124@exemplo.com.br;F;31;Pequenas Empresas;Joinville;SC;Sul;16667.55
+1125;Aline Nunes;aline.nunes1125@exemplo.com.br;F;43;Pequenas Empresas;Feira de Santana;BA;Nordeste;14839.03
+1126;Daniela Gomes;daniela.gomes1126@exemplo.com.br;F;64;Corporativo;Brasília;DF;Centro-Oeste;13917.75
+1127;Daniela Rodrigues;daniela.rodrigues1127@exemplo.com.br;F;23;Consumidor Final;Brasília;DF;Centro-Oeste;10540.25
+1128;Larissa Soares;larissa.soares1128@exemplo.com.br;M;68;Consumidor Final;Belo Horizonte;MG;Sudeste;11000.9
+1129;Beatriz Pereira;beatriz.pereira1129@exemplo.com.br;F;25;Pequenas Empresas;Porto Alegre;RS;Sul;14131.37
+1130;Jessica Ribeiro;jessica.ribeiro1130@exemplo.com.br;F;21;Consumidor Final;Fortaleza;CE;Nordeste;14531.93
+1131;Rodrigo Almeida;rodrigo.almeida1131@exemplo.com.br;F;33;Corporativo;São Paulo;SP;Sudeste;15327.82
+1132;Bruna Vieira;bruna.vieira1132@exemplo.com.br;M;37;Corporativo;Brasília;DF;Centro-Oeste;6837.93
+1133;Renata Marques;renata.marques1133@exemplo.com.br;F;65;Pequenas Empresas;Niterói;RJ;Sudeste;6236.42
+1134;Felipe Soares;felipe.soares1134@exemplo.com.br;F;27;Consumidor Final;Florianópolis;SC;Sul;13799.74
+1135;Jessica Carvalho;jessica.carvalho1135@exemplo.com.br;F;48;Consumidor Final;Campinas;SP;Sudeste;5700.99
+1136;Mateus Ribeiro;mateus.ribeiro1136@exemplo.com.br;F;55;Corporativo;Joinville;SC;Sul;10330.89
+1137;Pedro Almeida;pedro.almeida1137@exemplo.com.br;F;27;Consumidor Final;Recife;PE;Nordeste;10444.31
+1138;Ana Nascimento;ana.nascimento1138@exemplo.com.br;M;31;Pequenas Empresas;Fortaleza;CE;Nordeste;9623.55
+1139;Gabriel Andrade;gabriel.andrade1139@exemplo.com.br;F;56;Consumidor Final;Brasília;DF;Centro-Oeste;16092.78
+1140;Rodrigo Souza;rodrigo.souza1140@exemplo.com.br;M;27;Pequenas Empresas;Porto Alegre;RS;Sul;4119.2
+1141;Larissa Ribeiro;larissa.ribeiro1141@exemplo.com.br;M;27;Consumidor Final;Recife;PE;Nordeste;14975.82
+1142;Pedro Santos;pedro.santos1142@exemplo.com.br;F;29;Consumidor Final;Porto Alegre;RS;Sul;15551.74
+1143;Ana Silva;ana.silva1143@exemplo.com.br;M;44;Consumidor Final;Florianópolis;SC;Sul;10043.18
+1144;Larissa Vieira;larissa.vieira1144@exemplo.com.br;F;71;Corporativo;Caxias do Sul;RS;Sul;13936.55
+1145;Aline Rodrigues;aline.rodrigues1145@exemplo.com.br;F;60;Corporativo;Fortaleza;CE;Nordeste;9519.92
+1146;Vanessa Andrade;vanessa.andrade1146@exemplo.com.br;F;43;Consumidor Final;Salvador;BA;Nordeste;7725.67
+1147;Gabriel Dias;gabriel.dias1147@exemplo.com.br;M;63;Consumidor Final;Londrina;PR;Sul;2604.31
+1148;Marcos Nunes;marcos.nunes1148@exemplo.com.br;M;53;Pequenas Empresas;Porto Alegre;RS;Sul;3587.98
+1149;Aline Fernandes;aline.fernandes1149@exemplo.com.br;M;50;Corporativo;Campinas;SP;Sudeste;16818.89
+1150;Rodrigo Dias;rodrigo.dias1150@exemplo.com.br;M;68;Corporativo;Belo Horizonte;MG;Sudeste;5554.62
+1151;Jessica Nascimento;jessica.nascimento1151@exemplo.com.br;F;69;Consumidor Final;Goiânia;GO;Centro-Oeste;10896.77
+1152;Felipe Martins;felipe.martins1152@exemplo.com.br;M;45;Corporativo;Recife;PE;Nordeste;5142.28
+1153;Lucas Machado;lucas.machado1153@exemplo.com.br;F;25;Consumidor Final;Joinville;SC;Sul;18170.51
+1154;Patricia Ferreira;patricia.ferreira1154@exemplo.com.br;F;27;Consumidor Final;Belo Horizonte;MG;Sudeste;7200.75
+1155;Pedro Dias;pedro.dias1155@exemplo.com.br;M;63;Consumidor Final;Caxias do Sul;RS;Sul;3153.58
+1156;Thiago Souza;thiago.souza1156@exemplo.com.br;F;42;Corporativo;Salvador;BA;Nordeste;17547.71
+1157;daniela souza;daniela.souza1157@exemplo.com.br;M;50;Corporativo;Curitiba;PR;Sul;14463.96
+1158;Thiago Souza;thiago.souza1158@exemplo.com.br;F;44;Pequenas Empresas;Caxias do Sul;RS;Sul;3266.97
+1159;Lucas Carvalho;lucas.carvalho1159@exemplo.com.br;F;55;Pequenas Empresas;São Paulo;SP;Sudeste;13204.09
+1160;Fernanda Moreira;fernanda.moreira1160@exemplo.com.br;F;44;Pequenas Empresas;Niterói;RJ;Sudeste;9469.51
+1161;Vanessa Rocha;vanessa.rocha1161@exemplo.com.br;F;28;Pequenas Empresas;Niterói;RJ;Sudeste;14946.99
+1162;Patricia Carvalho;patricia.carvalho1162@exemplo.com.br;F;18;Consumidor Final;Brasília;DF;Centro-Oeste;15446.09
+1163;Jessica Barbosa;jessica.barbosa1163@exemplo.com.br;M;48;Consumidor Final;Belo Horizonte;MG;Sudeste;6654.84
+1164;Beatriz Marques;beatriz.marques1164@exemplo.com.br;M;71;Pequenas Empresas;Florianópolis;SC;Sul;10518.35
+1165;Gabriel Ferreira;gabriel.ferreira1165@exemplo.com.br;M;23;Corporativo;Goiânia;GO;Centro-Oeste;8643.47
+1166;Rodrigo Marques;rodrigo.marques1166@exemplo.com.br;F;31;Corporativo;Brasília;DF;Centro-Oeste;12150.26
+1167;Renata Costa;renata.costa1167@exemplo.com.br;F;46;Pequenas Empresas;Caxias do Sul;RS;Sul;6650.11
+1168;Eduardo Costa;eduardo.costa1168@exemplo.com.br;F;62;Consumidor Final;Feira de Santana;BA;Nordeste;4379.73
+1169;Priscila Silva;priscila.silva1169@exemplo.com.br;M;29;Pequenas Empresas;São Paulo;SP;Sudeste;8934.56
+1170;Daniela Nascimento;daniela.nascimento1170@exemplo.com.br;M;59;Pequenas Empresas;Joinville;SC;Sul;3463.63
+1171;Lucas Mendes;lucas.mendes1171@exemplo.com.br;M;70;Corporativo;Feira de Santana;BA;Nordeste;8334.94
+1172;Aline Ribeiro;aline.ribeiro1172@exemplo.com.br;M;41;Corporativo;São Paulo;SP;Sudeste;17460.84
+1173;Rafael Silva;rafael.silva1173@exemplo.com.br;F;63;Pequenas Empresas;São Paulo;SP;Sudeste;8032.48
+1174;Mateus Marques;mateus.marques1174@exemplo.com.br;M;49;Consumidor Final;Porto Alegre;RS;Sul;17966.93
+1175;Gabriel Lima;gabriel.lima1175@exemplo.com.br;M;70;Consumidor Final;Uberlândia;MG;Sudeste;12606.51
+1176;Rodrigo Machado;rodrigo.machado1176@exemplo.com.br;F;53;Consumidor Final;Fortaleza;CE;Nordeste;5358.46
+1177;Leonardo Vieira;leonardo.vieira1177@exemplo.com.br;M;55;Consumidor Final;Goiânia;GO;Centro-Oeste;4290.42
+1178;Mateus Rodrigues;mateus.rodrigues1178@exemplo.com.br;M;64;Pequenas Empresas;Goiânia;GO;Centro-Oeste;14950.72
+1179;Camila Machado;camila.machado1179@exemplo.com.br;F;53;Pequenas Empresas;Brasília;DF;Centro-Oeste;16594.56
+1180;Lucas Carvalho;lucas.carvalho1180@exemplo.com.br;F;72;Corporativo;Campinas;SP;Sudeste;18420.24
+1181;Beatriz Souza;beatriz.souza1181@exemplo.com.br;F;51;Corporativo;Feira de Santana;BA;Nordeste;14572.05
+1182;Daniela Andrade;daniela.andrade1182@exemplo.com.br;F;46;Pequenas Empresas;Londrina;PR;Sul;7354.74
+1183;Thiago Alves;thiago.alves1183@exemplo.com.br;M;32;Pequenas Empresas;Goiânia;GO;Centro-Oeste;18142.96
+1184;Pedro Oliveira;pedro.oliveira1184@exemplo.com.br;M;37;Corporativo;Uberlândia;MG;Sudeste;3224.36
+1185;  MARCOS  souza ;marcos.souza1185@exemplo.com.br;M;69;Pequenas Empresas;Salvador;BA;Nordeste;12408.64
+1186;Felipe Marques;felipe.marques1186@exemplo.com.br;F;39;Consumidor Final;Rio de Janeiro;RJ;Sudeste;15770.04
+1187;Jessica Costa;jessica.costa1187@exemplo.com.br;M;57;Pequenas Empresas;Curitiba;PR;Sul;9348.03
+1188;Rodrigo Rocha;rodrigo.rocha1188@exemplo.com.br;M;20;Consumidor Final;Rio de Janeiro;RJ;Sudeste;8351.54
+1189;Daniela Machado;daniela.machado1189@exemplo.com.br;M;21;Corporativo;Niterói;RJ;Sudeste;7113.98
+1190;Marcos Carvalho;marcos.carvalho1190@exemplo.com.br;M;72;Corporativo;Campinas;SP;Sudeste;8417.72
+1191;Rodrigo Barbosa;rodrigo.barbosa1191@exemplo.com.br;M;42;Corporativo;Curitiba;PR;Sul;9766.61
+1192;Pedro Mendes;pedro.mendes1192@exemplo.com.br;F;61;Pequenas Empresas;Rio de Janeiro;RJ;Sudeste;14961.74
+1193;Rafael Soares;rafael.soares1193@exemplo.com.br;M;18;Consumidor Final;Uberlândia;MG;Sudeste;11901.35
+1194;Mateus Vieira;mateus.vieira1194@exemplo.com.br;M;50;Pequenas Empresas;Uberlândia;MG;Sudeste;6377.46
+1195;Pedro Lopes;pedro.lopes1195@exemplo.com.br;M;26;Consumidor Final;Feira de Santana;BA;Nordeste;15191.52
+1196;Gabriel Rodrigues;gabriel.rodrigues1196@exemplo.com.br;F;55;Corporativo;Salvador;BA;Nordeste;16629.12
+1197;Vinicius Rodrigues;vinicius.rodrigues1197@exemplo.com.br;F;41;Corporativo;Porto Alegre;RS;Sul;18015.42
+1198;Carla Vieira;carla.vieira1198@exemplo.com.br;M;50;Consumidor Final;Niterói;RJ;Sudeste;15552.7
+1199;patricia machado;patricia.machado1199@exemplo.com.br;M;58;Consumidor Final;Florianópolis;SC;Sul;17008.55
+1200;Renata Oliveira;renata.oliveira1200@exemplo.com.br;F;62;Pequenas Empresas;Recife;PE;Nordeste;7597.67
