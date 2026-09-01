@@ -739,11 +739,38 @@ AVERAGEX(
 
 ```dax
 // -------------------------------------------------------------
-// 23. Meta Total de Vendas
+// 23. Meta Total de Vendas (Com Propagação de Filtro por Loja/Região)
 // -------------------------------------------------------------
-Meta Total = SUM(fato_metas[valor_meta])
+Meta Total = 
+VAR _TemFiltroLoja = ISCROSSFILTERED(dim_lojas)
+VAR _LojasSelecionadas = VALUES(dim_lojas[id_loja])
+VAR _VendedoresFiltrados = 
+    CALCULATETABLE(
+        VALUES(dim_vendedores[id_vendedor]),
+        FILTER(
+            ALL(dim_vendedores[id_vendedor], dim_vendedores[id_loja]),
+            dim_vendedores[id_loja] IN _LojasSelecionadas
+        )
+    )
+RETURN
+    IF(
+        _TemFiltroLoja,
+        CALCULATE(
+            SUM(fato_metas[valor_meta]),
+            TREATAS(_VendedoresFiltrados, fato_metas[id_vendedor])
+        ),
+        SUM(fato_metas[valor_meta])
+    )
 ```
-* **O que faz:** Agrega os valores de metas comerciais estipulados na tabela `fato_metas`.
+* **O que faz:** Agrega os valores de metas comerciais estipulados na tabela `fato_metas`, garantindo que filtros de `dim_lojas` (região, cidade, nome da loja) se propaguem corretamente para a tabela de metas mesmo que elas não possuam relacionamento físico direto no Star Schema.
+* **Por que usamos essa lógica avançada (Conceito Chave do PL-300 — Fatos com Granularidades Diferentes):**
+  - A tabela `fato_metas` possui granularidade por **Vendedor** (`id_vendedor`), enquanto a tabela `fato_vendas` possui tanto `id_vendedor` quanto `id_loja`.
+  - Se usássemos apenas `SUM(fato_metas[valor_meta])`, ao filtrar uma **Região** no gráfico de cascata ou uma **Loja** na matriz, a tabela de metas **não seria filtrada** e retornaria a meta global do Brasil inteiro (gerando diferenças negativas de dezenas de milhões).
+  - Usando `TREATAS` e `ISCROSSFILTERED`, o DAX captura quais vendedores pertencem às lojas ativas no filtro e aplica essa lista de vendedores virtualmente sobre a `fato_metas`.
+* **Alternativa Simplificada (Caso o visual seja apenas por Vendedor ou Mês):**
+  ```dax
+  Meta Total Simples = SUM(fato_metas[valor_meta])
+  ```
 
 ---
 
@@ -1092,7 +1119,7 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
 +------------------------------------------------------------------------------------+
 |  Acompanhamento Comercial — Metas vs. Realizado                 [Slicer: Vendedor] |
 +------------------------------------------------------------------------------------+
-| [ Visual Medidor / Gauge ]                | [ Gráfico Cascata (Waterfall Chart) ]  |
+| [ Visual Indicador / Gauge ]              | [ Gráfico Cascata (Waterfall Chart) ]  |
 | Meta Global vs. Receita (% Atingimento)   | Variação de Vendas por Região          |
 +------------------------------------------------------------------------------------+
 | [ Matriz com Hierarquia de Lojas e Vendedores ]                                    |
@@ -1102,14 +1129,64 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
 +------------------------------------------------------------------------------------+
 ```
 
+#### Elementos e Configurações Detalhadas do Painel 2:
+
+* **Visual de Indicador (Gauge / Velocímetro):**
+  > **Nota de Nomenclatura no Power BI:** No Power BI Desktop em Português (PT-BR), este visual chama-se **Indicador** (em inglês: **Gauge**; em algumas versões/traduções anteriores era referido como *Medidor*). Seu ícone é um arco semicircular / velocímetro.
+  1. No painel de visualizações, selecione o ícone de **Indicador (Gauge)**.
+  2. No campo **Valor (Value)**, arraste a medida `[Receita Liquida]`.
+  3. No campo **Valor de destino (Target value)**, arraste a medida `[Meta Total]`.
+  4. Os campos *Valor mínimo* e *Valor máximo* podem ficar em branco (o Power BI gerenciará a escala automaticamente iniciando em `0`).
+  5. No painel **Formatar visual** (Pincel 🖌️) → aba *Visual* → **Eixo do indicador**: configure as cores da barra e do marcador de meta conforme o tema do relatório.
+  6. Em **Geral → Título**: digite `Atingimento de Meta vs. Receita Realizada`.
+
+* **Gráfico Cascata (Waterfall Chart):**
+  > **Conceito PL-300:** O gráfico de cascata mostra a contribuição cumulativa de cada categoria para um total final.
+  1. No painel de visualizações, selecione **Gráfico de Cascata (Waterfall Chart)**.
+  2. No campo **Categoria (Category)**, insira `dim_lojas[regiao]`.
+  3. No campo **Eixo Y (Y-Axis)**, insira a medida `[Diferenca Meta]`.
+  4. *Como interpretar o visual:* 
+     - As barras **Verdes** representam regiões que superaram a meta (`Receita > Meta`).
+     - As barras **Vermelhas** representam regiões com déficit (`Receita < Meta`).
+     - A barra final de **Total** representa o saldo consolidado de toda a empresa (que bate perfeitamente com o total do visual Indicador!).
+  > 💡 *Nota Técnica:* Certifique-se de que a medida `[Meta Total]` utilizada possui o tratamento com `TREATAS` (Medida 23 do guia), pois a tabela `fato_metas` possui granularidade por vendedor e precisa propagar o filtro quando analisada por região ou loja.
+
+* **Matriz com Hierarquia de Lojas e Vendedores (Passo a Passo Completo):**
+  1. No painel de visualizações, selecione o ícone de **Matriz (Matrix)** (tabela com cabeçalhos azulados na horizontal e vertical).
+  2. Arraste para o campo **Linhas (Rows)** na seguinte ordem:
+     1. `dim_lojas[nome_loja]` *(Nível 1 - Grupo Pai)*
+     2. `dim_vendedores[nome_vendedor]` *(Nível 2 - Detalhe Filho)*
+  3. Arraste para o campo **Valores (Values)** as 4 medidas:
+     1. `[Receita Liquida]`
+     2. `[Meta Total]`
+     3. `[Diferenca Meta]`
+     4. `[Atingimento Meta %]`
+  4. **Ativando os Botões de Expansão (+/-):**
+     - Selecione a Matriz → vá no painel **Formatar visual** (Pincel 🖌️) → aba **Visual**.
+     - Expanda a seção **Cabeçalhos de linha (Row headers)** → ative a opção **Ícones de mais/menos (+/- icons)**.
+     - Agora cada loja exibirá um botão `+` clicável para abrir seus respectivos vendedores!
+  5. **Aplicando o Semáforo de Ícones na coluna `[Atingimento Meta %]`:**
+     - No painel lateral de campos da Matriz, clique na setinha suspensa ao lado de `[Atingimento Meta %]` na área de Valores (ou clique com botão direito sobre o campo) → **Formatação Condicional → Ícones**.
+     - Configure a janela:
+       - *Estilo da formatação:* **Regras (Rules)**
+       - *Campo base:* `Atingimento Meta %`
+       - *Posição do ícone:* **À esquerda dos dados**
+       - *Regra 1 (🔴 Crítico):* Se valor `>= 0` (Número) e `< 0.9` (Número)
+       - *Regra 2 (🟡 Atenção):* Se valor `>= 0.9` (Número) e `< 1.0` (Número)
+       - *Regra 3 (🟢 Meta Batida):* Se valor `>= 1.0` (Número) e `<` *(deixe em branco para Máximo)* (Número)
+     - Clique em **OK**.
+  6. **Aplicando Barras de Dados (Data Bars) no `[Atingimento Meta %]`:**
+     - Clique novamente na setinha ao lado de `[Atingimento Meta %]` → **Formatação Condicional → Barras de dados**.
+     - Selecione a cor da barra positiva (ex.: Azul `#2B579A` ou Verde claro `#107C41`).
+     - Clique em **OK**.
+
+* **Segmentador de Vendedor:**
+  1. Insira uma **Segmentação de Dados (Slicer)**.
+  2. Arraste `dim_vendedores[nome_vendedor]`.
+  3. Em *Configurações do Segmentador* → *Estilo*, selecione **Menu suspenso (Dropdown)**.
+
 #### Recursos Avançados do Painel 2:
-1. **Formatação Condicional na Matriz (Semáforo de Metas):**
-   - Clique com o botão direito no campo `[Atingimento Meta %]` dentro do painel de valores da Matriz → **Formatação Condicional → Ícones**.
-   - Regras:
-     - 🔴 **Crítico:** Valor `< 0.90` (Menos de 90% da meta batida)
-     - 🟡 **Atenção:** Valor entre `0.90` e `0.999` (Entre 90% e 99.9%)
-     - 🟢 **Meta Batida:** Valor `>= 1.00` (100% ou mais)
-2. **Visual de Inteligência Artificial — Árvore de Decomposição (Decomposition Tree):**
+1. **Visual de Inteligência Artificial — Árvore de Decomposição (Decomposition Tree):**
    - Analisar: `[Receita Liquida]`
    - Explicar por: `dim_produtos[categoria]`, `dim_lojas[regiao]`, `dim_clientes[segmento]`.
    - *Por que cai na PL-300:* Demonstra como a IA do Power BI encontra automaticamente os ramos de maior valor (*Alto Valor*) e menor valor (*Baixo Valor*).
