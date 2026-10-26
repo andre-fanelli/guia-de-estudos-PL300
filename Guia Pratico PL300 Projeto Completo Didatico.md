@@ -1,4 +1,6 @@
-# 🏆 Guia Prático Definitivo PL-300 — Projeto Completo de Ponta a Ponta
+# 🏆 Guia Prático PL-300 — Projeto Completo
+
+
 ## Microsoft Certified: Power BI Data Analyst Associate (PL-300)
 ### Manual Teórico, Prático, Didático e Arquitetural com Resolução Completa
 
@@ -1165,7 +1167,7 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
      - Selecione a Matriz → vá no painel **Formatar visual** (Pincel 🖌️) → aba **Visual**.
      - Expanda a seção **Cabeçalhos de linha (Row headers)** → ative a opção **Ícones de mais/menos (+/- icons)**.
      - Agora cada loja exibirá um botão `+` clicável para abrir seus respectivos vendedores!
-  5. **Aplicando o Semáforo de Ícones na coluna `[Atingimento Meta %]`:**
+  5. **Aplicando o Semáforo de Ícones na coluna `[Atingimento Meta %]`:** 
      - No painel lateral de campos da Matriz, clique na setinha suspensa ao lado de `[Atingimento Meta %]` na área de Valores (ou clique com botão direito sobre o campo) → **Formatação Condicional → Ícones**.
      - Configure a janela:
        - *Estilo da formatação:* **Regras (Rules)**
@@ -1193,19 +1195,251 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
 
 ---
 
-### 📊 Painel 3: Detalhamento de Clientes & Drill-Through
+### 📊 Painel 3: Detalhamento de Clientes & Drill-Through (Passo a Passo Didático Completo)
 
-**Objetivo de Negócio:** Permitir ao analista clicar com o botão direito em qualquer cliente de um gráfico principal e ser teletransportado para uma página com o raio-x histórico completo daquele cliente.
+**Objetivo de Negócio:** Oferecer aos gerentes de conta e analistas comerciais uma visão em raio-x de 360° de qualquer cliente individual: perfil cadastral, comportamento de compras ao longo do tempo, categorias preferidas e auditoria detalhada de cada transação de pedido.
 
-#### Como Configurar o Drill-Through:
-1. Crie uma nova página e a renomeie para: `Detalhes do Cliente`.
-2. No painel lateral **Formato da Página / Detalhamento (Drill-through)**:
-   - Arraste o campo `dim_clientes[nome_cliente]` para a caixa de campos de Drill-through.
-   - O Power BI adicionará automaticamente um botão de voltar `←` no canto superior esquerdo da tela.
-3. Monte o layout com:
-   - Cartões com os dados cadastrais do cliente: E-mail, Idade, Renda Estimada, Segmento e Cidade.
-   - Tabela detalhada listando todas as compras do cliente: `data_venda`, `nome_produto`, `quantidade`, `preco_unitario`, `desconto_pct`, `valor_liquido`, `status_entrega`.
-4. **Como Utilizar:** No Painel 1 ou Painel 2, clique com o botão direito sobre o nome de um cliente em qualquer visual → **Detalhamento (Drill-through) → Detalhes do Cliente**.
+```
++----------------------------------------------------------------------------------------------------+
+| [ ← Voltar ]  Raio-X do Cliente: CARLOS SOUZA                               [ Status: Ativo ]      |
++----------------------------------------------------------------------------------------------------+
+| 👤 Ficha Cadastral (Card New):                                                                     |
+| E-mail: carlos.souza@exemplo.com | Idade: 34 anos | Segmento: Consumidor Final | Cidade: Londrina-PR |
++----------------------------------------------------------------------------------------------------+
+| 💰 Métricas de LTV & Transações do Cliente:                                                        |
+| [ Receita Líquida ]      [ Total Pedidos ]       [ Ticket Médio ]        [ Margem Média % ]        |
+| R$ 14.850,00             | 8 Pedidos             | R$ 1.856,25           | 41,8%                   |
++----------------------------------------------------------------------------------------------------+
+| 📈 Histórico Mensal de Compras (Colunas)        | 🛍️ Mix de Categorias Compradas (Barras)          |
+| Eixo X: Ano-Mês | Eixo Y: Receita Líquida       | Eixo Y: Categoria | Eixo X: Receita Líquida       |
++----------------------------------------------------------------------------------------------------+
+| 🧾 Tabela Detalhada de Itens Comprados (Auditoria / Grão Transacional)                             |
+| Data Venda | Produto | Categoria | Qtd | Preço Unit. | Desconto % | Valor Líq. | Status Entrega    |
++----------------------------------------------------------------------------------------------------+
+```
+
+---
+
+#### 🧠 Fundamento Teórico para a Certificação PL-300
+
+Antes de clicar em qualquer botão, compreenda as regras e pegadinhas que a Microsoft cobra sobre este recurso:
+
+1. **Drill-Down vs. Drill-Through (Conceito Essencial):**
+   * **Drill-Down (Detalhamento Interno):** Acontece **dentro do mesmo gráfico na mesma página**. Ele navega entre níveis de uma hierarquia pré-existente (exemplo: Ano ➔ Trimestre ➔ Mês, ou Categoria ➔ Subcategoria).
+   * **Drill-Through (Detalhamento Cruzado / Entre Páginas):** Teletransporta o usuário para **outra página dedicada**, filtrando toda a página de destino pelo item selecionado (exemplo: clica no cliente "Carlos Souza" na página de Vendas e vai para a página "Detalhes do Cliente").
+
+2. **A Opção Crucial: "Manter todos os filtros" (Keep all filters):**
+   * **Ativado (ON - Padrão):** Se o usuário filtrou `Ano = 2024` e `Loja = Curitiba` no Painel 1 e fez drill-through no cliente, a página de destino herdará **todos** esses filtros (só verá compras de 2024 em Curitiba).
+   * **Desativado (OFF):** A página de destino ignora os filtros de ano, loja ou produto da página de origem e aplica **apenas o filtro do cliente**. É a configuração ideal para analisar o histórico completo de vida (*Lifetime Value*) do cliente desde o seu primeiro pedido!
+
+3. **Visibilidade da Página:**
+   * Uma página de Drill-through **deve ser oculta** no relatório final (clique com o botão direito na aba da página ➔ **Ocultar Página**). Assim, os usuários só chegam nela através do drill-through ou de botões de navegação, evitando que acessem uma página vazia.
+
+---
+
+#### 🛠️ Construção Passo a Passo: Visual por Visual
+
+---
+
+##### 1. Criação e Configuração da Página de Destino
+
+1. No rodapé do Power BI Desktop, clique no botão **`+`** (Nova Página).
+2. Clique duas vezes sobre o nome da aba e renomeie para: **`Detalhes do Cliente`**.
+3. Clique em uma área em branco da tela (para não selecionar nenhum visual).
+4. **Configurando como página de Drill-Through:**
+   * **Se você está na interface moderna do Power BI:**
+     1. Abra o painel lateral **Formatar página** (ícone do Pincel 🖌️).
+     2. Expanda a seção **Informações da página (Page information)**.
+     3. No campo **Tipo de página (Page type)**, selecione **Detalhamento (Drill-through)**.
+     4. Imediatamente surgirá abaixo o grupo **Detalhamento (Drill-through)**.
+     5. No campo **Adicionar campos de detalhamento aqui (Add drill-through fields here)**, arraste a coluna:
+        `dim_clientes[nome_cliente]`.
+   * **Se você está na interface clássica do Power BI:**
+     1. Olhe para a base do painel **Visualizações** (à direita).
+     2. Localize o quadro **Detalhamento (Drill-through)**.
+     3. Arraste `dim_clientes[nome_cliente]` para o poço **Adicionar campos de detalhamento aqui**.
+5. **Configurando os Filtros Herdados:**
+   * Localize a chave **Manter todos os filtros (Keep all filters)**.
+   * **Mantenha Ativado (ON)** se deseja que a auditoria respeite o período filtrado, ou **Desative (OFF)** caso queira que este relatório mostre todo o histórico da vida do cliente sem cortes de datas.
+6. **O Botão de Voltar Automático:**
+   * Assim que você adiciona o campo de detalhamento, o Power BI insere automaticamente um botão de seta para a esquerda `←` no canto superior esquerdo da tela.
+   * Para testar botões dentro do Power BI Desktop no computador, você deve segurar a tecla <kbd>Ctrl</kbd> e clicar com o botão esquerdo do mouse sobre ele.
+
+---
+
+##### 2. Título Dinâmico do Cliente (Cabeçalho Inteligente)
+
+Para que o título da página mude de acordo com o cliente inspecionado, criaremos uma medida DAX elegante:
+
+1. No painel de dados, clique com o botão direito sobre a tabela `_Medidas` ➔ **Nova Medida**.
+2. Digite a fórmula:
+   ```dax
+   Titulo Detalhamento Cliente = 
+   VAR _Cliente = SELECTEDVALUE(dim_clientes[nome_cliente])
+   RETURN
+       IF(
+           ISBLANK(_Cliente),
+           "Selecione um cliente no Painel 1 ou 2 via Drill-Through",
+           "Raio-X do Cliente: " & UPPER(_Cliente)
+       )
+   ```
+3. **Inserindo o visual de título:**
+   * Insira o visual **Cartão (novo)** (ou Caixa de Texto).
+   * Arraste a medida `[Titulo Detalhamento Cliente]` para o campo de dados.
+   * No painel de formato (Pincel) ➔ **Valor do texto explicativo (Callout value)**: tamanho da fonte `20 pt`, Negrito, cor Azul Corporativo (`#115E59` ou `#1F4E79`).
+   * Desative o **Rótulo da categoria**.
+   * Posicione o título ao lado do botão de voltar `←`.
+
+---
+
+##### 3. Ficha Cadastral do Cliente (Card New)
+
+Exibe os dados demográficos e de contato do cliente selecionado:
+
+1. No painel de visualizações, selecione **Cartão (novo) / Card (new)**.
+2. Posicione-o logo abaixo do cabeçalho (largura: ~1200px, altura: ~90px).
+3. Arraste para o campo **Dados (Data)** os seguintes campos da tabela `dim_clientes`:
+   1. `dim_clientes[email_cliente]`
+   2. `dim_clientes[segmento]`
+   3. `dim_clientes[cidade]`
+   4. `dim_clientes[idade]`
+   5. `dim_clientes[renda_estimada]`
+4. **Formatação do Visual:**
+   * No painel **Formatar visual** ➔ aba **Visual**:
+     * **Disposição (Layout):** Orientação = **Horizontal**, Linhas = `1`, Colunas = `5`. Espaçamento = `8 px`.
+     * **Valor do texto explicativo (Callout value):** Fonte tamanho `13 pt`, Estilo `Seminegrito`, Cor `#262626`.
+     * **Rótulo da categoria (Label):** Posição = **Abaixo do valor**, Fonte `9 pt`, Cor `#666666`.
+     * **Cartões (Cards):** Preenchimento = `#F4F6F8`, Borda = `#E0E0E0` com Raio do canto = `6 px`.
+
+---
+
+##### 4. Métricas Financeiras de Desempenho do Cliente (Cards de KPI)
+
+Estes cartões resumem o volume financeiro que o cliente representa para a empresa:
+
+1. Insira um segundo visual de **Cartão (novo)**.
+2. Posicione-o abaixo da ficha cadastral.
+3. Arraste as 4 medidas da tabela `_Medidas`:
+   1. `[Receita Liquida]` *(Total de compras em R$)*
+   2. `[Total Pedidos]` *(Frequência de compras)*
+   3. `[Ticket Medio]` *(Média de gastos por pedido)*
+   4. `[Margem Lucro %]` *(Lucratividade gerada)*
+4. **Formatação:**
+   * **Disposição:** Orientação = **Horizontal**.
+   * **Valor do texto explicativo:** Tamanho `22 pt`, Negrito.
+   * **Cartões (Cards):** Preenchimento = Branco `#FFFFFF`, Sombra = Ativada (*Efeito flutuante elegante*).
+
+---
+
+##### 5. Gráfico de Evolução Temporal de Compras do Cliente
+
+Permite identificar a sazonalidade e a frequência com que o cliente compra:
+
+1. No painel de visualizações, selecione o ícone de **Gráfico de Colunas Clusterizadas (Clustered Column Chart)**.
+2. Posicione no lado esquerdo da tela (meio da página).
+3. Configure os eixos:
+   * **Eixo X (X-Axis):** Arraste `dim_calendario[ano_mes]` (ou hierarquia `ano` e `mes_curto`).
+   * **Eixo Y (Y-Axis):** Arraste a medida `[Receita Liquida]`.
+   * **Dicas de ferramenta (Tooltips):** Arraste `[Total Pedidos]` e `[Lucro Bruto]`.
+4. **Formatação:**
+   * No painel **Formatar visual** ➔ aba **Visual**:
+     * **Colunas (Columns):** Cor = Azul Médio (`#2B579A`).
+     * **Rótulos de dados (Data labels):** Ativado (ON), Posição = *Extremidade externa*.
+   * Na aba **Geral**:
+     * **Título:** Ativado ➔ Texto: `Histórico Mensal de Compras (Receita Líquida)`.
+
+---
+
+##### 6. Gráfico de Mix de Categorias Compradas
+
+Mostra em quais departamentos da loja o cliente mais investe seu dinheiro:
+
+1. No painel de visualizações, selecione o ícone de **Gráfico de Barras Clusterizadas (Clustered Bar Chart)** (barras horizontais).
+2. Posicione no lado direito da tela (ao lado do gráfico de colunas).
+3. Configure os campos:
+   * **Eixo Y (Y-Axis):** Arraste `dim_produtos[categoria]`.
+   * **Eixo X (X-Axis):** Arraste a medida `[Receita Liquida]`.
+4. **Formatação:**
+   * No painel **Formatar visual**:
+     * **Barras (Bars):** Cor = Verde Petróleo (`#0D9488`).
+     * **Rótulos de dados:** Ativado.
+   * Na aba **Geral**:
+     * **Título:** `Preferência de Compras por Categoria`.
+
+---
+
+##### 7. Tabela Analítica Detalhada das Transações (Auditoria Completa)
+
+Este é o visual central do Drill-Through, onde o analista pode inspecionar cada item comprado, descontos e entregas:
+
+1. No painel de visualizações, selecione o ícone de **Tabela (Table)** (ícone de grade simples).
+2. Posicione na parte inferior da página, ocupando toda a largura horizontal.
+3. No campo **Colunas (Columns)**, arraste exatamente os seguintes campos nesta ordem:
+   1. `dim_calendario[data]` (ou `fato_vendas[data_venda]`) ➔ *Renomeie para "Data Venda"*
+   2. `dim_produtos[nome_produto]` ➔ *"Produto"*
+   3. `dim_produtos[categoria]` ➔ *"Categoria"*
+   4. `fato_vendas[quantidade]` ➔ *"Qtd"*
+   5. `fato_vendas[preco_unitario]` ➔ *"Preço Unitário"*
+   6. `fato_vendas[desconto_pct]` ➔ *"Desconto %"*
+   7. `fato_vendas[valor_liquido]` ➔ *"Valor Pago (Líquido)"*
+   8. `fato_vendas[status_entrega]` ➔ *"Status Entrega"*
+   9. `fato_vendas[meio_pagamento]` ➔ *"Meio de Pagamento"*
+
+4. **Garantindo a Formatação Correta dos Campos na Tabela:**
+   * Clique em `fato_vendas[desconto_pct]` no painel de dados ➔ na guia superior *Ferramentas de Coluna*, garanta formato **Porcentagem %** com `1` casa decimal.
+   * Clique em `fato_vendas[preco_unitario]` e `fato_vendas[valor_liquido]` ➔ formato **Moeda (R$)**.
+   * Clique em `data_venda` ➔ formato **Data Curta (`dd/MM/yyyy`)**.
+
+5. **Aplicando Formatação Condicional no `status_entrega` (Destaque Visual para Auditoria):**
+   * No poço de campos da Tabela, clique na setinha suspensa ao lado de `status_entrega` ➔ **Formatação Condicional (Conditional formatting) ➔ Cor da tela de fundo (Background color)**.
+   * Configure as regras:
+     * *Formatar por:* **Regras (Rules)**
+     * *Em qual campo devemos basear isso?* `status_entrega`
+     * *Regra 1:* Se valor for `"Entregue"` ➔ Cor de fundo: Verde claro (`#D1E7DD`).
+     * *Regra 2:* Se valor for `"Devolvido"` ➔ Cor de fundo: Vermelho claro (`#F8D7DA`).
+     * *Regra 3:* Se valor for `"Cancelado"` ➔ Cor de fundo: Cinza claro (`#E2E3E5`).
+   * Clique em **OK**. Agora o status de logística salta aos olhos instantaneamente!
+
+---
+
+#### 🚀 Como Acionar e Testar o Drill-Through
+
+Existem **duas formas** de testar e utilizar este painel. Ambas caem no exame PL-300:
+
+##### Método 1: Menu de Contexto (Botão Direito do Mouse — Padrão)
+1. Volte para a página **Painel 1** ou **Painel 2**.
+2. Em qualquer gráfico que contenha clientes (ou crie temporariamente uma tabela de clientes para testar):
+3. Clique com o **botão direito** do mouse sobre o nome de um cliente (ex.: *Carlos Souza*).
+4. No menu suspenso que se abre, passe o mouse sobre **Detalhamento (Drill-through)**.
+5. Clique em **Detalhes do Cliente**.
+6. O Power BI abrirá a página 3 com todos os gráficos e a tabela filtrados exclusivamente para o *Carlos Souza*!
+7. Para voltar à página anterior: segure a tecla <kbd>Ctrl</kbd> e dê um clique no botão **`←`** no canto superior esquerdo.
+
+##### Método 2: Botão de Drill-Through Condicional na Tela (Melhor Prática de UI/UX)
+Muitos usuários corporativos não sabem que podem clicar com o botão direito. Por isso, a Microsoft introduziu e cobra na PL-300 o **Botão de Drill-Through Moderno**:
+
+1. Vá para a página de origem (ex.: **Painel 1**).
+2. Na guia superior **Inserir (Insert)** ➔ **Botões (Buttons)** ➔ selecione **Em branco (Blank)**.
+3. Selecione o botão e vá no painel **Formatar** (Pincel 🖌️):
+   * Expanda a seção **Ação (Action)** e ative-a (ON).
+   * No campo **Tipo (Type)**, selecione **Detalhamento (Drill-through)**.
+   * No campo **Destino (Destination)**, selecione **Detalhes do Cliente**.
+   * Expanda a seção **Estilo do Botão (Button style)** ➔ **Texto (Text)**:
+     * No estado *Desabilitado (Disabled)*, digite: `Selecione um cliente no visual para ver detalhes`.
+     * No estado *Padrão (Default)*, digite: `🔍 Ver Raio-X do Cliente Selecionado`.
+4. **Como Funciona na Prática:**
+   * Enquanto nenhum cliente estiver selecionado, o botão fica cinza e desabilitado.
+   * No momento em que o usuário clica sobre uma linha de cliente em uma tabela ou barra, o botão se acende dinamicamente!
+   * O usuário clica no botão (ou <kbd>Ctrl</kbd> + clique no Desktop) e viaja diretamente para a página de detalhes.
+
+---
+
+#### 🛡️ Checklist de Validação para a Prova PL-300:
+- [x] Página criada e configurada com tipo *Drill-Through* e campo de destino associado (`dim_clientes[nome_cliente]`).
+- [x] Botão de retorno configurado com Ação: *Voltar (Back)* e testado com <kbd>Ctrl</kbd> + Clique.
+- [x] Compreensão da diferença prática entre marcar e desmarcar *Manter todos os filtros*.
+- [x] Formatação condicional implementada na tabela de transações.
+- [x] Página de detalhamento definida como **Oculta (Hide page)** para governança de navegação.
 
 ---
 
