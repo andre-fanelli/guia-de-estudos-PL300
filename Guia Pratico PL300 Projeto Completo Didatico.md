@@ -218,9 +218,11 @@ Na base de dados, a coluna `nome_cliente` contém espaçamentos indesejados e le
    - *Por que:* Remove caracteres não imprimíveis (como quebras de linha `\n`, `\r` ou caracteres de controle ASCII de 0 a 31 que costumam vir de integrações com sistemas legados).
 4. Vá em **Transformar → Formatar → Colocar Cada Palavra em Maiúscula (Capitalize Each Word)**.
    - *Por que:* Padroniza nomes próprios para uma estética visual profissional nos relatórios.
-5. Verifique a coluna `renda_estimada`:
-   - Clique no ícone do tipo de dados à esquerda do cabeçalho da coluna e selecione **Número Decimal Fixo (Fixed Decimal Number)**.
-   - *Por que:* O formato de decimal fixo utiliza 4 casas decimais e evita imprecisões de arredondamento causadas pela representação em ponto flutuante do tipo *Número Decimal*.
+5. Verifique as colunas numéricas `idade` e `renda_estimada`:
+   - **`idade`:** Garanta que o ícone de tipo à esquerda do cabeçalho esteja como **Número Inteiro (`123`)**.
+   - **`renda_estimada`:** Deve estar como **Número Decimal Fixo (`$` / Moeda)**.
+     - ⚠️ **Atenção se você importou via CSV:** No arquivo `dim_clientes.csv`, os centavos estão separados por **ponto** (ex.: `14204.48` e `13631.6`). No Power BI em Português (PT-BR), se a coluna ficou como Texto (`ABC`), clique no ícone `ABC` no cabeçalho de `renda_estimada` → escolha **Usando a Localidade... (Using Locale...)** → em *Tipo de Dados* selecione **Número Decimal Fixo** e em *Localidade* selecione **Inglês (Estados Unidos)**.
+   - *Por que:* Converter com a localidade correta evita que o Power BI trate o número como texto (o que faria os cartões exibirem a contagem `1`) ou ignore o ponto decimal multiplicando a renda por 100. O formato de decimal fixo utiliza 4 casas decimais e evita imprecisões de arredondamento de ponto flutuante.
 
 ---
 
@@ -991,28 +993,31 @@ Você pode montar esses KPIs de duas formas no Power BI Desktop:
 >    - **`[ Visual ]`**: Configurações específicas deste tipo de gráfico (todas as etapas abaixo ficam aqui!).
 >    - **`[ Geral ]`**: Configurações gerais do contêiner externo (título geral, efeitos de tela de fundo, tamanho e posição).
 
-Abaixo está o **mapa visual da estrutura de menus** da aba `[ Visual ]` atualizado para as versões mais recentes do Power BI Desktop:
+Abaixo está o **mapa visual da estrutura de menus** da aba `[ Visual ]` atualizado para o **Power BI Desktop (Atualização Outubro de 2026)**:
 
 ```text
 Painel: Formatar visual (Pincel 🖌️)
 └── Aba [ Visual ]  <--- (Certifique-se de estar nesta aba)
     │
-    ├── 📁 1. Disposição (ou Layout em inglês)
-    │      ├── Orientação: [ Horizontal ] (ícone horizontal)  <--- Posiciona os 4 cards em linha única
+    ├── 📁 1. Disposição (Layout)
+    │      ├── Estilo de disposição: [ Linha única (Single row) ]  <--- Posiciona os 4 cards lado a lado em 1 linha
     │      └── Espaçamento entre cartões: [ 10 ] px  <--- Cria um respiro entre os cards
     │
-    ├── 📁 2. Valor do texto explicativo (Callout value)
-    │      ├── Aplicar configurações a: [ Todas as séries ] (ou selecione a medida desejada)
-    │      ├── Fonte: Tamanho [ 26 pt ], Estilo: [ Negrito ]
-    │      └── Exibir unidades: [ Milhões (M)  v ]  <--- Fica logo abaixo da cor/alinhamento (encurta R$ 184.250.000 para R$ 184,2 M)
+    ├── 📁 2. Valores do texto explicativo (Callout values)
+    │      ├── Aplicar configurações a -> Série: [ Todas ] (ou selecione a medida desejada)
+    │      ├── 🔽 Valores (Values)
+    │      │      ├── Fonte: Tamanho [ 26 pt ], Estilo: [ Negrito ]
+    │      │      └── Exibir unidades: [ Milhões (M)  v ]  <--- Encurta R$ 184.250.000 para R$ 184,2 M
+    │      └── 🔽 Rótulo (Label)  <--- (Fica dentro de "Valores do texto explicativo" nas versões atuais!)
+    │             ├── Rótulo: [ Ativado ]
+    │             ├── Posição: [ Abaixo do valor  v ]  <--- Coloca o nome da métrica embaixo do número
+    │             └── Fonte: Tamanho [ 10 pt ], Cor: [ Cinza escuro #5A5A5A ]
     │
-    ├── 📁 3. Rótulo da categoria (Label)
-    │      ├── Posição: [ Abaixo do valor  v ]  <--- Coloca o nome da métrica embaixo do número
-    │      └── Fonte: Tamanho [ 10 pt ], Cor: [ Cinza escuro #5A5A5A ]
-    │
-    └── 📁 4. Cartões (Cards)
-           ├── 🔘 Preenchimento (Fill): [ Ativado ] -> Cor: [ Branco #FFFFFF ]
-           ├── 🔘 Borda (Border): [ Ativado ] -> Raio do canto: [ 8 px ]  <--- Pontas arredondadas
+    └── 📁 3. Cartões (Cards)
+           ├── Aplicar configurações a -> Série: [ Todas ]
+           ├── 🔽 Forma (Shape): [ Retângulo de cantos arredondados ] -> Cantos arredondados: [ 8 px ]
+           ├── 🔘 Tela de fundo (Background / Fill): [ Ativado ] -> Cor: [ Branco #FFFFFF ]
+           ├── 🔘 Borda (Border): [ Ativado ] -> Cor: [ #E0E0E0 ]
            └── 🔘 Sombra (Shadow): [ Ativado ]  <--- Efeito 3D sutil de card flutuante
 ```
 
@@ -1021,36 +1026,33 @@ Painel: Formatar visual (Pincel 🖌️)
 ###### 🔍 O que faz cada uma dessas configurações e onde encontrar:
 
 1. **Menu `Disposição` (*Layout*):**
-   - **Onde fica:** É a primeira seção dentro da aba *Visual*.
-   - **Orientação / Disposição:** Alterne entre os botões/opções de *Horizontal* (linha única com 4 colunas), *Vertical* (coluna empilhada) ou *Grade* (Grid 2x2). Para a barra de KPIs superior, selecione **Horizontal**.
+   - **Onde fica:** Seção de organização dos cartões dentro da aba *Visual*.
+   - **Estilo de disposição (*Arrangement*):** Alterne entre **Linha única** (*Single row* — linha horizontal com todos os cartões), **Coluna única** (*Single column* — coluna empilhada) ou **Grade** (*Grid* — onde você define manualmente quantas linhas e colunas mostrar). Para a barra de KPIs superior, selecione **Linha única**.
    - **Espaçamento entre cartões (*Space between cards*):** Ajuste para `10 px` para criar uma margem agradável entre cada cartão individual.
 
-2. **Menu `Valor do texto explicativo` (*Callout value*):**
-   - **O que é:** Configura o **número em destaque** (ex.: `R$ 184,2 M`).
-   - **Aplicar configurações a (*Apply settings to*):** Permite alterar todas as medidas juntas (*Todas as séries*) ou uma específica (ex.: `Receita Líquida`).
-   - **Tamanho e Estilo da fonte:** Ajuste para `24 pt` a `28 pt` em negrito.
-   - **Exibir unidades (*Display units*):** Localizado logo abaixo dos seletores de *Cor* e *Alinhamento*. Mude de *Automático* para **Milhões (M)** ou **Milhares (K)** para encurtar valores longos. *(Nota: Se a medida estiver formatada como texto/personalizada com setas DAX, ela assumirá o texto da fórmula).*
+2. **Menu `Valores do texto explicativo` (*Callout values*):**
+   - **O que é:** Concentra tanto o **número em destaque** (*Valores*) quanto o **título da métrica** (*Rótulo*).
+   - **Aplicar configurações a ➔ Série (*Apply settings to ➔ Series*):** Permite alterar todas as medidas juntas (*Todas*) ou uma específica (ex.: `Receita Líquida`).
+   - **Subseção `Valores` (*Values*):** Ajuste a fonte para `24 pt` a `28 pt` em negrito e mude **Exibir unidades (*Display units*)** de *Automático* para **Milhões (M)** ou **Milhares (K)** para encurtar valores longos.
+   - **Subseção `Rótulo` (*Label*):** Ative o rótulo e defina a **Posição (*Position*)** como **Abaixo do valor** (ou **Acima do valor**). *(Nota: Em versões mais antigas do Power BI, "Rótulo da categoria" ficava fora como uma seção separada; na versão de Outubro de 2026, ele fica dentro de `Valores do texto explicativo`).*
 
-3. **Menu `Rótulo da categoria` (*Label*):**
-   - **O que é:** É o **nome/título** de cada indicador (ex.: *"Receita Líquida"*, *"Lucro Bruto"*).
-   - **Posição (*Position*):** Configuramos como **Abaixo do valor** para seguir o padrão moderno de UI (*Value on Top, Label on Bottom*).
-
-4. **Menu `Cartões` (*Cards*):**
+3. **Menu `Cartões` (*Cards*):**
    - **O que é:** Controla a estética das caixinhas individuais dentro do contêiner.
-   - **Preenchimento (*Fill*):** Cor de fundo interna dos cartões (Branco `#FFFFFF` ou Cinza claro `#F8F9FA`).
-   - **Borda (*Border*) com Raio do Canto (*Corner radius*):** O valor de `8 px` suaviza os cantos pontudos de 90°, dando um acabamento ergonômico e moderno.
+   - **Forma (*Shape*):** Selecione **Retângulo de cantos arredondados (*Rounded rectangle*)** e defina **Cantos arredondados** em `8 px`.
+   - **Tela de fundo (*Background / Fill*):** Cor de fundo interna dos cartões (Branco `#FFFFFF` ou Cinza claro `#F8F9FA`).
+   - **Borda (*Border*):** Contorno sutil ao redor de cada cartão.
    - **Sombra (*Shadow*):** Adiciona uma leve elevação visual (*drop shadow*), destacando os cartões do fundo da página.
+   - **Barra de destaque (*Accent bar*):** Cria uma faixa lateral ou superior colorida em cada cartão para um acabamento executivo moderno.
 
 > [!NOTE]
-> **Terminologia Português (PT-BR Atual) vs Inglês (EN-US):**
-> | Português (PT-BR Atual) | Português (Versões Anteriores) | Inglês (EN-US) |
+> **Terminologia Português (PT-BR Outubro 2026) vs Versões Anteriores vs Inglês (EN-US):**
+> | Português (Outubro 2026) | Português (Versões Anteriores) | Inglês (EN-US) |
 > |---|---|---|
-> | **Disposição** | Layout | Layout |
-> | **Valor do texto explicativo** | Valor do balão | Callout value |
-> | **Exibir unidades** | Exibir unidades | Display units |
-> | **Rótulo da categoria** | Rótulo da categoria | Label |
-> | **Cartões** | Cartões | Cards |
-> | **Raio do canto arredondado** | Raio do canto | Corner radius |
+> | **Disposição ➔ Estilo de disposição: Linha única** | Layout ➔ Orientação: Horizontal | Layout ➔ Arrangement: Single row |
+> | **Valores do texto explicativo ➔ Valores** | Valor do balão / Valor do texto explicativo | Callout values ➔ Values |
+> | **Valores do texto explicativo ➔ Rótulo** | Rótulo da categoria (seção externa) | Callout values ➔ Label |
+> | **Cartões ➔ Forma ➔ Retângulo de cantos arredondados** | Cartões ➔ Borda ➔ Raio do canto | Cards ➔ Shape ➔ Rounded rectangle |
+> | **Cartões ➔ Tela de fundo** | Cartões ➔ Preenchimento | Cards ➔ Background |
 
 ---
 
@@ -1200,22 +1202,23 @@ Painel: Formatar visual -> Aba [ Visual ] -> Seção [ Valor do texto explicativ
 **Objetivo de Negócio:** Oferecer aos gerentes de conta e analistas comerciais uma visão em raio-x de 360° de qualquer cliente individual: perfil cadastral, comportamento de compras ao longo do tempo, categorias preferidas e auditoria detalhada de cada transação de pedido.
 
 ```
-+----------------------------------------------------------------------------------------------------+
-| [ ← Voltar ]  Raio-X do Cliente: CARLOS SOUZA                               [ Status: Ativo ]      |
-+----------------------------------------------------------------------------------------------------+
-| 👤 Ficha Cadastral (Card New):                                                                     |
-| E-mail: carlos.souza@exemplo.com | Idade: 34 anos | Segmento: Consumidor Final | Cidade: Londrina-PR |
-+----------------------------------------------------------------------------------------------------+
-| 💰 Métricas de LTV & Transações do Cliente:                                                        |
-| [ Receita Líquida ]      [ Total Pedidos ]       [ Ticket Médio ]        [ Margem Média % ]        |
-| R$ 14.850,00             | 8 Pedidos             | R$ 1.856,25           | 41,8%                   |
-+----------------------------------------------------------------------------------------------------+
-| 📈 Histórico Mensal de Compras (Colunas)        | 🛍️ Mix de Categorias Compradas (Barras)          |
-| Eixo X: Ano-Mês | Eixo Y: Receita Líquida       | Eixo Y: Categoria | Eixo X: Receita Líquida       |
-+----------------------------------------------------------------------------------------------------+
-| 🧾 Tabela Detalhada de Itens Comprados (Auditoria / Grão Transacional)                             |
-| Data Venda | Produto | Categoria | Qtd | Preço Unit. | Desconto % | Valor Líq. | Status Entrega    |
-+----------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------+
+| [ ← Voltar ]  Raio-X do Cliente: MARCOS SOUZA                                      [ Status: Ativo ]     |
++----------------------------------------------------------------------------------------------------------+
+| 👤 Ficha Cadastral do Cliente (Visual Cartão - 5 Cards com Barra Lateral de Destaque):                   |
+| [ E-MAIL                      ] [ SEGMENTO         ] [ LOCALIZAÇÃO      ] [ IDADE   ] [ RENDA ESTIMADA ] |
+| [ marcos.souza1@exemplo.com.br] [ Consumidor Final ] [ Londrina - PR    ] [ 26 anos ] [ R$ 14.204,48   ] |
++----------------------------------------------------------------------------------------------------------+
+| 💰 Métricas de LTV & Transações do Cliente:                                                              |
+| [ Receita Líquida ]         [ Total Pedidos ]         [ Ticket Médio ]          [ Margem Lucro % ]       |
+| R$ 14.850,00                | 8 Pedidos               | R$ 1.856,25             | 41,8%                  |
++----------------------------------------------------------------------------------------------------------+
+| 📈 Histórico Mensal de Compras (Colunas)           | 🛍️ Mix de Categorias Compradas (Barras)             |
+| Eixo X: Ano-Mês | Eixo Y: Receita Líquida          | Eixo Y: Categoria | Eixo X: Receita Líquida         |
++----------------------------------------------------------------------------------------------------------+
+| 🧾 Tabela Detalhada de Itens Comprados (Auditoria / Grão Transacional)                                   |
+| Data Venda | Produto | Categoria | Qtd | Preço Unit. | Desconto % | Valor Líq. | Status Entrega          |
++----------------------------------------------------------------------------------------------------------+
 ```
 
 ---
@@ -1292,42 +1295,190 @@ Para que o título da página mude de acordo com o cliente inspecionado, criarem
 
 ---
 
-##### 3. Ficha Cadastral do Cliente (Card New)
+##### 3. Ficha Cadastral do Cliente (Cartão Moderno — Atualização Outubro de 2026)
 
-Exibe os dados demográficos e de contato do cliente selecionado:
+A Ficha Cadastral exibe os 5 atributos de perfil do cliente selecionado (**E-mail**, **Segmento**, **Localização**, **Idade** e **Renda Estimada**) lado a lado como um painel de CRM executivo.
 
-1. No painel de visualizações, selecione **Cartão (novo) / Card (new)**.
-2. Posicione-o logo abaixo do cabeçalho (largura: ~1200px, altura: ~90px).
-3. Arraste para o campo **Dados (Data)** os seguintes campos da tabela `dim_clientes`:
-   1. `dim_clientes[email_cliente]`
-   2. `dim_clientes[segmento]`
-   3. `dim_clientes[cidade]`
-   4. `dim_clientes[idade]`
-   5. `dim_clientes[renda_estimada]`
-4. **Formatação do Visual:**
-   * No painel **Formatar visual** ➔ aba **Visual**:
-     * **Disposição (Layout):** Orientação = **Horizontal**, Linhas = `1`, Colunas = `5`. Espaçamento = `8 px`.
-     * **Valor do texto explicativo (Callout value):** Fonte tamanho `13 pt`, Estilo `Seminegrito`, Cor `#262626`.
-     * **Rótulo da categoria (Label):** Posição = **Abaixo do valor**, Fonte `9 pt`, Cor `#666666`.
-     * **Cartões (Cards):** Preenchimento = `#F4F6F8`, Borda = `#E0E0E0` com Raio do canto = `6 px`.
+> [!WARNING]
+> **🚨 Por que `idade` e `renda_estimada` costumam exibir apenas o número `1` quando arrastadas para o Cartão?**
+> Esse é o erro mais comum de quem está construindo uma ficha cadastral no Power BI e ocorre por dois motivos:
+> 1. **Agregação Automática como "Contagem" (`Count`):** O visual de Cartão exige que qualquer coluna colocada nele seja resumida em um único valor. Quando uma coluna está configurada como *Não resumir (Don't summarize)* ou como *Texto*, o Power BI aplica automaticamente **`Contagem de idade`** e **`Contagem de renda_estimada`** no poço de Dados do cartão. Como cada cliente selecionado representa **1 única linha** na tabela `dim_clientes`, a contagem de linhas daquele cliente resulta exatamente em **`1`**!
+> 2. **Ponto Decimal no CSV (`renda_estimada`):** Caso você tenha importado a base via arquivo CSV (`dim_clientes.csv`), os valores de renda usam ponto como separador decimal (ex.: `14204.48` e `13631.6`). No Power BI em Português, se você não converteu o tipo **Usando a Localidade ➔ Inglês (Estados Unidos)** no Power Query, a coluna permaneceu como **Texto (`ABC`)**, forçando o cartão a fazer a **Contagem (`1`)**!
+
+Para construir a Ficha Cadastral sem esse problema e com acabamento profissional, você pode seguir o **Método A (Rápido, direto nas colunas)** ou o **Método B (Padrão Ouro com Medidas DAX — Recomendado)**.
+
+---
+
+###### 🛠️ Passo 3.1: Preparando os Dados da Ficha Cadastral (Escolha 1 dos 2 Métodos)
+
+####### ✅ Método B (Recomendado — Padrão Ouro com Medidas DAX `SELECTEDVALUE`)
+*Por que este método é o melhor?*
+* **Nunca exibe `1`** nem soma as idades de todos os 1.200 clientes (`54 mil`) quando nenhum cliente está selecionado.
+* Permite formatar o texto de forma elegante: **`"26 anos"`**, **`"Londrina - PR"`** e **`"R$ 14.204,48"`**.
+* Os títulos dos cartões já nascem limpos, sem nomes feios como *"Primeiro email_cliente"* ou *"Média de idade"*.
+
+No painel **Dados**, clique com o botão direito na tabela **`_Medidas` ➔ Nova Medida** e crie estas 5 medidas rápidas:
+
+```dax
+// 1. E-mail do Cliente
+Ficha E-mail = 
+SELECTEDVALUE(dim_clientes[email_cliente], "—")
+```
+
+```dax
+// 2. Segmento do Cliente
+Ficha Segmento = 
+SELECTEDVALUE(dim_clientes[segmento], "—")
+```
+
+```dax
+// 3. Localização (Combina Cidade e Estado automaticamente!)
+Ficha Localizacao = 
+VAR _Cidade = SELECTEDVALUE(dim_clientes[cidade])
+VAR _UF = SELECTEDVALUE(dim_clientes[estado])
+RETURN
+    IF(
+        NOT ISBLANK(_Cidade),
+        _Cidade & " - " & _UF,
+        "—"
+    )
+```
+
+```dax
+// 4. Idade Formatada (Adiciona o sufixo " anos" e evita a Contagem = 1)
+Ficha Idade = 
+VAR _Idade = SELECTEDVALUE(dim_clientes[idade])
+RETURN
+    IF(
+        NOT ISBLANK(_Idade),
+        _Idade & " anos",
+        "—"
+    )
+```
+
+```dax
+// 5. Renda Estimada Formatada (Exibe o valor exato em R$ sem arredondar para "Mil")
+Ficha Renda Estimada = 
+VAR _Renda = SELECTEDVALUE(dim_clientes[renda_estimada])
+RETURN
+    IF(
+        NOT ISBLANK(_Renda),
+        FORMAT( VALUE(_Renda), "R$ #,##0.00" ),
+        "—"
+    )
+```
+
+---
+
+####### ⚡ Método A (Alternativa Rápida — Usando as Colunas Diretas da `dim_clientes`)
+Caso prefira não criar medidas DAX e queira arrastar diretamente as colunas da tabela `dim_clientes` para o poço **Dados** do visual de Cartão, faça obrigatoriamente estes 3 ajustes para corrigir o número `1`:
+
+1. **Verifique o Tipo de Dados de `renda_estimada` e `idade`:**
+   * No painel **Dados** (à direita), clique na coluna `dim_clientes[idade]` ➔ na barra superior **Ferramentas de Coluna (Column tools)**, confira se **Tipo de dados** está como **Número inteiro**.
+   * Clique na coluna `dim_clientes[renda_estimada]` ➔ confira se **Tipo de dados** está como **Número decimal fixo** (ou *Número decimal*) e **Formato** como **Moeda (`R$`)**.
+     *(Se ao mudar para número aparecer erro porque você importou do CSV, abra o **Transformar dados / Power Query**, clique no ícone de tipo de `renda_estimada` ➔ **Usando a Localidade...** ➔ Tipo: **Número Decimal Fixo** e Localidade: **Inglês (Estados Unidos)**).*
+2. **Troque de "Contagem" para "Média" (ou "Soma") no Poço do Visual:**
+   * Com o visual de Cartão selecionado, olhe para o poço **Dados (Data)** onde você arrastou os 5 campos.
+   * Você verá escrito **`Contagem de idade`** e **`Contagem de renda_estimada`** (é isso que gera o número `1`!).
+   * Clique na **setinha para baixo (`∨`)** ao lado de `Contagem de idade` e mude de *Contagem* para **`Média` (Average)** (ou *Soma* / *Mínimo*).
+   * Clique na **setinha para baixo (`∨`)** ao lado de `Contagem de renda_estimada` e mude de *Contagem* para **`Média` (Average)** (ou *Soma*).
+3. **Renomeie os Campos (Duplo Clique no Poço "Dados"):**
+   * Dê um **duplo clique** sobre cada um dos 5 campos dentro do poço **Dados** do visual e apague os prefixos automáticos (*"Primeiro "*, *"Média de "*), deixando os nomes limpos:
+     1. `E-mail`
+     2. `Segmento`
+     3. `Cidade`
+     4. `Idade`
+     5. `Renda Estimada`
+
+---
+
+###### 🎨 Passo 3.2: Inserção e Estilização Passo a Passo (Power BI Desktop — Outubro de 2026)
+
+1. **Inserindo o Visual na Tela:**
+   * No painel **Visualizações** (ou na guia superior **Inserir**), clique no ícone de **Cartão (novo) / Cartão** (ícone com retângulo e um pequeno raio/múltiplos cartões).
+   * Posicione-o logo abaixo do título da página e ajuste o tamanho para ocupar toda a faixa horizontal:
+     * **Largura:** `~1200 px` | **Altura:** `~95 px`
+   * Arraste para o poço **Dados (Data)** as 5 medidas criadas no Método B (`[Ficha E-mail]`, `[Ficha Segmento]`, `[Ficha Localizacao]`, `[Ficha Idade]`, `[Ficha Renda Estimada]`) — ou as 5 colunas ajustadas no Método A.
+
+2. **Mapa Completo do Painel "Formatar visual" (Atualização Outubro de 2026):**
+   Com o visual da Ficha Cadastral selecionado, clique no ícone do **Pincel 🖌️ (Formatar visual)** e siga exatamente esta árvore de configuração:
+
+```text
+Painel: Formatar visual (Pincel 🖌️)
+│
+├── 🟦 ABA [ VISUAL ]
+│   │
+│   ├── 📁 1. Disposição (Layout)
+│   │      ├── Estilo de disposição (Arrangement): [ Linha única (Single row) ]
+│   │      │     (💡 Nota: No modo "Linha única", o Power BI já alinha os 5 cartões lado a lado
+│   │      │      automaticamente! Os campos "Linhas = 1" e "Colunas = 5" só aparecem se você
+│   │      │      escolher o estilo "Grade / Grid").
+│   │      └── Espaçamento entre cartões (Space between cards): [ 8 px ]
+│   │
+│   ├── 📁 2. Valores do texto explicativo (Callout values)
+│   │      ├── Aplicar configurações a -> Série: [ Todas ]
+│   │      ├── 🔽 Valores (Values)  <--- (É o dado do cliente: ex. "26 anos", "R$ 14.204,48")
+│   │      │      ├── Fonte: [ Segoe UI Semibold ] (ou Segoe UI), Tamanho: [ 12 pt ], Cor: [ #1E293B ]
+│   │      │      ├── Alinhamento horizontal: [ Esquerda ]
+│   │      │      ├── Exibir unidades (Display units): [ Nenhum (None) ]
+│   │      │      │     (⚠️ Importante: Deixe em "Nenhum" para que a Renda não seja encurtada para "14 Mil"!)
+│   │      │      └── Quebra automática de texto (Text wrap): [ Ativado ] (Evita cortar e-mails longos)
+│   │      │
+│   │      └── 🔽 Rótulo (Label)  <--- (⚠️ Na versão de Outubro/2026, "Rótulo" fica DENTRO desta seção!)
+│   │             ├── Rótulo: [ Ativado ]
+│   │             ├── Posição: [ Acima do valor (Above value) ]  <--- Visual moderno de ficha CRM!
+│   │             ├── Fonte: [ Segoe UI ], Tamanho: [ 9 pt ], Estilo: [ Negrito ], Cor: [ #64748B ]
+│   │             └── Alinhamento horizontal: [ Esquerda ]
+│   │
+│   └── 📁 3. Cartões (Cards)
+│          ├── Aplicar configurações a -> Série: [ Todas ]
+│          ├── 🔽 Forma (Shape)
+│          │      ├── Forma: [ Retângulo de cantos arredondados (Rounded rectangle) ]
+│          │      └── Cantos arredondados: [ 6 px ]
+│          ├── 🔘 Tela de fundo (Background): [ Ativado ] -> Cor: [ #F8FAFC ] (Cinza-gelo suave)
+│          ├── 🔘 Borda (Border): [ Ativado ] -> Cor: [ #E2E8F0 ], Largura: [ 1 px ]
+│          ├── 🔘 Sombra (Shadow): [ Desativado ] (Deixa a ficha plana para destacar os KPIs abaixo)
+│          └── 🔘 Barra de destaque (Accent bar): [ Ativado ]  <--- ✨ O toque de design profissional!
+│                 ├── Posição: [ Esquerda (Left) ]
+│                 ├── Cor: [ #0D9488 ] (Verde Petróleo) ou [ #1E3A8A ] (Azul Corporativo)
+│                 └── Largura: [ 4 px ]
+│
+└── 🟩 ABA [ GERAL ] (Ao lado da aba Visual no topo do painel)
+    ├── 📁 Título (Title): [ Desativado ] (Pois os próprios rótulos já identificam cada campo)
+    └── 📁 Efeitos (Effects)
+           └── 🔘 Tela de fundo (Background): [ Desativado ] (Deixa o espaço entre os 5 cartões transparente)
+```
+
+> [!TIP]
+> **Dica de Ouro para Testar Enquanto Você Constrói a Página:**
+> Enquanto você está montando a página `Detalhes do Cliente`, se nenhum cliente estiver selecionado, os cartões mostrarão `"—"` (no Método B) ou a média geral (no Método A). Para ver a ficha preenchida com os dados reais de um cliente imediatamente:
+> 1. Vá ao Painel 1 ou 2, clique com o botão direito em um cliente (ex.: *Marcos Souza*) ➔ **Detalhamento (Drill-through) ➔ Detalhes do Cliente**; **OU**
+> 2. Abra o painel **Filtros** (ao lado do painel Visualizações), expanda o filtro `nome_cliente` que foi criado pelo Drill-Through, escolha **Filtragem básica** e marque a caixinha de **1 cliente qualquer** (ex.: `Marcos Souza`) para visualizar o layout perfeitamente preenchido enquanto edita!
 
 ---
 
 ##### 4. Métricas Financeiras de Desempenho do Cliente (Cards de KPI)
 
-Estes cartões resumem o volume financeiro que o cliente representa para a empresa:
+Estes cartões resumem o volume financeiro (*Lifetime Value - LTV*) que o cliente representa para a empresa:
 
-1. Insira um segundo visual de **Cartão (novo)**.
-2. Posicione-o abaixo da ficha cadastral.
-3. Arraste as 4 medidas da tabela `_Medidas`:
-   1. `[Receita Liquida]` *(Total de compras em R$)*
-   2. `[Total Pedidos]` *(Frequência de compras)*
-   3. `[Ticket Medio]` *(Média de gastos por pedido)*
-   4. `[Margem Lucro %]` *(Lucratividade gerada)*
-4. **Formatação:**
-   * **Disposição:** Orientação = **Horizontal**.
-   * **Valor do texto explicativo:** Tamanho `22 pt`, Negrito.
-   * **Cartões (Cards):** Preenchimento = Branco `#FFFFFF`, Sombra = Ativada (*Efeito flutuante elegante*).
+1. Insira um segundo visual de **Cartão (novo) / Cartão**.
+2. Posicione-o logo abaixo da Ficha Cadastral (Largura: `~1200 px`, Altura: `~105 px`).
+3. Arraste as 4 medidas da tabela `_Medidas` para o poço **Dados (Data)**:
+   1. `[Receita Liquida]` *(Total comprado pelo cliente em R$)*
+   2. `[Total Pedidos]` *(Frequência total de compras)*
+   3. `[Ticket Medio]` *(Gasto médio por pedido)*
+   4. `[Margem Lucro %]` *(Rentabilidade percentual deixada pelo cliente)*
+4. **Formatação (Painel Formatar visual 🖌️ ➔ Aba `[ Visual ]`):**
+   * **1. Disposição (Layout):**
+     * *Estilo de disposição:* **Linha única (Single row)** | *Espaçamento entre cartões:* `10 px`.
+   * **2. Valores do texto explicativo (Callout values):**
+     * *Valores:* Fonte `22 pt`, **Negrito**, Cor `#0F172A`, *Exibir unidades:* **Nenhum** (para ver o valor exato em reais de cada cliente).
+     * *Rótulo:* **Ativado**, *Posição:* **Abaixo do valor**, Fonte `10 pt`, Cor `#64748B`.
+   * **3. Cartões (Cards):**
+     * *Forma:* **Retângulo de cantos arredondados** (`8 px`).
+     * *Tela de fundo:* Branco (`#FFFFFF`).
+     * *Borda:* Ativado (`#E2E8F0`).
+     * *Sombra:* **Ativado** *(cria o efeito de cards flutuantes em destaque sobre o fundo da página)*.
 
 ---
 
